@@ -1,0 +1,1 @@
+This template is what is the default generated JoyDoc looks like
