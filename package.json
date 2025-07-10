@@ -1,0 +1,22 @@
+{
+  "name": "joyfill-schema",
+  "version": "1.0.0",
+  "description": "This repository will be used to generate JSON Schema Template used to validate Joyfill joydoc in each individual SDK",
+  "main": "index.js",
+  "repository": "https://github.com/joyfill/joyfill-schema.git",
+  "author": "Joyfill Dev Team",
+  "license": "Unlicensed",
+  "private": true,
+  "dependencies": {
+    "ts-json-schema-generator": "^2.4.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "generate-schemas": "ts-node scripts/generateSchema.ts",
+    "build": "tsc"
+  }
+}
