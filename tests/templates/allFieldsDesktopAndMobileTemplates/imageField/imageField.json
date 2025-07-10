@@ -1,0 +1,455 @@
+{
+  "_id": "686fcc012bc57a59b7246d4d",
+  "type": "template",
+  "stage": "draft",
+  "metadata": {},
+  "identifier": "template_686fcc012bc57a59b7246d4d",
+  "name": "NO-1284 Blank template",
+  "createdOn": 1752157196321,
+  "files": [
+    {
+      "_id": "686fcc0108d51ab760970d0a",
+      "metadata": {},
+      "name": "NO-1284 Blank template",
+      "version": 1,
+      "styles": {
+        "margin": 4
+      },
+      "pages": [
+        {
+          "name": "New Page",
+          "fieldPositions": [
+            {
+              "_id": "687009be433f5b2a69160ec0",
+              "type": "text",
+              "field": "687009bbe4a8743b9f71cd0c",
+              "displayType": "original",
+              "x": 0,
+              "y": 0,
+              "width": 4,
+              "height": 8
+            },
+            {
+              "_id": "687009bfee6b1c8b7163f5ca",
+              "type": "text",
+              "field": "687009be8bcffdc6891f95b0",
+              "displayType": "original",
+              "x": 4,
+              "y": 0,
+              "width": 4,
+              "height": 8
+            },
+            {
+              "_id": "687009c138a6103a4886126f",
+              "type": "text",
+              "field": "687009bf530fe3fdf48747cd",
+              "displayType": "original",
+              "x": 0,
+              "y": 8,
+              "width": 4,
+              "height": 8
+            },
+            {
+              "_id": "687009c24bef32e688120cc5",
+              "type": "text",
+              "field": "687009c1af60dabd7fedccf9",
+              "displayType": "original",
+              "x": 4,
+              "y": 8,
+              "width": 4,
+              "height": 8
+            },
+            {
+              "_id": "687009c481c76f9b9723b455",
+              "type": "text",
+              "field": "687009c2aff59d5805fb9769",
+              "displayType": "original",
+              "x": 0,
+              "y": 16,
+              "width": 4,
+              "height": 8
+            },
+            {
+              "_id": "687009f0cfeea97795011964",
+              "type": "image",
+              "field": "687009e0f1799c8c40290448",
+              "displayType": "original",
+              "x": 0,
+              "y": 24,
+              "width": 4,
+              "height": 21,
+              "titleFontSize": 14,
+              "titleFontColor": "#0004ff",
+              "titleTextAlign": "left",
+              "borderColor": "#f800ff",
+              "borderRadius": 2,
+              "padding": 2,
+              "margin": 2,
+              "titleFontStyle": "italic",
+              "titleTextDecoration": "underline",
+              "titleTextTransform": "uppercase"
+            },
+            {
+              "_id": "687009f1b932c2b93a475df9",
+              "type": "image",
+              "field": "687009f0df2d6bbea8cfd2db",
+              "displayType": "original",
+              "x": 4,
+              "y": 56,
+              "width": 4,
+              "height": 17
+            },
+            {
+              "_id": "687009f8e74dde80f7376ffa",
+              "type": "image",
+              "field": "687009f74120b641613d8374",
+              "displayType": "original",
+              "x": 4,
+              "y": 16,
+              "width": 4,
+              "height": 20,
+              "titleTextAlign": "center"
+            },
+            {
+              "_id": "687009fc9cbebd5b73f5533f",
+              "type": "image",
+              "field": "687009faff56a39bd52f984a",
+              "displayType": "original",
+              "x": 0,
+              "y": 45,
+              "width": 4,
+              "height": 21,
+              "titleTextAlign": "right",
+              "titleFontStyle": "italic",
+              "titleTextDecoration": "underline",
+              "titleTextTransform": "uppercase"
+            },
+            {
+              "_id": "687009fed36bce762091d17b",
+              "type": "image",
+              "field": "687009fcdc31dd941b1cdf17",
+              "displayType": "original",
+              "x": 4,
+              "y": 36,
+              "width": 4,
+              "height": 20
+            }
+          ],
+          "hidden": false,
+          "width": 816,
+          "height": 1056,
+          "cols": 8,
+          "rowHeight": 8,
+          "layout": "grid",
+          "presentation": "normal",
+          "margin": 0,
+          "padding": 24,
+          "borderWidth": 0,
+          "_id": "686fcc015718a8cc66ceb49d",
+          "metadata": {}
+        }
+      ],
+      "pageOrder": [
+        "686fcc015718a8cc66ceb49d"
+      ],
+      "views": [
+        {
+          "_id": "68700c2ba1a38d7b42a41d2c",
+          "type": "mobile",
+          "pages": [
+            {
+              "name": "New Page",
+              "fieldPositions": [
+                {
+                  "_id": "687009be433f5b2a69160ec0",
+                  "type": "text",
+                  "field": "687009bbe4a8743b9f71cd0c",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009bfee6b1c8b7163f5ca",
+                  "type": "text",
+                  "field": "687009be8bcffdc6891f95b0",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 64,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009c138a6103a4886126f",
+                  "type": "text",
+                  "field": "687009bf530fe3fdf48747cd",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 128,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009c24bef32e688120cc5",
+                  "type": "text",
+                  "field": "687009c1af60dabd7fedccf9",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 192,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009c481c76f9b9723b455",
+                  "type": "text",
+                  "field": "687009c2aff59d5805fb9769",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 256,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009f8e74dde80f7376ffa",
+                  "type": "image",
+                  "field": "687009f74120b641613d8374",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 320,
+                  "width": 1,
+                  "height": 180,
+                  "titleTextAlign": "center",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009f0cfeea97795011964",
+                  "type": "image",
+                  "field": "687009e0f1799c8c40290448",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 500,
+                  "width": 1,
+                  "height": 180,
+                  "titleFontSize": 14,
+                  "titleFontColor": "#0004ff",
+                  "titleTextAlign": "left",
+                  "borderColor": "#f800ff",
+                  "borderRadius": 2,
+                  "padding": 2,
+                  "margin": 2,
+                  "titleFontStyle": "italic",
+                  "titleTextDecoration": "underline",
+                  "titleTextTransform": "uppercase",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009fed36bce762091d17b",
+                  "type": "image",
+                  "field": "687009fcdc31dd941b1cdf17",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 680,
+                  "width": 1,
+                  "height": 180,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009fc9cbebd5b73f5533f",
+                  "type": "image",
+                  "field": "687009faff56a39bd52f984a",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 860,
+                  "width": 1,
+                  "height": 180,
+                  "titleTextAlign": "right",
+                  "titleFontStyle": "italic",
+                  "titleTextDecoration": "underline",
+                  "titleTextTransform": "uppercase",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "687009f1b932c2b93a475df9",
+                  "type": "image",
+                  "field": "687009f0df2d6bbea8cfd2db",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 1040,
+                  "width": 1,
+                  "height": 180,
+                  "titleDisplay": "inline"
+                }
+              ],
+              "hidden": false,
+              "width": 816,
+              "height": 1056,
+              "cols": 1,
+              "rowHeight": 1,
+              "layout": "grid",
+              "presentation": "normal",
+              "margin": 0,
+              "padding": 12,
+              "borderWidth": 0,
+              "_id": "686fcc015718a8cc66ceb49d",
+              "metadata": {},
+              "backgroundImage": "",
+              "fileName": "",
+              "filePath": ""
+            }
+          ],
+          "pageOrder": [
+            "686fcc015718a8cc66ceb49d"
+          ]
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009bbe4a8743b9f71cd0c",
+      "type": "text",
+      "title": "Text Condition 1 is filled ",
+      "identifier": "field_687009bec144113a9d864592",
+      "value": "Default value test "
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009be8bcffdc6891f95b0",
+      "type": "text",
+      "title": "Text Condition 2 is empty ",
+      "identifier": "field_687009bf8d6d42023c4be828"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009bf530fe3fdf48747cd",
+      "type": "text",
+      "title": "Text Condition 3 is ",
+      "identifier": "field_687009c1372659f7291feeb4",
+      "value": "god"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009c1af60dabd7fedccf9",
+      "type": "text",
+      "title": "Text Condition 4",
+      "identifier": "field_687009c284ab288c07ce7d2c",
+      "value": "thor"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009c2aff59d5805fb9769",
+      "type": "text",
+      "title": "Text Condition 5 contains",
+      "identifier": "field_687009c4a011589c6dc79090",
+      "value": "ironman"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009e0f1799c8c40290448",
+      "type": "image",
+      "title": "Image is hidden || text condition is filled ",
+      "identifier": "field_687009f040ff8daac1fdf92e",
+      "multi": true,
+      "required": true,
+      "hidden": true,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "687009bbe4a8743b9f71cd0c",
+            "condition": "*="
+          }
+        ]
+      },
+      "tipVisible": true,
+      "tipTitle": "Image field tooltip",
+      "tipDescription": "tooltip description"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009f0df2d6bbea8cfd2db",
+      "type": "image",
+      "title": "Image readOnly",
+      "identifier": "field_687009f1e957945e7656b4e1",
+      "disabled": true
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009f74120b641613d8374",
+      "type": "image",
+      "title": "Image is hidden text condition 3 is god",
+      "identifier": "field_687009f8fae5f702e2141623",
+      "required": true,
+      "hidden": true,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "687009bf530fe3fdf48747cd",
+            "condition": "=",
+            "value": "god"
+          }
+        ]
+      }
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009faff56a39bd52f984a",
+      "type": "image",
+      "title": "Image text condition 4 is not thanos",
+      "identifier": "field_687009fce650e90bb7be6c65",
+      "required": false,
+      "hidden": true,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "687009c1af60dabd7fedccf9",
+            "condition": "!=",
+            "value": "thanos"
+          }
+        ]
+      }
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "687009fcdc31dd941b1cdf17",
+      "type": "image",
+      "title": "Image || text condition 5 contains ironman",
+      "identifier": "field_687009fed771672eebc51d6e",
+      "hidden": true,
+      "required": false,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "687009c2aff59d5805fb9769",
+            "condition": "?=",
+            "value": "ironman"
+          }
+        ]
+      }
+    }
+  ],
+  "deleted": false,
+  "categories": []
+}
