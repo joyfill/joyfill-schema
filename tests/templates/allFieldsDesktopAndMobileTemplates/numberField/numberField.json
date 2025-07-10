@@ -1,0 +1,242 @@
+{
+  "_id": "686fcc012bc57a59b7246d4d",
+  "type": "template",
+  "stage": "draft",
+  "metadata": {},
+  "identifier": "template_686fcc012bc57a59b7246d4d",
+  "name": "NO-1284 Number template",
+  "createdOn": 1752157196321,
+  "files": [
+    {
+      "_id": "686fcc0108d51ab760970d0a",
+      "metadata": {},
+      "name": "NO-1284 Number template",
+      "version": 1,
+      "styles": {
+        "margin": 4
+      },
+      "pages": [
+        {
+          "name": "New Page",
+          "fieldPositions": [
+            {
+              "_id": "686feae2e70e7f024b5aacb5",
+              "type": "number",
+              "field": "686feadc52d2d657b30e3988",
+              "displayType": "original",
+              "x": 0,
+              "y": 0,
+              "width": 4,
+              "height": 8,
+              "titleFontSize": 14,
+              "titleFontStyle": "italic",
+              "titleTextDecoration": "underline",
+              "titleTextTransform": "uppercase",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "fontStyle": "italic",
+              "textDecoration": "underline",
+              "textTransform": "uppercase",
+              "backgroundColor": "#fbed05",
+              "borderColor": "#f800ff",
+              "borderRadius": 2,
+              "padding": 2,
+              "margin": 2,
+              "fontColor": "#0050ff"
+            },
+            {
+              "_id": "686feae42ef94aa288292723",
+              "type": "number",
+              "field": "686feae27b51f85a5df0b1d8",
+              "displayType": "original",
+              "x": 4,
+              "y": 0,
+              "width": 1,
+              "height": 4,
+              "titleDisplay": "none",
+              "textAlign": "center",
+              "textOverflow": "ellipsis"
+            },
+            {
+              "_id": "686feae5171df9c3ac784703",
+              "type": "number",
+              "field": "686feae48f5aa2898c0a3e23",
+              "displayType": "original",
+              "x": 0,
+              "y": 8,
+              "width": 4,
+              "height": 8,
+              "titleTextAlign": "center",
+              "textAlign": "center"
+            },
+            {
+              "_id": "686feae71d0387aad600dc97",
+              "type": "number",
+              "field": "686feae5d404a7d035b047d3",
+              "displayType": "original",
+              "x": 4,
+              "y": 4,
+              "width": 4,
+              "height": 11,
+              "titleTextAlign": "right",
+              "textAlign": "right"
+            }
+          ],
+          "hidden": false,
+          "width": 816,
+          "height": 1056,
+          "cols": 8,
+          "rowHeight": 8,
+          "layout": "grid",
+          "presentation": "normal",
+          "margin": 0,
+          "padding": 24,
+          "borderWidth": 0,
+          "_id": "686fcc015718a8cc66ceb49d",
+          "metadata": {}
+        }
+      ],
+      "pageOrder": [
+        "686fcc015718a8cc66ceb49d"
+      ],
+      "views": [
+        {
+          "_id": "686fecabe46c788a4fb1ea2b",
+          "type": "mobile",
+          "pages": [
+            {
+              "name": "New Page",
+              "fieldPositions": [
+                {
+                  "_id": "686feae2e70e7f024b5aacb5",
+                  "type": "number",
+                  "field": "686feadc52d2d657b30e3988",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 64,
+                  "titleFontSize": 14,
+                  "titleFontStyle": "italic",
+                  "titleTextDecoration": "underline",
+                  "titleTextTransform": "uppercase",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "fontStyle": "italic",
+                  "textDecoration": "underline",
+                  "textTransform": "uppercase",
+                  "backgroundColor": "#fbed05",
+                  "borderColor": "#f800ff",
+                  "borderRadius": 2,
+                  "padding": 2,
+                  "margin": 2,
+                  "fontColor": "#0050ff",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686feae42ef94aa288292723",
+                  "type": "number",
+                  "field": "686feae27b51f85a5df0b1d8",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 64,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline",
+                  "textAlign": "center",
+                  "textOverflow": "ellipsis"
+                },
+                {
+                  "_id": "686feae71d0387aad600dc97",
+                  "type": "number",
+                  "field": "686feae5d404a7d035b047d3",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 128,
+                  "width": 1,
+                  "height": 64,
+                  "titleTextAlign": "right",
+                  "textAlign": "right",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686feae5171df9c3ac784703",
+                  "type": "number",
+                  "field": "686feae48f5aa2898c0a3e23",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 192,
+                  "width": 1,
+                  "height": 64,
+                  "titleTextAlign": "center",
+                  "textAlign": "center",
+                  "titleDisplay": "inline"
+                }
+              ],
+              "hidden": false,
+              "width": 816,
+              "height": 1056,
+              "cols": 1,
+              "rowHeight": 1,
+              "layout": "grid",
+              "presentation": "normal",
+              "margin": 0,
+              "padding": 12,
+              "borderWidth": 0,
+              "_id": "686fcc015718a8cc66ceb49d",
+              "metadata": {},
+              "backgroundImage": "",
+              "fileName": "",
+              "filePath": ""
+            }
+          ],
+          "pageOrder": [
+            "686fcc015718a8cc66ceb49d"
+          ]
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686feadc52d2d657b30e3988",
+      "type": "number",
+      "title": "Number field required ",
+      "identifier": "Number field ",
+      "hidden": false,
+      "tipVisible": true,
+      "tipTitle": "Number Field tooltip",
+      "tipDescription": "Number field description",
+      "required": true,
+      "value": 111
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686feae27b51f85a5df0b1d8",
+      "type": "number",
+      "title": "Number- textOverflow Ellipsis",
+      "identifier": "field_686feae4dfb7ecf8256cdf2a",
+      "value": 1234567890
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686feae48f5aa2898c0a3e23",
+      "type": "number",
+      "title": "Number Readonly",
+      "identifier": "field_686feae57c2af48229fde4b0",
+      "value": 1222,
+      "disabled": true
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686feae5d404a7d035b047d3",
+      "type": "number",
+      "title": "Number Right Indentation",
+      "identifier": "field_686feae7d4c00b498610e6a7",
+      "value": 123456
+    }
+  ],
+  "deleted": false,
+  "categories": []
+}
