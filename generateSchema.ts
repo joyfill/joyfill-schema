@@ -1,17 +1,18 @@
-/**
- * JSON Schema Generation Script
- *
- * This script generates a raw JSON schema file (joyfill-schema.json) from the JoyDoc TypeScript type definitions.
- * It also injects a `$joyfillSchemaVersion` field to track schema versions across SDKs.
- */
-
-
 import fs from 'fs';
 import path from 'path';
 import { createGenerator } from 'ts-json-schema-generator';
 
+const packageJson = JSON.parse(fs.readFileSync(path.resolve('package.json'), 'utf-8'));
 
-const SCHEMA_VERSION = '1.0.0';
+
+/**
+ * <--------------------NOTICE------------------->
+ * JSON Schema Generation Script
+ *
+ * This script generates a raw JSON schema file (joyfill-schema.json) from the JoyDoc TypeScript type definitions.
+ *
+ */
+
 
 // Schema generator configuration
 const config = {
@@ -39,7 +40,7 @@ if (!schema) {
 }
 
 // Inject version at top-level
-(schema as any)['$joyfillSchemaVersion'] = SCHEMA_VERSION;
+(schema as any)['$joyfillSchemaVersion'] = packageJson.version;
 
 // Define output path
 const outputFile = path.resolve('joyfill-schema.json');
