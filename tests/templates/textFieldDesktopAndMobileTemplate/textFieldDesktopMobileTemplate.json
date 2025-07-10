@@ -1,0 +1,289 @@
+{
+  "_id": "686fcc012bc57a59b7246d4d",
+  "type": "template",
+  "stage": "draft",
+  "metadata": {},
+  "identifier": "template_686fcc012bc57a59b7246d4d",
+  "name": "NO-1284 allFieldsDesktopAndMobileTemplate",
+  "createdOn": 1752157196321,
+  "files": [
+    {
+      "_id": "686fcc0108d51ab760970d0a",
+      "metadata": {},
+      "name": "NO-1284 allFieldsDesktopAndMobileTemplate",
+      "version": 1,
+      "styles": {
+        "margin": 4
+      },
+      "pages": [
+        {
+          "name": "New Page",
+          "fieldPositions": [
+            {
+              "_id": "686fd9b9556c03e0f8e00054",
+              "type": "text",
+              "field": "686fd9ac42f84c24c477bcd6",
+              "displayType": "original",
+              "x": 0,
+              "y": 0,
+              "width": 4,
+              "height": 8,
+              "titleFontSize": 14,
+              "titleFontColor": "#0004ff",
+              "titleTextAlign": "center",
+              "fontSize": 14,
+              "fontColor": "#1200ff",
+              "textAlign": "left",
+              "fontWeight": "bold",
+              "backgroundColor": "#ffe500",
+              "borderColor": "#ff02d0",
+              "borderRadius": 7,
+              "borderWidth": 2,
+              "padding": 4,
+              "margin": 2,
+              "zIndex": 222
+            },
+            {
+              "_id": "686fd9c2fd4b17ed51a9f6f4",
+              "type": "text",
+              "field": "686fd9b9a1d5e8df04f101c0",
+              "displayType": "original",
+              "x": 4,
+              "y": 0,
+              "width": 4,
+              "height": 8,
+              "titleDisplay": "none"
+            },
+            {
+              "_id": "686fd9d872ba106718e18b1c",
+              "type": "text",
+              "field": "686fd9d6f90c90b2a8aae41b",
+              "displayType": "original",
+              "x": 0,
+              "y": 8,
+              "width": 4,
+              "height": 8,
+              "titleFontStyle": "italic",
+              "titleTextAlign": "left",
+              "textAlign": "center",
+              "fontStyle": "italic"
+            },
+            {
+              "_id": "686fd9e0aeeff2aa92b442c6",
+              "type": "text",
+              "field": "686fd9dd7122d2b33c649136",
+              "displayType": "original",
+              "x": 4,
+              "y": 8,
+              "width": 4,
+              "height": 8,
+              "titleTextDecoration": "underline",
+              "textAlign": "right",
+              "textDecoration": "underline"
+            },
+            {
+              "_id": "686fd9e68e856e080b2c228b",
+              "type": "text",
+              "field": "686fd9e480ad9f338087a0db",
+              "displayType": "original",
+              "x": 0,
+              "y": 16,
+              "width": 4,
+              "height": 8,
+              "titleTextTransform": "uppercase",
+              "textTransform": "uppercase",
+              "textOverflow": "ellipsis"
+            }
+          ],
+          "hidden": false,
+          "width": 816,
+          "height": 1056,
+          "cols": 8,
+          "rowHeight": 8,
+          "layout": "grid",
+          "presentation": "normal",
+          "margin": 0,
+          "padding": 24,
+          "borderWidth": 0,
+          "_id": "686fcc015718a8cc66ceb49d",
+          "metadata": {}
+        }
+      ],
+      "pageOrder": [
+        "686fcc015718a8cc66ceb49d"
+      ],
+      "views": [
+        {
+          "_id": "686fe045cf03d338ffcb3d3e",
+          "type": "mobile",
+          "pages": [
+            {
+              "name": "New Page",
+              "fieldPositions": [
+                {
+                  "_id": "686fd9b9556c03e0f8e00054",
+                  "type": "text",
+                  "field": "686fd9ac42f84c24c477bcd6",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 64,
+                  "titleFontSize": 14,
+                  "titleFontColor": "#0004ff",
+                  "titleTextAlign": "center",
+                  "fontSize": 14,
+                  "fontColor": "#1200ff",
+                  "textAlign": "left",
+                  "fontWeight": "bold",
+                  "backgroundColor": "#ffe500",
+                  "borderColor": "#ff02d0",
+                  "borderRadius": 7,
+                  "borderWidth": 2,
+                  "padding": 4,
+                  "margin": 2,
+                  "zIndex": 222,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fd9c2fd4b17ed51a9f6f4",
+                  "type": "text",
+                  "field": "686fd9b9a1d5e8df04f101c0",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 64,
+                  "width": 1,
+                  "height": 64,
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fd9d872ba106718e18b1c",
+                  "type": "text",
+                  "field": "686fd9d6f90c90b2a8aae41b",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 128,
+                  "width": 1,
+                  "height": 64,
+                  "titleFontStyle": "italic",
+                  "titleTextAlign": "left",
+                  "textAlign": "center",
+                  "fontStyle": "italic",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fd9e0aeeff2aa92b442c6",
+                  "type": "text",
+                  "field": "686fd9dd7122d2b33c649136",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 192,
+                  "width": 1,
+                  "height": 64,
+                  "titleTextDecoration": "underline",
+                  "textAlign": "right",
+                  "textDecoration": "underline",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fd9e68e856e080b2c228b",
+                  "type": "text",
+                  "field": "686fd9e480ad9f338087a0db",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 256,
+                  "width": 1,
+                  "height": 64,
+                  "titleTextTransform": "uppercase",
+                  "textTransform": "uppercase",
+                  "textOverflow": "ellipsis",
+                  "titleDisplay": "inline"
+                }
+              ],
+              "hidden": false,
+              "width": 816,
+              "height": 1056,
+              "cols": 1,
+              "rowHeight": 1,
+              "layout": "grid",
+              "presentation": "normal",
+              "margin": 0,
+              "padding": 12,
+              "borderWidth": 0,
+              "_id": "686fcc015718a8cc66ceb49d",
+              "metadata": {},
+              "backgroundImage": "",
+              "fileName": "",
+              "filePath": ""
+            }
+          ],
+          "pageOrder": [
+            "686fcc015718a8cc66ceb49d"
+          ]
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fd9ac42f84c24c477bcd6",
+      "type": "text",
+      "title": "Text field with a default value",
+      "identifier": "field_686fd9b90d34e41b5dc82660",
+      "value": "default value"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fd9b9a1d5e8df04f101c0",
+      "type": "text",
+      "title": "Text without title ",
+      "identifier": "field_686fd9c29793c4b222729180",
+      "value": "Text field without the title"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fd9d6f90c90b2a8aae41b",
+      "type": "text",
+      "title": "Text Readonly",
+      "identifier": "field_686fd9d8a30b8c9fe9bb3ba8",
+      "disabled": true,
+      "value": "This field is readOnly"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fd9dd7122d2b33c649136",
+      "type": "text",
+      "title": "Text required",
+      "identifier": "field_686fd9e014d68fa402c533d9",
+      "required": true,
+      "value": "This field needs a value"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fd9e480ad9f338087a0db",
+      "type": "text",
+      "title": "Text ( Hidden - display when normal text field is filled)",
+      "identifier": "field_686fd9e66d9b675c7cf9b165",
+      "hidden": true,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "686fd9ac42f84c24c477bcd6",
+            "condition": "*="
+          }
+        ]
+      },
+      "tipVisible": true,
+      "tipTitle": "Text field tooltip",
+      "tipDescription": "Text field description",
+      "value": "Text field that is hidden due to the default value and it has textOverflow ellipsis"
+    }
+  ],
+  "deleted": false,
+  "categories": []
+}
