@@ -16,7 +16,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "generate-schemas": "ts-node scripts/generateSchema.ts",
+    "generateSchemas": "ts-node generateSchema.ts",
     "build": "tsc"
   }
 }

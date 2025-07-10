@@ -9,5 +9,5 @@
     "outDir": "dist",
     "rootDir": "."
   },
-  "include": ["app/**/*.ts", "scripts/**/*.ts", "scripts/generateSchema.ts"], "constants/joydoc.types.ts"
+  "include": ["app/**/*.ts", "scripts/**/*.ts", "generateSchema.ts", "joydoc.types.ts"], 
 }
