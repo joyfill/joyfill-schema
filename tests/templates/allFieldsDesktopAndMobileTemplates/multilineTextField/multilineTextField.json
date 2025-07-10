@@ -1,0 +1,260 @@
+{
+  "_id": "686fcc012bc57a59b7246d4d",
+  "type": "template",
+  "stage": "draft",
+  "metadata": {},
+  "identifier": "template_686fcc012bc57a59b7246d4d",
+  "name": "NO-1284 Blank template",
+  "createdOn": 1752157196321,
+  "files": [
+    {
+      "_id": "686fcc0108d51ab760970d0a",
+      "metadata": {},
+      "name": "NO-1284 Blank template",
+      "version": 1,
+      "styles": {
+        "margin": 4
+      },
+      "pages": [
+        {
+          "name": "New Page",
+          "fieldPositions": [
+            {
+              "_id": "686fe5cc8724a18ea3316953",
+              "type": "textarea",
+              "field": "686fe5cb60e72b9614cd1120",
+              "displayType": "original",
+              "x": 0,
+              "y": 0,
+              "width": 4,
+              "height": 23,
+              "titleFontSize": 14,
+              "titleFontColor": "#045dff",
+              "titleTextAlign": "left",
+              "lineHeight": 14,
+              "fontSize": 14,
+              "fontColor": "#0b38ff",
+              "backgroundColor": "#f8ff00",
+              "borderRadius": 2,
+              "borderWidth": 2,
+              "padding": 2,
+              "margin": 2,
+              "titleFontStyle": "italic",
+              "titleTextDecoration": "underline",
+              "titleTextTransform": "uppercase",
+              "fontWeight": "bold",
+              "fontStyle": "italic",
+              "textDecoration": "underline",
+              "textTransform": "uppercase",
+              "borderColor": "#f800ff"
+            },
+            {
+              "_id": "686fe5cefa2605ac77cde986",
+              "type": "textarea",
+              "field": "686fe5cc989aa3c950a0bd1a",
+              "displayType": "original",
+              "x": 4,
+              "y": 0,
+              "width": 2,
+              "height": 5,
+              "titleDisplay": "none",
+              "textOverflow": "ellipsis",
+              "textAlign": "center"
+            },
+            {
+              "_id": "686fe5cf99c909f86ccfa4bd",
+              "type": "textarea",
+              "field": "686fe5ce85eb3760ccba81c2",
+              "displayType": "original",
+              "x": 0,
+              "y": 23,
+              "width": 4,
+              "height": 23,
+              "titleTextAlign": "center"
+            },
+            {
+              "_id": "686fe5d1861d4e984322ba94",
+              "type": "textarea",
+              "field": "686fe5cf995aaa913bd9e899",
+              "displayType": "original",
+              "x": 4,
+              "y": 5,
+              "width": 4,
+              "height": 23,
+              "titleTextAlign": "right",
+              "textAlign": "right"
+            }
+          ],
+          "hidden": false,
+          "width": 816,
+          "height": 1056,
+          "cols": 8,
+          "rowHeight": 8,
+          "layout": "grid",
+          "presentation": "normal",
+          "margin": 0,
+          "padding": 24,
+          "borderWidth": 0,
+          "_id": "686fcc015718a8cc66ceb49d",
+          "metadata": {}
+        }
+      ],
+      "pageOrder": [
+        "686fcc015718a8cc66ceb49d"
+      ],
+      "views": [
+        {
+          "_id": "686fe77caa908b379a4d646f",
+          "type": "mobile",
+          "pages": [
+            {
+              "name": "New Page",
+              "fieldPositions": [
+                {
+                  "_id": "686fe5cc8724a18ea3316953",
+                  "type": "textarea",
+                  "field": "686fe5cb60e72b9614cd1120",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 180,
+                  "titleFontSize": 14,
+                  "titleFontColor": "#045dff",
+                  "titleTextAlign": "left",
+                  "lineHeight": 14,
+                  "fontSize": 14,
+                  "fontColor": "#0b38ff",
+                  "backgroundColor": "#f8ff00",
+                  "borderRadius": 2,
+                  "borderWidth": 2,
+                  "padding": 2,
+                  "margin": 2,
+                  "titleFontStyle": "italic",
+                  "titleTextDecoration": "underline",
+                  "titleTextTransform": "uppercase",
+                  "fontWeight": "bold",
+                  "fontStyle": "italic",
+                  "textDecoration": "underline",
+                  "textTransform": "uppercase",
+                  "borderColor": "#f800ff",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fe5cefa2605ac77cde986",
+                  "type": "textarea",
+                  "field": "686fe5cc989aa3c950a0bd1a",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 180,
+                  "width": 1,
+                  "height": 180,
+                  "titleDisplay": "inline",
+                  "textOverflow": "ellipsis",
+                  "textAlign": "center"
+                },
+                {
+                  "_id": "686fe5d1861d4e984322ba94",
+                  "type": "textarea",
+                  "field": "686fe5cf995aaa913bd9e899",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 360,
+                  "width": 1,
+                  "height": 180,
+                  "titleTextAlign": "right",
+                  "textAlign": "right",
+                  "titleDisplay": "inline"
+                },
+                {
+                  "_id": "686fe5cf99c909f86ccfa4bd",
+                  "type": "textarea",
+                  "field": "686fe5ce85eb3760ccba81c2",
+                  "displayType": "original",
+                  "x": 0,
+                  "y": 540,
+                  "width": 1,
+                  "height": 180,
+                  "titleTextAlign": "center",
+                  "titleDisplay": "inline"
+                }
+              ],
+              "hidden": false,
+              "width": 816,
+              "height": 1056,
+              "cols": 1,
+              "rowHeight": 1,
+              "layout": "grid",
+              "presentation": "normal",
+              "margin": 0,
+              "padding": 12,
+              "borderWidth": 0,
+              "_id": "686fcc015718a8cc66ceb49d",
+              "metadata": {},
+              "backgroundImage": "",
+              "fileName": "",
+              "filePath": ""
+            }
+          ],
+          "pageOrder": [
+            "686fcc015718a8cc66ceb49d"
+          ]
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fe5cb60e72b9614cd1120",
+      "type": "textarea",
+      "title": "Multiline Text (Normal /Required) ",
+      "identifier": "Multiline_identifier",
+      "value": "Default value for the field ",
+      "required": true,
+      "tipVisible": true,
+      "tipTitle": "Multiline tooltip ",
+      "tipDescription": "Multiline tooltip description"
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fe5cc989aa3c950a0bd1a",
+      "type": "textarea",
+      "title": "Multiline Text (Hidden) / Textoverflow ellipsis",
+      "identifier": "textarea_with_textellipsis",
+      "value": "Field without title, Incase the user enters a larger field value it must be ellipsized ",
+      "hidden": true,
+      "logic": {
+        "action": "show",
+        "eval": "and",
+        "conditions": [
+          {
+            "file": "686fcc0108d51ab760970d0a",
+            "page": "686fcc015718a8cc66ceb49d",
+            "field": "686fe5cb60e72b9614cd1120",
+            "condition": "*="
+          }
+        ]
+      }
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fe5ce85eb3760ccba81c2",
+      "type": "textarea",
+      "title": "Multiline Text Readonly",
+      "identifier": "field_686fe5cfa12a37a32e7db7f1",
+      "value": "",
+      "disabled": true
+    },
+    {
+      "file": "686fcc0108d51ab760970d0a",
+      "_id": "686fe5cf995aaa913bd9e899",
+      "type": "textarea",
+      "title": "Multiline Text",
+      "identifier": "field_686fe5d1d7ecff4b884b2fd6",
+      "value": "Field value will have right indentation for this field "
+    }
+  ],
+  "deleted": false,
+  "categories": []
+}
