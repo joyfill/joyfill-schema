@@ -1,18 +1,26 @@
 {
-	"compilerOptions": {
-		"target": "ES2022", //LatestJS features
-		"module": "commonjs" , // better suited for Node.js projects
-		"moduleResolution": "Node", 
-		"resolveJsonModule": true , // Enables importing JSON files
-		"allowJs": true , //Use a mix of JS and TS files
-		"importHelpers": true, // Reduces output size by using helper functions from tslib
-		"esModuleInterop": true , //Improves compatibility with CommonJS modules
+  "compilerOptions": {
+    "target": "ES2022", //LatestJS features
+    "module": "commonjs", // better suited for Node.js projects
+    "moduleResolution": "Node",
+    "resolveJsonModule": true, // Enables importing JSON files
+    "allowJs": true, //Use a mix of JS and TS files
+    "importHelpers": true, // Reduces output size by using helper functions from tslib
+    "esModuleInterop": true, //Improves compatibility with CommonJS modules
     "outDir": "dist", // Output directory for compiled files
     "rootDir": ".", // Root directory of the source files
-		"strict": true , // type check
-		"skipLibCheck": true, // Skips checking node
+    "strict": true, // type check
+    "skipLibCheck": true, // Skips checking node
     "forceConsistentCasingInFileNames": true, // Ensures file names are case-sensitive
-	},
-  "include": ["app/**/*.ts", "scripts/**/*.ts", "generateSchema.ts", "joydoc.types.ts"], 
-	"exclude": ["__tests", "**/*.test.ts"]
+  },
+  "include": [
+    "app/**/*.ts",
+    "scripts/**/*.ts",
+    "generateSchema.ts",
+    "joydoc.types.ts"
+  ],
+  "exclude": [
+    "__tests",
+    "**/*.test.ts"
+  ]
 }
