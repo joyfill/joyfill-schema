@@ -6,6 +6,7 @@
   "files": [
     {
       "_id": "686fcc0108d51ab760970d0a",
+      "metadata": {},
       "name": "NO-1284 Blank template",
       "version": 1,
       "styles": {
@@ -347,15 +348,32 @@
           "layout": "grid",
           "presentation": "normal",
           "padding": 24
+        },
+        {
+          "_id": "6873cd8453c637b0ad4b90a2",
+          "name": "PDF Page ",
+          "width": 816,
+          "height": 1056,
+          "rowHeight": 1,
+          "cols": 816,
+          "fieldPositions": [],
+          "layout": "float",
+          "presentation": "transparent",
+          "padding": 24,
+          "backgroundImage": "https://s3.amazonaws.com/docspace.dev.documents/67dabd826c6e1cf42dfcfb25/documents/template_686fcc012bc57a59b7246d4d/6873cdafe6fd5b3292abd436-1752419759632.png",
+          "fileName": "6873cdafe6fd5b3292abd436-1752419759632.png",
+          "filePath": "67dabd826c6e1cf42dfcfb25/documents/template_686fcc012bc57a59b7246d4d"
         }
       ],
       "pageOrder": [
         "686fcc015718a8cc66ceb49d",
-        "6873c0bef47b9432886d9d74"
+        "6873c0bef47b9432886d9d74",
+        "6873cd8453c637b0ad4b90a2"
       ],
       "views": [
         {
-          "_id": "6873cab58748966cf06f02e6",
+          "_id": "6873cdc48fdbb582720f3502",
+          "type": "mobile",
           "pages": [
             {
               "name": "New Page",
@@ -369,7 +387,7 @@
                   "fontWeight": "bold",
                   "x": 0,
                   "y": 0,
-                  "width": 1,
+                  "width": 408,
                   "height": 40,
                   "titleDisplay": "inline"
                 },
@@ -379,8 +397,8 @@
                   "field": "6873c050ba8852b9e45ef3cc",
                   "displayType": "original",
                   "x": 0,
-                  "y": 40,
-                  "width": 1,
+                  "y": 0,
+                  "width": 204,
                   "height": 180,
                   "titleDisplay": "inline"
                 },
@@ -390,8 +408,8 @@
                   "field": "6873c0520b545ea2d827b139",
                   "displayType": "original",
                   "x": 0,
-                  "y": 220,
-                  "width": 1,
+                  "y": 5,
+                  "width": 350,
                   "height": 180,
                   "titleDisplay": "inline"
                 },
@@ -401,8 +419,8 @@
                   "field": "6873c059be95035388f6ad39",
                   "displayType": "original",
                   "x": 0,
-                  "y": 400,
-                  "width": 1,
+                  "y": 18,
+                  "width": 408,
                   "height": 180,
                   "titleDisplay": "inline"
                 },
@@ -412,8 +430,8 @@
                   "field": "6873c057f0b2c8a16d4cdfca",
                   "displayType": "original",
                   "x": 0,
-                  "y": 580,
-                  "width": 1,
+                  "y": 28,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -423,8 +441,8 @@
                   "field": "6873c05b3a48abd39eee00ae",
                   "displayType": "original",
                   "x": 0,
-                  "y": 644,
-                  "width": 1,
+                  "y": 36,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -435,8 +453,8 @@
                   "displayType": "original",
                   "format": "MM/DD/YYYY hh:mma",
                   "x": 0,
-                  "y": 708,
-                  "width": 1,
+                  "y": 41,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -447,8 +465,8 @@
                   "displayType": "original",
                   "format": "MM/DD/YYYY",
                   "x": 0,
-                  "y": 772,
-                  "width": 1,
+                  "y": 44,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -459,8 +477,8 @@
                   "displayType": "original",
                   "targetValue": "6873b628a63c507f88ce9a3b",
                   "x": 0,
-                  "y": 836,
-                  "width": 1,
+                  "y": 49,
+                  "width": 408,
                   "height": 120,
                   "titleDisplay": "inline"
                 },
@@ -471,8 +489,8 @@
                   "displayType": "original",
                   "format": "hh:mma",
                   "x": 0,
-                  "y": 956,
-                  "width": 1,
+                  "y": 52,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -483,8 +501,8 @@
                   "displayType": "original",
                   "targetValue": "6873b62893171199a4e02756",
                   "x": 0,
-                  "y": 1020,
-                  "width": 1,
+                  "y": 69,
+                  "width": 408,
                   "height": 64,
                   "titleDisplay": "inline"
                 },
@@ -494,8 +512,8 @@
                   "field": "6873c0a3176ddd5680a0d306",
                   "displayType": "original",
                   "x": 0,
-                  "y": 1084,
-                  "width": 1,
+                  "y": 83,
+                  "width": 408,
                   "height": 180,
                   "titleDisplay": "inline"
                 },
@@ -506,8 +524,8 @@
                   "displayType": "original",
                   "primaryDisplayOnly": true,
                   "x": 0,
-                  "y": 1264,
-                  "width": 1,
+                  "y": 106,
+                  "width": 408,
                   "height": 216,
                   "titleDisplay": "inline"
                 },
@@ -517,8 +535,8 @@
                   "field": "6873c0a5da5cf2a61dcc5abb",
                   "displayType": "original",
                   "x": 0,
-                  "y": 1480,
-                  "width": 1,
+                  "y": 133,
+                  "width": 816,
                   "height": 116,
                   "tableColumns": {
                     "6873c0e198d54a3b837bbb9c": {
@@ -606,11 +624,27 @@
               "backgroundImage": "",
               "fileName": "",
               "filePath": ""
+            },
+            {
+              "_id": "6873cd8453c637b0ad4b90a2",
+              "name": "PDF Page ",
+              "width": 816,
+              "height": 1056,
+              "rowHeight": 1,
+              "cols": 1,
+              "fieldPositions": [],
+              "layout": "grid",
+              "presentation": "normal",
+              "padding": 12,
+              "backgroundImage": "",
+              "fileName": "",
+              "filePath": ""
             }
           ],
           "pageOrder": [
             "686fcc015718a8cc66ceb49d",
-            "6873c0bef47b9432886d9d74"
+            "6873c0bef47b9432886d9d74",
+            "6873cd8453c637b0ad4b90a2"
           ]
         }
       ]
