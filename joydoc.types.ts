@@ -1,4 +1,4 @@
-//Version: 1.0.0 (July 3rd 2024)
+//Version: 1.0.1 (July 11th 2025)
 
 // Top-level Template interface
 export interface Template {
@@ -40,7 +40,7 @@ export interface Page {
 	name: string;
 	fieldPositions: FieldPosition[];
 	metadata?: Record<string, any>;
-	hidden: boolean;
+	hidden?: boolean;
 	width: number;
 	height: number;
 	cols: number;
@@ -257,7 +257,7 @@ export interface FileValue {
 
 export interface BlockField extends BaseField {
 	type: 'block';
-	value: string;
+	value?: string;
 }
 
 export interface LegacyRichTextField extends BaseField {
@@ -401,7 +401,7 @@ export interface Option {
 export interface TableRow {
 	_id: string;
 	deleted?: boolean;
-	cells: Record<string, any>;
+	cells?: Record<string, any>;
 }
 
 export type TableColumnType =
