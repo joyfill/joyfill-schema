@@ -1,6 +1,6 @@
 const Ajv = require("ajv");
-const schema = require('../../../joyfill-schema.json'); 
-const template = require('./defaultEmptyTemplate.json'); 
+const schema = require('../joyfill-schema.json'); 
+const template = require('../templates/defaultEmptyTemplate/defaultEmptyTemplate.json'); 
 
 const ajv = new Ajv();
 

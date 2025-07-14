@@ -271,7 +271,6 @@
         "_id",
         "name",
         "fieldPositions",
-        "hidden",
         "width",
         "height",
         "cols",
@@ -923,8 +922,7 @@
       "required": [
         "_id",
         "file",
-        "type",
-        "value"
+        "type"
       ]
     },
     "LegacyRichTextField": {
@@ -1531,8 +1529,7 @@
         }
       },
       "required": [
-        "_id",
-        "cells"
+        "_id"
       ]
     },
     "TableColumn": {
@@ -2195,6 +2192,5 @@
         "_id"
       ]
     }
-  },
-  "$joyfillSchemaVersion": "1.0.0"
+  }
 }

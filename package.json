@@ -20,6 +20,7 @@
   "scripts": {
     "generateSchemas": "ts-node generateSchema.ts",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "test:file": "jest"
   }
 }
