@@ -1,1 +1,2 @@
-This template is what is the default generated JoyDoc looks like
+## Overview
+This template has the default Joydoc that gets generated
