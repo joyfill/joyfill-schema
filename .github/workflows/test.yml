@@ -1,0 +1,41 @@
+name: Run Tests
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+        
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+
+    - name: Generate schemas (if needed)
+      run: yarn generateSchemas
+      
+    - name: Run tests
+      run: yarn test
+      env:
+        NODE_ENV: test
+      
+    - name: Build project
+      run: yarn build 
+      
+    

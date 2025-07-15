@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "ajv": "^8.17.1",
+    "ajv-errors": "^3.0.0",
     "ts-json-schema-generator": "^2.4.0",
     "typescript": "^5.8.3"
   },
@@ -18,10 +19,9 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "generateSchemas": "ts-node generateSchema.ts",
+    "generateSchema": "ts-node generateSchema.ts",
     "test": "jest",
     "build": "tsc",
     "testFile": "jest"
   }
-  
 }

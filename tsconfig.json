@@ -13,6 +13,6 @@
 		"skipLibCheck": true, // Skips checking node
     "forceConsistentCasingInFileNames": true, // Ensures file names are case-sensitive
 	},
-  "include": ["app/**/*.ts", "scripts/**/*.ts", "generateSchema.ts", "joydoc.types.ts"], 
+  "include": ["generateSchema.ts", "joydoc.types.ts"], 
 	"exclude": ["__tests", "**/*.test.ts"]
 }
