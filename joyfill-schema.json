@@ -1358,7 +1358,10 @@
           "type": "object",
           "properties": {
             "backgroundColor": {
-              "type": "string"
+              "type": [
+                "string",
+                "null"
+              ]
             }
           }
         },
@@ -2193,5 +2196,5 @@
       ]
     }
   },
-  "$comment": "JoyfillSchemaVersion : 1.0.0"
+  "$joyfillSchemaVersion": "1.0.0"
 }
