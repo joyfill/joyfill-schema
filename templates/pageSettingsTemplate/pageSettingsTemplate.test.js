@@ -1,18 +1,22 @@
 const Ajv = require('ajv');
 
+// Load the schema
 const schema = require('../../joyfill-schema.json');
 
-const template = require('./metadataTemplate.json');
+// Load the template to test
+const template = require('./pageSettingsTemplate.json');
 
+// Initialize Ajv
 const ajv = new Ajv({
   allErrors: true,
   strict: false,
   allowUnionTypes: true
 });
 
-describe('Metadata Template Validation', () => {
+describe('Page Settings Template Validation', () => {
 
-  test('should validate metadata template against schema', () => {
+  test('should validate Page Settings template against schema', () => {
+
     const validate = ajv.compile(schema);
     const isValid = validate(template);
 
@@ -21,5 +25,6 @@ describe('Metadata Template Validation', () => {
     }
 
     expect(isValid).toBe(true);
+    
   });
 });
