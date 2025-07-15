@@ -2192,5 +2192,6 @@
         "_id"
       ]
     }
-  }
+  },
+  "$comment": "JoyfillSchemaVersion : 1.0.0"
 }
