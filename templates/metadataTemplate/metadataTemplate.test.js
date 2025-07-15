@@ -1,12 +1,10 @@
 const Ajv = require('ajv');
-const fs = require('fs');
-const path = require('path');
 
 // Load the schema
-const schema = JSON.parse(fs.readFileSync(path.join(__dirname, '../../joyfill-schema.json'), 'utf8'));
+const schema = require('../../joyfill-schema.json');
 
 // Load the template to test
-const template = JSON.parse(fs.readFileSync(path.join(__dirname, 'metadataTemplate.json'), 'utf8'));
+const template = require('./metadataTemplate.json');
 
 // Initialize Ajv
 const ajv = new Ajv({
