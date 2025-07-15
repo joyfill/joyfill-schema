@@ -16,7 +16,7 @@ const packageJson = JSON.parse(fs.readFileSync(path.resolve('package.json'), 'ut
 
 // Schema generator configuration
 const config = {
-  path: path.resolve('./constants/joydoc.types.ts'), 
+  path: path.resolve('./joydoc.types.ts'), 
   tsconfig: path.resolve('tsconfig.json'),
   type: 'Template',
   expose: 'export' as const,
