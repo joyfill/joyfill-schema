@@ -1,2 +1,0 @@
-## Overview
-This template has optional properties removed. These could be optional properties at the file, page, field, fieldPosition, field option, tableColumn, etc. 
