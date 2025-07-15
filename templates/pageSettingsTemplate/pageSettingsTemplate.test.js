@@ -13,7 +13,7 @@ const ajv = new Ajv({
   allowUnionTypes: true
 });
 
-describe('Page Settings Template Validation', () => {
+describe('pageSettingsTemplate Validation', () => {
 
   test('should validate Page Settings template against schema', () => {
 

@@ -10,7 +10,7 @@ const ajv = new Ajv({
   allowUnionTypes: true
 });
 
-describe('Metadata Template Validation', () => {
+describe('metadataTemplate Validation', () => {
 
   test('should validate metadata template against schema', () => {
     const validate = ajv.compile(schema);

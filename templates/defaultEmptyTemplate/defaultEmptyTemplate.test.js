@@ -4,7 +4,7 @@ const template = require('./defaultEmptyTemplate.json');
 
 const ajv = new Ajv( { allErrors: true, strict: false });
 
-describe('Default Empty Template', () => {
+describe('defaultEmptyTemplate Validation', () => {
 
   it('should be a valid template', () => {
 

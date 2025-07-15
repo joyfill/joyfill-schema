@@ -1,8 +1,8 @@
 const Ajv = require('ajv');
 const schema = require('../../joyfill-schema.json');   
-const template = require('./fileSettingsTemplate.json');
+const template = require('./optionalPropertiesRemovedTemplate.json');
 
-describe('fileSettingsTemplate Validation', () => {
+describe('optionalPropertiesRemovedTemplate Validation', () => {
 
   it('should be valid according to joyfill-schema.json', () => {
 
