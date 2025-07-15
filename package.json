@@ -21,6 +21,7 @@
     "generateSchemas": "ts-node generateSchema.ts",
     "test": "jest",
     "build": "tsc",
-    "test:file": "jest"
+    "testFile": "jest"
   }
+  
 }
