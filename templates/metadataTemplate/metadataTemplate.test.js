@@ -1,7 +1,6 @@
 const Ajv = require('ajv');
 
 const schema = require('../../joyfill-schema.json');
-
 const template = require('./metadataTemplate.json');
 
 const ajv = new Ajv({
