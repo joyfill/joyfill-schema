@@ -58,30 +58,30 @@ export interface Page {
 export interface FieldPosition extends CoreStyles {
 	_id: string;
 	field: string;
-	displayType: FieldPositionDisplayType; 
+	displayType: FieldPositionDisplayType;
 	width: number;
 	height: number;
 	x: number;
 	y: number;
-	type: FieldType; 
+	type: FieldType;
 
 	// Optional properties – present only for some types:
-  schema?: {
-	  [schemaId: string]: {
-			  tableColumns?: {
-			    [columnId: string]: {
-			      format?: string;
-			      hidden?: boolean;
-			    };
-			  }  
-	  }
-  }
-  tableColumns?: {
-    [columnId: string]: {
-      format?: string;
-      hidden?: boolean;
-    };
-  };
+	schema?: {
+		[schemaId: string]: {
+			tableColumns?: {
+				[columnId: string]: {
+					format?: string;
+					hidden?: boolean;
+				};
+			}
+		}
+	}
+	tableColumns?: {
+		[columnId: string]: {
+			format?: string;
+			hidden?: boolean;
+		};
+	};
 	primaryMaxWidth?: number;
 	primaryMaxHeight?: number;
 	format?: string;
@@ -267,7 +267,7 @@ export interface LegacyRichTextField extends BaseField {
 
 export interface TextField extends BaseField {
 	type: 'text';
-	value?: string; 
+	value?: string;
 }
 
 export interface NumberField extends BaseField {
@@ -393,7 +393,7 @@ export interface Option {
 	deleted?: boolean;
 	width?: number;
 	styles?: {
-		backgroundColor?: string
+		backgroundColor?: string | null
 	};
 	metadata?: Record<string, any>; // @TODO this property is not present in the original file from JF!
 }
@@ -417,76 +417,76 @@ export type TableColumnType =
 
 // Base structure for any column
 export interface BaseTableColumn {
-  _id: string;
-  type: TableColumnType;
-  title?: string;
-  width?: number;
-  deleted?: boolean;
-  identifier?: string;
-  value?: any;
+	_id: string;
+	type: TableColumnType;
+	title?: string;
+	width?: number;
+	deleted?: boolean;
+	identifier?: string;
+	value?: any;
 }
 
 // Extended interfaces by column type
 export interface TextColumn extends BaseTableColumn {
-  type: "text";
-  value?: string;
+	type: "text";
+	value?: string;
 }
 
 export interface DropdownColumn extends BaseTableColumn {
-  type: "dropdown";
-  options?: Option[];
-  value?: string;
+	type: "dropdown";
+	options?: Option[];
+	value?: string;
 }
 
 export interface MultiSelectColumn extends BaseTableColumn {
-  type: "multiSelect";
-  options?: Option[];
-  value?: string[];
+	type: "multiSelect";
+	options?: Option[];
+	value?: string[];
 }
 
 export interface ImageColumn extends BaseTableColumn {
-  type: "image";
-  maxImageWidth?: number;
-  maxImageHeight?: number;
+	type: "image";
+	maxImageWidth?: number;
+	maxImageHeight?: number;
 }
 
 export interface NumberColumn extends BaseTableColumn {
-  type: "number";
-  value?: number;
+	type: "number";
+	value?: number;
 }
 
 export interface DateColumn extends BaseTableColumn {
-  type: "date";
-  value?: number; // timestamp (e.g. epoch milliseconds)
+	type: "date";
+	value?: number; // timestamp (e.g. epoch milliseconds)
 }
 
 export interface BlockColumn extends BaseTableColumn {
-  type: "block";
-  value?: string;
+	type: "block";
+	value?: string;
 }
 
 export interface BarcodeColumn extends BaseTableColumn {
-  type: "barcode";
-  value?: string;
+	type: "barcode";
+	value?: string;
 }
 
 export interface SignatureColumn extends BaseTableColumn {
-  type: "signature";
-  maxImageWidth?: number;
-  maxImageHeight?: number;
+	type: "signature";
+	maxImageWidth?: number;
+	maxImageHeight?: number;
 }
 
 // Discriminated union for all supported column types
 export type TableColumn =
-  | TextColumn
-  | DropdownColumn
-  | MultiSelectColumn
-  | ImageColumn
-  | NumberColumn
-  | DateColumn
-  | BlockColumn
-  | BarcodeColumn
-  | SignatureColumn;
+	| TextColumn
+	| DropdownColumn
+	| MultiSelectColumn
+	| ImageColumn
+	| NumberColumn
+	| DateColumn
+	| BlockColumn
+	| BarcodeColumn
+	| SignatureColumn;
 
 export interface ChartSeries {
 	_id: string;
