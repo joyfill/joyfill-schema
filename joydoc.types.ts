@@ -272,12 +272,12 @@ export interface TextField extends BaseField {
 
 export interface NumberField extends BaseField {
 	type: 'number';
-	value?: number;
+	value?: number | '';
 }
 
 export interface DateField extends BaseField {
 	type: 'date';
-	value?: number;
+	value?: number | null;
 	format?: 'MM/DD/YYYY' | 'MM/DD/YYYY hh:mma' | 'hh:mma';
 }
 

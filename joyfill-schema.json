@@ -1084,7 +1084,15 @@
           "type": "boolean"
         },
         "value": {
-          "type": "number"
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string",
+              "const": ""
+            }
+          ]
         }
       },
       "required": [
@@ -1140,7 +1148,10 @@
           "type": "boolean"
         },
         "value": {
-          "type": "number"
+          "type": [
+            "number",
+            "null"
+          ]
         },
         "format": {
           "type": "string",
