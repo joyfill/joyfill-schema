@@ -190,7 +190,6 @@
                   "height": 180
                 }
               ],
-              "hidden": false,
               "width": 816,
               "height": 1056,
               "cols": 1,
@@ -227,101 +226,39 @@
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877d3cd6b4efa3213718674",
-      "type": "text",
-      "title": "Text is filled ",
-      "identifier": "field_6877d3d4c8ab68a62b0ea321",
-      "value": "default value "
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877d3d476f67406d6f6c544",
-      "type": "text",
-      "title": "Text is empty ",
-      "identifier": "field_6877d3d5ff1cac6519151ba2"
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877d3d646718f6becc75cb0",
-      "type": "text",
-      "title": "Text is ",
-      "identifier": "field_6877d3d7ec3ca8f95b7bae5d",
-      "value": "god "
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877d3d77d3d39593eb5ef64",
-      "type": "text",
-      "title": "Text is not",
-      "identifier": "field_6877d3d8b254dc756c2da75f",
-      "value": "thor "
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877d3d8df9aeb108b70c1f5",
-      "type": "text",
-      "title": "Text contains",
-      "identifier": "field_6877d3d948f71ff4c688c7e7",
-      "value": "god got this"
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877e52d25b2289a39ac6a54",
       "type": "textarea",
       "title": "Multiline Text",
-      "identifier": "field_6877e536ebc5ab17701d91ef",
-      "required": true,
-      "hidden": true,
-      "logic": {
-        "action": "show",
-        "eval": "and",
-        "conditions": [
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877d3cd6b4efa3213718674",
-            "condition": "*="
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877d3d476f67406d6f6c544",
-            "condition": "null="
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877d3d646718f6becc75cb0",
-            "condition": "=",
-            "value": "god"
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877d3d77d3d39593eb5ef64",
-            "condition": "!=",
-            "value": "thanos"
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877d3d8df9aeb108b70c1f5",
-            "condition": "?=",
-            "value": "god"
-          }
-        ]
-      },
-      "tipVisible": true,
-      "tipTitle": "Tooltip title",
-      "tipDescription": "Tooltip description",
-      "value": "Default value "
+      "required": true
     },
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877e536855f23e2375ddb4a",
-      "type": "textarea",
-      "title": "Multiline Text Readonly",
-      "identifier": "field_6877e53c26f3ddd356a0ce76",
-      "disabled": true
+      "type": "textarea"
     }
   ],
   "deleted": false

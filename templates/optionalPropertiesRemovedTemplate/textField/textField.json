@@ -281,46 +281,7 @@
     {
       "file": "68779ec0c656659458e50af5",
       "_id": "6877a70cb1e640b44f946018",
-      "type": "text",
-      "logic": {
-        "action": "show",
-        "eval": "and",
-        "conditions": [
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877a3c3a5c26d922d5a0056",
-            "condition": "*="
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877a4fa80f1c5fdc6c16359",
-            "condition": "null="
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877a421702a8b7e50f13f51",
-            "condition": "=",
-            "value": "god"
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877a5485abd214b5f14e48f",
-            "condition": "!=",
-            "value": "thanos"
-          },
-          {
-            "file": "68779ec0c656659458e50af5",
-            "page": "68779ec0ef32e5de07b769f3",
-            "field": "6877a54abaa5828664e82b32",
-            "condition": "?=",
-            "value": "captain"
-          }
-        ]
-      }
+      "type": "text"
     },
     {
       "file": "68779ec0c656659458e50af5",

@@ -475,97 +475,63 @@
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d3cd6b4efa3213718674",
-          "type": "text",
-          "title": "Text is filled ",
-          "identifier": "field_6877d3d4c8ab68a62b0ea321",
-          "value": "default value "
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d3d476f67406d6f6c544",
-          "type": "text",
-          "title": "Text is empty ",
-          "identifier": "field_6877d3d5ff1cac6519151ba2"
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d3d646718f6becc75cb0",
-          "type": "text",
-          "title": "Text is ",
-          "identifier": "field_6877d3d7ec3ca8f95b7bae5d",
-          "value": "god "
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d3d77d3d39593eb5ef64",
-          "type": "text",
-          "title": "Text is not",
-          "identifier": "field_6877d3d8b254dc756c2da75f",
-          "value": "thor "
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d3d8df9aeb108b70c1f5",
-          "type": "text",
-          "title": "Text contains",
-          "identifier": "field_6877d3d948f71ff4c688c7e7",
-          "value": "god got this"
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d407ca6cebe5a7aecd4d",
           "type": "table",
-          "title": "Table Field readonly ",
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
-                  "type": "text",
-                  "title": "Text Column",
-                  "width": 0,
-                  "deleted": false,
-                  "identifier": "field_column_6877d4094fd4cd54ba1d4dd4"
+                  "type": "text"
               },
               {
                   "_id": "6877d3af016745bb7e97652d",
                   "type": "dropdown",
-                  "title": "Dropdown Column",
-                  "deleted": false,
-                  "width": 0,
                   "options": [
                       {
                           "_id": "6877d3af1874ee11d7aa7382",
                           "value": "Yes",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "deleted": false
                       },
                       {
                           "_id": "6877d3afb8664318f1dbb53c",
                           "value": "No",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "deleted": false
+                          
                       },
                       {
                           "_id": "6877d3afcca8dacc041f98ed",
                           "value": "N/A",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "deleted": false
                       }
-                  ],
-                  "identifier": "field_column_6877d4096f780ac7c5ac2639"
+                  ]
               },
               {
                   "_id": "6877d3af0933a51a3d694025",
                   "type": "text",
-                  "title": "Text Column",
-                  "width": 0,
-                  "deleted": false,
-                  "identifier": "field_column_6877d409c0f92ce3631a21eb"
+                  "title": "Text Column"
               }
           ],
           "value": [
@@ -606,181 +572,66 @@
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
-                  "type": "text",
-                  "title": "Text Column",
-                  "width": 0,
-                  "deleted": false,
-                  "identifier": "field_column_6877d40bad624057f2da20eb",
-                  "value": "text field "
+                  "type": "text"
               },
               {
                   "_id": "6877d3af016745bb7e97652d",
                   "type": "dropdown",
-                  "title": "Dropdown Column",
-                  "deleted": false,
-                  "width": 0,
-                  "options": [
-                      {
-                          "_id": "6877d3af1874ee11d7aa7382",
-                          "value": "Yes",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
-                      },
-                      {
-                          "_id": "6877d3afb8664318f1dbb53c",
-                          "value": "No",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
-                      },
-                      {
-                          "_id": "6877d3afcca8dacc041f98ed",
-                          "value": "N/A",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
-                      }
-                  ],
-                  "identifier": "field_column_6877d40b88688780e3130f27",
-                  "value": "6877d3af1874ee11d7aa7382"
+                  "title": "Dropdown Column"
               },
               {
                   "_id": "6877d4299100769b315c40d4",
-                  "type": "image",
-                  "title": "Image Column",
-                  "deleted": false
+                  "type": "image"
               },
               {
                   "_id": "6877d42bc1e09a43430a2fb5",
-                  "type": "multiSelect",
-                  "title": "MultiSelect Column",
-                  "deleted": false,
-                  "width": 0,
-                  "options": [
-                      {
-                          "_id": "6877d42b8c105e8a1f150a5c",
-                          "value": "Option 1",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#ff1414"
-                          },
-                          "width": 122
-                      },
-                      {
-                          "_id": "6877d42b6636d268c54315ab",
-                          "value": "Option 2",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      },
-                      {
-                          "_id": "6877d42b97522efa36ad61db",
-                          "value": "Option 3",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      }
-                  ],
-                  "value": [
-                      "6877d42b8c105e8a1f150a5c"
-                  ]
+                  "type": "multiSelect"
               },
               {
                   "_id": "6877d42ce299bfe7f4a89a98",
-                  "type": "number",
-                  "title": "Number Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 122
+                  "type": "number"
               },
               {
                   "_id": "6877d42d4d8bdb682a581bc1",
-                  "type": "date",
-                  "title": "Date Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1751324400000
+                  "type": "date"
               },
               {
                   "_id": "6877d42f4df3f003c034a762",
-                  "type": "block",
-                  "title": "Block Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "Block Column"
+                  "type": "block"
               },
               {
                   "_id": "6877d431d7bb800953cfbea5",
-                  "type": "barcode",
-                  "title": "Barcode Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "google.com"
+                  "type": "barcode"
               },
               {
                   "_id": "6877d433344386bb84a76034",
-                  "type": "signature",
-                  "title": "Signature Column",
-                  "width": 0,
-                  "deleted": false,
-                  "maxImageWidth": 122,
-                  "maxImageHeight": 122
+                  "type": "signature"
               },
               {
                   "_id": "6877d43cc4d793d56fa83775",
-                  "type": "date",
-                  "title": "Time Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1752690911030
+                  "type": "date"
               },
               {
                   "_id": "6877d43df032f7f54ab1a2f6",
-                  "type": "date",
-                  "title": "Date Time Column",
-                  "deleted": false,
-                  "width": 145,
-                  "value": 1751474100000
+                  "type": "date"
               }
           ],
           "value": [
               {
                   "_id": "6877d3af0ecfa6831061cd8d",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af5a3797ab88408ee6",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af4bd9d3a4fded9567",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d492899ade4ed3e8c8e2",
-                  "deleted": false,
-                  "cells": {
-                      "6877d3afb4a5446d108f64bd": "text field ",
-                      "6877d3af016745bb7e97652d": "6877d3af1874ee11d7aa7382",
-                      "6877d4299100769b315c40d4": "",
-                      "6877d42bc1e09a43430a2fb5": "",
-                      "6877d42ce299bfe7f4a89a98": "",
-                      "6877d42d4d8bdb682a581bc1": "",
-                      "6877d42f4df3f003c034a762": "",
-                      "6877d431d7bb800953cfbea5": "",
-                      "6877d433344386bb84a76034": "",
-                      "6877d43cc4d793d56fa83775": "",
-                      "6877d43df032f7f54ab1a2f6": ""
-                  }
+                  "deleted": false
               }
           ],
           "identifier": "field_6877d40b52ac17d61ee0873b",
@@ -802,24 +653,7 @@
               "6877d3af5a3797ab88408ee6",
               "6877d3af4bd9d3a4fded9567",
               "6877d492899ade4ed3e8c8e2"
-          ],
-          "required": true,
-          "hidden": true,
-          "logic": {
-              "action": "show",
-              "eval": "and",
-              "conditions": [
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3cd6b4efa3213718674",
-                      "condition": "*="
-                  }
-              ]
-          },
-          "tipVisible": true,
-          "tipTitle": "Table text field ",
-          "tipDescription": "tooltip descriptipon"
+          ]
       },
       {
           "file": "68779ec0c656659458e50af5",
@@ -829,186 +663,88 @@
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
-                  "type": "text",
-                  "title": "Text Column",
-                  "width": 88,
-                  "deleted": false,
-                  "identifier": "field_column_6877d40bad624057f2da20eb",
-                  "value": "text field "
+                  "type": "text"
               },
               {
                   "_id": "6877d3af016745bb7e97652d",
                   "type": "dropdown",
-                  "title": "Dropdown Column",
-                  "deleted": false,
-                  "width": 88,
                   "options": [
                       {
                           "_id": "6877d3af1874ee11d7aa7382",
                           "value": "Yes",
-                          "deleted": false,
                           "styles": {
-                              "backgroundColor": null
                           }
                       },
                       {
                           "_id": "6877d3afb8664318f1dbb53c",
-                          "value": "No",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "No"
+                         
                       },
                       {
                           "_id": "6877d3afcca8dacc041f98ed",
                           "value": "N/A",
-                          "deleted": false,
                           "styles": {
                               "backgroundColor": null
                           }
                       }
-                  ],
-                  "identifier": "field_column_6877d40b88688780e3130f27",
-                  "value": "6877d3af1874ee11d7aa7382"
-              },
-              {
-                  "_id": "6877d4299100769b315c40d4",
-                  "type": "image",
-                  "title": "Image Column",
-                  "deleted": false,
-                  "maxImageWidth": 145,
-                  "maxImageHeight": 155,
-                  "width": 82
-              },
-              {
-                  "_id": "6877d42bc1e09a43430a2fb5",
-                  "type": "multiSelect",
-                  "title": "MultiSelect Column",
-                  "deleted": false,
-                  "width": 22,
-                  "options": [
-                      {
-                          "_id": "6877d42b8c105e8a1f150a5c",
-                          "value": "Option 1",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#ff1414"
-                          },
-                          "width": 122
-                      },
-                      {
-                          "_id": "6877d42b6636d268c54315ab",
-                          "value": "Option 2",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      },
-                      {
-                          "_id": "6877d42b97522efa36ad61db",
-                          "value": "Option 3",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      }
-                  ],
-                  "value": [
-                      "6877d42b8c105e8a1f150a5c"
                   ]
               },
               {
+                  "_id": "6877d4299100769b315c40d4",
+                  "type": "image"
+              },
+              {
+                  "_id": "6877d42bc1e09a43430a2fb5",
+                  "type": "multiSelect"
+              },
+              {
                   "_id": "6877d42ce299bfe7f4a89a98",
-                  "type": "number",
-                  "title": "Number Column",
-                  "deleted": false,
-                  "width": 44
+                  "type": "number"
               },
               {
                   "_id": "6877d42d4d8bdb682a581bc1",
-                  "type": "date",
-                  "title": "Date Column",
-                  "deleted": false,
-                  "width": 56,
-                  "value": 1751324400000
+                  "type": "date"
               },
               {
                   "_id": "6877d42f4df3f003c034a762",
-                  "type": "block",
-                  "title": "Block Column",
-                  "width": 67,
-                  "deleted": false,
-                  "value": "Block Column"
+                  "type": "block"
               },
               {
                   "_id": "6877d431d7bb800953cfbea5",
-                  "type": "barcode",
-                  "title": "Barcode Column",
-                  "width": 89,
-                  "deleted": false,
-                  "value": "google.com"
+                  "type": "barcode"
               },
               {
                   "_id": "6877d433344386bb84a76034",
-                  "type": "signature",
-                  "title": "Signature Column",
-                  "width": 78,
-                  "deleted": false,
-                  "maxImageWidth": 122,
-                  "maxImageHeight": 122
+                  "type": "signature"
               },
               {
                   "_id": "6877d43cc4d793d56fa83775",
-                  "type": "date",
-                  "title": "Time Column",
-                  "deleted": false,
-                  "width": 122,
-                  "value": 1752690911030
+                  "type": "date"
               },
               {
                   "_id": "6877d43df032f7f54ab1a2f6",
-                  "type": "date",
-                  "title": "Date Time Column",
-                  "deleted": false,
-                  "width": 145,
-                  "value": 1751474100000
+                  "type": "date"
               }
           ],
           "value": [
               {
                   "_id": "6877d3af0ecfa6831061cd8d",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af5a3797ab88408ee6",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af4bd9d3a4fded9567",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d492899ade4ed3e8c8e2",
-                  "deleted": false,
-                  "cells": {
-                      "6877d3afb4a5446d108f64bd": "text field ",
-                      "6877d3af016745bb7e97652d": "6877d3af1874ee11d7aa7382",
-                      "6877d4299100769b315c40d4": "",
-                      "6877d42bc1e09a43430a2fb5": "",
-                      "6877d42ce299bfe7f4a89a98": "",
-                      "6877d42d4d8bdb682a581bc1": "",
-                      "6877d42f4df3f003c034a762": "",
-                      "6877d431d7bb800953cfbea5": "",
-                      "6877d433344386bb84a76034": "",
-                      "6877d43cc4d793d56fa83775": "",
-                      "6877d43df032f7f54ab1a2f6": ""
-                  }
+                  "deleted": false
+                  
               }
           ],
-          "identifier": "field_6877d40b52ac17d61ee0873b",
           "tableColumnOrder": [
               "6877d3afb4a5446d108f64bd",
               "6877d4299100769b315c40d4",
@@ -1027,237 +763,94 @@
               "6877d3af5a3797ab88408ee6",
               "6877d3af4bd9d3a4fded9567",
               "6877d492899ade4ed3e8c8e2"
-          ],
-          "required": true,
-          "hidden": true,
-          "logic": {
-              "action": "show",
-              "eval": "and",
-              "conditions": [
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3cd6b4efa3213718674",
-                      "condition": "*="
-                  },
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3d476f67406d6f6c544",
-                      "condition": "null="
-                  },
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3d646718f6becc75cb0",
-                      "condition": "=",
-                      "value": "god"
-                  },
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3d77d3d39593eb5ef64",
-                      "condition": "!=",
-                      "value": "thanos"
-                  },
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3d8df9aeb108b70c1f5",
-                      "condition": "?=",
-                      "value": "god"
-                  }
-              ]
-          },
-          "tipVisible": true,
-          "tipTitle": "Table text field ",
-          "tipDescription": "tooltip descriptipon"
+          ]
+         
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d5474e773002f986ae3e",
           "type": "table",
-          "title": "Table field hidden columns",
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
-                  "type": "text",
-                  "title": "Text Column",
-                  "width": 0,
-                  "deleted": false,
-                  "identifier": "field_column_6877d40bad624057f2da20eb",
-                  "value": "text field "
+                  "type": "text"
               },
               {
                   "_id": "6877d3af016745bb7e97652d",
                   "type": "dropdown",
-                  "title": "Dropdown Column",
-                  "deleted": false,
-                  "width": 0,
                   "options": [
                       {
                           "_id": "6877d3af1874ee11d7aa7382",
-                          "value": "Yes",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "Yes"                         
                       },
                       {
                           "_id": "6877d3afb8664318f1dbb53c",
-                          "value": "No",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "No"
                       },
                       {
                           "_id": "6877d3afcca8dacc041f98ed",
-                          "value": "N/A",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "N/A"
                       }
-                  ],
-                  "identifier": "field_column_6877d40b88688780e3130f27",
-                  "value": "6877d3af1874ee11d7aa7382"
-              },
-              {
-                  "_id": "6877d4299100769b315c40d4",
-                  "type": "image",
-                  "title": "Image Column",
-                  "deleted": false
-              },
-              {
-                  "_id": "6877d42bc1e09a43430a2fb5",
-                  "type": "multiSelect",
-                  "title": "MultiSelect Column",
-                  "deleted": false,
-                  "width": 0,
-                  "options": [
-                      {
-                          "_id": "6877d42b8c105e8a1f150a5c",
-                          "value": "Option 1",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#ff1414"
-                          },
-                          "width": 122
-                      },
-                      {
-                          "_id": "6877d42b6636d268c54315ab",
-                          "value": "Option 2",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      },
-                      {
-                          "_id": "6877d42b97522efa36ad61db",
-                          "value": "Option 3",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      }
-                  ],
-                  "value": [
-                      "6877d42b8c105e8a1f150a5c"
                   ]
               },
               {
+                  "_id": "6877d4299100769b315c40d4",
+                  "type": "image"
+              },
+              {
+                  "_id": "6877d42bc1e09a43430a2fb5",
+                  "type": "multiSelect"
+              },
+              {
                   "_id": "6877d42ce299bfe7f4a89a98",
-                  "type": "number",
-                  "title": "Number Column",
-                  "deleted": false,
-                  "width": 0
+                  "type": "number"
               },
               {
                   "_id": "6877d42d4d8bdb682a581bc1",
                   "type": "date",
-                  "title": "Date Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1751324400000
+                  "title": "Date Column"
               },
               {
                   "_id": "6877d42f4df3f003c034a762",
                   "type": "block",
-                  "title": "Block Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "Block Column"
+                  "title": "Block Column"
               },
               {
                   "_id": "6877d431d7bb800953cfbea5",
                   "type": "barcode",
-                  "title": "Barcode Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "google.com"
+                  "title": "Barcode Column"
               },
               {
                   "_id": "6877d433344386bb84a76034",
-                  "type": "signature",
-                  "title": "Signature Column",
-                  "width": 0,
-                  "deleted": false,
-                  "maxImageWidth": 122,
-                  "maxImageHeight": 122
+                  "type": "signature"
               },
               {
                   "_id": "6877d43cc4d793d56fa83775",
-                  "type": "date",
-                  "title": "Time Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1752690911030
+                  "type": "date"
               },
               {
                   "_id": "6877d43df032f7f54ab1a2f6",
-                  "type": "date",
-                  "title": "Date Time Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1751474100000
+                  "type": "date"
               }
           ],
           "value": [
               {
                   "_id": "6877d3af0ecfa6831061cd8d",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af5a3797ab88408ee6",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af4bd9d3a4fded9567",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d492899ade4ed3e8c8e2",
-                  "deleted": false,
-                  "cells": {
-                      "6877d3afb4a5446d108f64bd": "text field ",
-                      "6877d3af016745bb7e97652d": "6877d3af1874ee11d7aa7382",
-                      "6877d4299100769b315c40d4": "",
-                      "6877d42bc1e09a43430a2fb5": "",
-                      "6877d42ce299bfe7f4a89a98": "",
-                      "6877d42d4d8bdb682a581bc1": "",
-                      "6877d42f4df3f003c034a762": "",
-                      "6877d431d7bb800953cfbea5": "",
-                      "6877d433344386bb84a76034": "",
-                      "6877d43cc4d793d56fa83775": "",
-                      "6877d43df032f7f54ab1a2f6": ""
-                  }
+                  "deleted": false
               }
           ],
-          "identifier": "field_6877d40b52ac17d61ee0873b",
           "tableColumnOrder": [
               "6877d3afb4a5446d108f64bd",
               "6877d3af016745bb7e97652d",
@@ -1276,24 +869,8 @@
               "6877d3af5a3797ab88408ee6",
               "6877d3af4bd9d3a4fded9567",
               "6877d492899ade4ed3e8c8e2"
-          ],
-          "required": true,
-          "hidden": true,
-          "logic": {
-              "action": "show",
-              "eval": "and",
-              "conditions": [
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3cd6b4efa3213718674",
-                      "condition": "*="
-                  }
-              ]
-          },
-          "tipVisible": true,
-          "tipTitle": "Table text field ",
-          "tipDescription": "tooltip descriptipon"
+          ]
+         
       },
       {
           "file": "68779ec0c656659458e50af5",
@@ -1303,183 +880,83 @@
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
-                  "type": "text",
-                  "title": "Text Column",
-                  "width": 0,
-                  "deleted": false,
-                  "identifier": "field_column_6877d40bad624057f2da20eb",
-                  "value": "text field "
+                  "type": "text"
               },
               {
                   "_id": "6877d3af016745bb7e97652d",
                   "type": "dropdown",
-                  "title": "Dropdown Column",
-                  "deleted": false,
-                  "width": 0,
                   "options": [
                       {
                           "_id": "6877d3af1874ee11d7aa7382",
-                          "value": "Yes",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "Yes"
                       },
                       {
                           "_id": "6877d3afb8664318f1dbb53c",
-                          "value": "No",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "No"
+                         
                       },
                       {
                           "_id": "6877d3afcca8dacc041f98ed",
-                          "value": "N/A",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": null
-                          }
+                          "value": "N/A"
+                          
                       }
-                  ],
-                  "identifier": "field_column_6877d40b88688780e3130f27",
-                  "value": "6877d3af1874ee11d7aa7382"
-              },
-              {
-                  "_id": "6877d4299100769b315c40d4",
-                  "type": "image",
-                  "title": "Image Column",
-                  "deleted": false
-              },
-              {
-                  "_id": "6877d42bc1e09a43430a2fb5",
-                  "type": "multiSelect",
-                  "title": "MultiSelect Column",
-                  "deleted": false,
-                  "width": 0,
-                  "options": [
-                      {
-                          "_id": "6877d42b8c105e8a1f150a5c",
-                          "value": "Option 1",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#ff1414"
-                          },
-                          "width": 122
-                      },
-                      {
-                          "_id": "6877d42b6636d268c54315ab",
-                          "value": "Option 2",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      },
-                      {
-                          "_id": "6877d42b97522efa36ad61db",
-                          "value": "Option 3",
-                          "deleted": false,
-                          "styles": {
-                              "backgroundColor": "#f0f0f0"
-                          }
-                      }
-                  ],
-                  "value": [
-                      "6877d42b8c105e8a1f150a5c"
                   ]
               },
               {
+                  "_id": "6877d4299100769b315c40d4",
+                  "type": "image"
+              },
+              {
+                  "_id": "6877d42bc1e09a43430a2fb5",
+                  "type": "multiSelect"
+              },
+              {
                   "_id": "6877d42ce299bfe7f4a89a98",
-                  "type": "number",
-                  "title": "Number Column",
-                  "deleted": false,
-                  "width": 0
+                  "type": "number"
               },
               {
                   "_id": "6877d42d4d8bdb682a581bc1",
-                  "type": "date",
-                  "title": "Date Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1751324400000
+                  "type": "date"
               },
               {
                   "_id": "6877d42f4df3f003c034a762",
-                  "type": "block",
-                  "title": "Block Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "Block Column"
+                  "type": "block"
               },
               {
                   "_id": "6877d431d7bb800953cfbea5",
-                  "type": "barcode",
-                  "title": "Barcode Column",
-                  "width": 0,
-                  "deleted": false,
-                  "value": "google.com"
+                  "type": "barcode"
               },
               {
                   "_id": "6877d433344386bb84a76034",
-                  "type": "signature",
-                  "title": "Signature Column",
-                  "width": 0,
-                  "deleted": false,
-                  "maxImageWidth": 122,
-                  "maxImageHeight": 122
+                  "type": "signature"
               },
               {
                   "_id": "6877d43cc4d793d56fa83775",
-                  "type": "date",
-                  "title": "Time Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1752690911030
+                  "type": "date"
               },
               {
                   "_id": "6877d43df032f7f54ab1a2f6",
-                  "type": "date",
-                  "title": "Date Time Column",
-                  "deleted": false,
-                  "width": 0,
-                  "value": 1751474100000
+                  "type": "date"
               }
           ],
           "value": [
               {
                   "_id": "6877d3af0ecfa6831061cd8d",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af5a3797ab88408ee6",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d3af4bd9d3a4fded9567",
-                  "deleted": false,
-                  "cells": {}
+                  "deleted": false
               },
               {
                   "_id": "6877d492899ade4ed3e8c8e2",
-                  "deleted": false,
-                  "cells": {
-                      "6877d3afb4a5446d108f64bd": "text field ",
-                      "6877d3af016745bb7e97652d": "6877d3af1874ee11d7aa7382",
-                      "6877d4299100769b315c40d4": "",
-                      "6877d42bc1e09a43430a2fb5": "",
-                      "6877d42ce299bfe7f4a89a98": "",
-                      "6877d42d4d8bdb682a581bc1": "",
-                      "6877d42f4df3f003c034a762": "",
-                      "6877d431d7bb800953cfbea5": "",
-                      "6877d433344386bb84a76034": "",
-                      "6877d43cc4d793d56fa83775": "",
-                      "6877d43df032f7f54ab1a2f6": ""
-                  }
+                  "deleted": false
               }
           ],
-          "identifier": "field_6877d40b52ac17d61ee0873b",
           "tableColumnOrder": [
               "6877d3afb4a5446d108f64bd",
               "6877d3af016745bb7e97652d",
@@ -1498,24 +975,7 @@
               "6877d3af5a3797ab88408ee6",
               "6877d3af4bd9d3a4fded9567",
               "6877d492899ade4ed3e8c8e2"
-          ],
-          "required": true,
-          "hidden": true,
-          "logic": {
-              "action": "show",
-              "eval": "and",
-              "conditions": [
-                  {
-                      "file": "68779ec0c656659458e50af5",
-                      "page": "68779ec0ef32e5de07b769f3",
-                      "field": "6877d3cd6b4efa3213718674",
-                      "condition": "*="
-                  }
-              ]
-          },
-          "tipVisible": true,
-          "tipTitle": "Table text field ",
-          "tipDescription": "tooltip descriptipon"
+          ]
       }
   ],
   "deleted": false
