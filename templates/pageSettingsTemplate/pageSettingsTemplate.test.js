@@ -2,7 +2,7 @@ const Ajv = require('ajv');
 
 const schema = require('../../joyfill-schema.json');
 
-const template = require('./pageSettingsTemplate.json');
+const template = require('./PageSettingsTemplate.json');
 
 const ajv = new Ajv({
   allErrors: true,
