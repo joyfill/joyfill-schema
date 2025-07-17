@@ -1,12 +1,9 @@
 const Ajv = require('ajv');
 
-// Load the schema
 const schema = require('../../joyfill-schema.json');
 
-// Load the template to test
 const template = require('./pageSettingsTemplate.json');
 
-// Initialize Ajv
 const ajv = new Ajv({
   allErrors: true,
   strict: false,
