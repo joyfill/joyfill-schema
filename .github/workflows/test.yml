@@ -28,7 +28,7 @@ jobs:
       run: yarn install --frozen-lockfile
 
     - name: Generate schemas (if needed)
-      run: yarn generateSchemas
+      run: yarn generateSchema
       
     - name: Run tests
       run: yarn test
