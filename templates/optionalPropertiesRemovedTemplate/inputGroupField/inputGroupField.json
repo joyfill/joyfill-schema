@@ -561,14 +561,12 @@
               "6877d3af0ecfa6831061cd8d",
               "6877d3af5a3797ab88408ee6",
               "6877d3af4bd9d3a4fded9567"
-          ],
-          "disabled": true
+          ]
       },
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d409dd42fc24076b6f90",
           "type": "table",
-          "title": "Table field with auto width ",
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
@@ -634,7 +632,6 @@
                   "deleted": false
               }
           ],
-          "identifier": "field_6877d40b52ac17d61ee0873b",
           "tableColumnOrder": [
               "6877d3afb4a5446d108f64bd",
               "6877d3af016745bb7e97652d",
@@ -659,7 +656,6 @@
           "file": "68779ec0c656659458e50af5",
           "_id": "6877d535ee3e9b320839970f",
           "type": "table",
-          "title": "Table field with custom width",
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",
@@ -876,7 +872,6 @@
           "file": "68779ec0c656659458e50af5",
           "_id": "6877dcc8c1b6eb7a8d447f0a",
           "type": "table",
-          "title": "Table field hidden columns",
           "tableColumns": [
               {
                   "_id": "6877d3afb4a5446d108f64bd",

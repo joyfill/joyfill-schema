@@ -534,148 +534,64 @@
                   "tableColumns": [
                       {
                           "_id": "6877b827e05f8269bcf5aa4c",
-                          "type": "text",
-                          "title": "Text Column",
-                          "width": 0,
-                          "deleted": false,
-                          "value": "Level1 table1"
+                          "type": "text"
                       },
                       {
                           "_id": "6877b82847e405183bae4f43",
                           "type": "dropdown",
-                          "title": "Dropdown Column",
-                          "deleted": false,
-                          "width": 0,
                           "options": [
                               {
                                   "_id": "6877b8282933107d766140ce",
-                                  "value": "Yes",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": null
-                                  }
+                                  "value": "Yes"
                               },
                               {
                                   "_id": "6877b828e7ce73b37696cfb2",
-                                  "value": "No",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": null
-                                  }
+                                  "value": "No"
                               },
                               {
                                   "_id": "6877b828d5e21dff6db95abf",
-                                  "value": "N/A",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": null
-                                  }
+                                  "value": "N/A"
                               }
-                          ],
-                          "value": "6877b8282933107d766140ce"
-                      },
-                      {
-                          "_id": "6877b82ad717cd8f668734ac",
-                          "type": "image",
-                          "title": "Image Column",
-                          "deleted": false,
-                          "width": 0,
-                          "maxImageWidth": 122,
-                          "maxImageHeight": 122
-                      },
-                      {
-                          "_id": "6877b82b6720a3e68e6871c0",
-                          "type": "multiSelect",
-                          "title": "MultiSelect Column",
-                          "deleted": false,
-                          "width": 0,
-                          "options": [
-                              {
-                                  "_id": "6877b82b21141b327b9b7109",
-                                  "value": "Option 1",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": "#f0f0f0"
-                                  }
-                              },
-                              {
-                                  "_id": "6877b82b84f8a433f5bbaf9a",
-                                  "value": "Option 2",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": "#f0f0f0"
-                                  }
-                              },
-                              {
-                                  "_id": "6877b82b97a73d16a32b9ca7",
-                                  "value": "Option 3",
-                                  "deleted": false,
-                                  "styles": {
-                                      "backgroundColor": "#f0f0f0"
-                                  }
-                              }
-                          ],
-                          "value": [
-                              "6877b82b21141b327b9b7109"
                           ]
                       },
                       {
+                          "_id": "6877b82ad717cd8f668734ac",
+                          "type": "image"
+                      },
+                      {
+                          "_id": "6877b82b6720a3e68e6871c0",
+                          "type": "multiSelect"
+                      },
+                      {
                           "_id": "6877b82c4f92ce15fd0c657d",
-                          "type": "number",
-                          "title": "Number Column",
-                          "deleted": false,
-                          "width": 0,
-                          "value": 122
+                          "type": "number"
                       },
                       {
                           "_id": "6877b82dfada816ff3070e78",
                           "type": "date",
-                          "title": "Date Column",
-                          "deleted": false,
-                          "width": 0,
-                          "format": "MM/DD/YYYY",
-                          "value": 1751324400000
+                          "format": "MM/DD/YYYY"
                       },
                       {
                           "_id": "6877b82e3e20e4c7de579d02",
                           "type": "date",
-                          "title": "Time  Column",
-                          "deleted": false,
-                          "width": 0,
-                          "format": "hh:mma",
-                          "value": 1752680404643
+                          "format": "hh:mma"
                       },
                       {
                           "_id": "6877b82f0802d75601fe8b4c",
                           "type": "date",
-                          "title": "Date and  Time Column",
-                          "deleted": false,
-                          "width": 0,
-                          "format": "MM/DD/YYYY hh:mma",
-                          "value": 1751467200000
+                          "format": "MM/DD/YYYY hh:mma"
                       },
                       {
                           "_id": "6877b83076e97706eb0a0455",
-                          "type": "block",
-                          "title": "Label Column",
-                          "width": 0,
-                          "deleted": false,
-                          "value": "Block column "
+                          "type": "block"
                       },
                       {
                           "_id": "6877b83227a2bf364bd6bea3",
-                          "type": "barcode",
-                          "title": "Barcode Column",
-                          "width": 0,
-                          "deleted": false,
-                          "value": "google.com"
+                          "type": "barcode"
                       },
                       {
                           "_id": "6877b834509c6e4ea8b79149",
-                          "type": "signature",
-                          "title": "Signature Column",
-                          "width": 0,
-                          "deleted": false
+                          "type": "signature"
                       }
                   ],
                   "logic": {
@@ -961,9 +877,7 @@
       {
           "file": "68779ec0c656659458e50af5",
           "_id": "6877bcb7af23579ccd41799f",
-          "type": "text",
-          "title": "Text",
-          "identifier": "field_6877bcba657cd452f306e568"
+          "type": "text"
       },
       {
           "file": "68779ec0c656659458e50af5",
