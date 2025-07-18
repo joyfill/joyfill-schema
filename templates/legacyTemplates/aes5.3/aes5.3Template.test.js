@@ -1,6 +1,6 @@
 const Ajv = require('ajv');
 const schema = require('../../../joyfill-schema.json');
-const template = require('./AES5.3Template.json');
+const template = require('./aes5.3Template.json');
 
 describe('AES5.3Template.json AJV validation', () => {
 
