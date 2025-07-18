@@ -1,0 +1,1089 @@
+{
+    "_id": "687a7b84fa2dcf263cbc7354",
+    "type": "document",
+    "stage": "published",
+    "source": "template_687a7b70204deb76de20b71a",
+    "metadata": {},
+    "identifier": "doc_687a7b84fa2dcf263cbc7354",
+    "name": "Emergency Exit Light Inspection Report",
+    "createdOn": 1752857477068,
+    "files": [
+        {
+            "_id": "650258f3587bd5684549f5f7",
+            "metadata": {},
+            "name": "New File",
+            "version": 1,
+            "styles": {},
+            "pages": [
+                {
+                    "name": "New Page",
+                    "fieldPositions": [
+                        {
+                            "field": "5cd6f85f20d5f31fe3d89293",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 120,
+                            "x": 3,
+                            "y": 0,
+                            "_id": "650258f3ac6007c04f941517",
+                            "type": "image"
+                        },
+                        {
+                            "field": "5cd6f86d20d5f31fe3d89297",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 120,
+                            "x": 0,
+                            "y": 0,
+                            "_id": "650258f3ac6007c04f941518",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd6f8ad20d5f31fe3d8929c",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 50,
+                            "x": 0,
+                            "y": 1053,
+                            "_id": "650258f3ac6007c04f941519",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd6f8c620d5f31fe3d892ab",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 120,
+                            "_id": "650258f3ac6007c04f94151a",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5cd6f95920d5f31fe3d892bf",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 120,
+                            "_id": "650258f3ac6007c04f94151b",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd6f98220d5f31fe3d892d8",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 50,
+                            "x": 0,
+                            "y": 178,
+                            "_id": "650258f3ac6007c04f94151c",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd6f9c020d5f31fe3d892de",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 228,
+                            "_id": "650258f3ac6007c04f94151d",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd6fb0320d5f31fe3d8948b",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 85,
+                            "x": 0,
+                            "y": 452,
+                            "_id": "650258f3ac6007c04f94151e",
+                            "type": "table"
+                        },
+                        {
+                            "field": "5cd6fb0b20d5f31fe3d89491",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 50,
+                            "x": 0,
+                            "y": 402,
+                            "_id": "650258f3ac6007c04f94151f",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd6fbd720d5f31fe3d894c9",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 0,
+                            "y": 537,
+                            "_id": "650258f3ac6007c04f941520",
+                            "type": "number"
+                        },
+                        {
+                            "field": "5cd6fc4e20d5f31fe3d894e4",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 200,
+                            "x": 0,
+                            "y": 595,
+                            "_id": "650258f3ac6007c04f941521",
+                            "type": "textarea"
+                        },
+                        {
+                            "field": "5cd6fc6020d5f31fe3d894e7",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 795,
+                            "_id": "650258f3ac6007c04f941522",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd6fcd520d5f31fe3d89504",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 2,
+                            "y": 795,
+                            "_id": "650258f3ac6007c04f941523",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5cd6fcdd20d5f31fe3d8953d",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 795,
+                            "_id": "650258f3ac6007c04f941524",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd6fceb20d5f31fe3d89578",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 200,
+                            "x": 0,
+                            "y": 853,
+                            "_id": "650258f3ac6007c04f941525",
+                            "type": "signature"
+                        },
+                        {
+                            "field": "5ce589f0959f0a0460956660",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 0,
+                            "y": 286,
+                            "_id": "650258f3ac6007c04f941526",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5ce589f2959f0a0460956663",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 1,
+                            "y": 286,
+                            "_id": "650258f3ac6007c04f941527",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5ce589f4959f0a0460956666",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 2,
+                            "y": 286,
+                            "_id": "650258f3ac6007c04f941528",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5ce589f6959f0a0460956669",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 286,
+                            "_id": "650258f3ac6007c04f941529",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5ce589f8959f0a046095666c",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 228,
+                            "_id": "650258f3ac6007c04f94152a",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5ce589fb959f0a046095666f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 344,
+                            "_id": "650258f3ac6007c04f94152b",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5d7a88f93fd8dd393cfc92ad",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 344,
+                            "_id": "650258f3ac6007c04f94152c",
+                            "type": "text"
+                        }
+                    ],
+                    "metadata": {},
+                    "hidden": false,
+                    "width": 816,
+                    "height": 1056,
+                    "cols": 4,
+                    "rowHeight": 1,
+                    "layout": "grid",
+                    "presentation": "normal",
+                    "margin": 0,
+                    "padding": 12,
+                    "borderWidth": 0,
+                    "_id": "650258f3d09d3b8e0c0d5097"
+                }
+            ],
+            "pageOrder": [
+                "650258f3d09d3b8e0c0d5097"
+            ],
+            "views": [
+                {
+                    "type": "mobile",
+                    "pageOrder": [
+                        "650258f3d09d3b8e0c0d5097"
+                    ],
+                    "pages": [
+                        {
+                            "name": "Page 1",
+                            "fieldPositions": [
+                                {
+                                    "field": "5cd6f85f20d5f31fe3d89293",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 150,
+                                    "x": 0,
+                                    "y": 0,
+                                    "_id": "650258f3ac6007c04f941517",
+                                    "type": "image"
+                                },
+                                {
+                                    "field": "5cd6f86d20d5f31fe3d89297",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 90,
+                                    "x": 0,
+                                    "y": 150,
+                                    "_id": "650258f3ac6007c04f941518",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd6f8ad20d5f31fe3d8929c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 50,
+                                    "x": 0,
+                                    "y": 1642,
+                                    "_id": "650258f3ac6007c04f941519",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd6f8c620d5f31fe3d892ab",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 240,
+                                    "_id": "650258f3ac6007c04f94151a",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5cd6f95920d5f31fe3d892bf",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 298,
+                                    "_id": "650258f3ac6007c04f94151b",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd6f98220d5f31fe3d892d8",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 50,
+                                    "x": 0,
+                                    "y": 356,
+                                    "_id": "650258f3ac6007c04f94151c",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd6f9c020d5f31fe3d892de",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 406,
+                                    "_id": "650258f3ac6007c04f94151d",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd6fb0320d5f31fe3d8948b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 90,
+                                    "x": 0,
+                                    "y": 920,
+                                    "_id": "650258f3ac6007c04f94151e",
+                                    "type": "table"
+                                },
+                                {
+                                    "field": "5cd6fb0b20d5f31fe3d89491",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 50,
+                                    "x": 0,
+                                    "y": 870,
+                                    "_id": "650258f3ac6007c04f94151f",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd6fbd720d5f31fe3d894c9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1010,
+                                    "_id": "650258f3ac6007c04f941520",
+                                    "type": "number"
+                                },
+                                {
+                                    "field": "5cd6fc4e20d5f31fe3d894e4",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 200,
+                                    "x": 0,
+                                    "y": 1068,
+                                    "_id": "650258f3ac6007c04f941521",
+                                    "type": "textarea"
+                                },
+                                {
+                                    "field": "5cd6fc6020d5f31fe3d894e7",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1268,
+                                    "_id": "650258f3ac6007c04f941522",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd6fcd520d5f31fe3d89504",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1326,
+                                    "_id": "650258f3ac6007c04f941523",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5cd6fcdd20d5f31fe3d8953d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1384,
+                                    "_id": "650258f3ac6007c04f941524",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd6fceb20d5f31fe3d89578",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 200,
+                                    "x": 0,
+                                    "y": 1442,
+                                    "_id": "650258f3ac6007c04f941525",
+                                    "type": "signature"
+                                },
+                                {
+                                    "field": "5ce589f0959f0a0460956660",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 522,
+                                    "_id": "650258f3ac6007c04f941526",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5ce589f2959f0a0460956663",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 580,
+                                    "_id": "650258f3ac6007c04f941527",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5ce589f4959f0a0460956666",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 638,
+                                    "_id": "650258f3ac6007c04f941528",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5ce589f6959f0a0460956669",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 696,
+                                    "_id": "650258f3ac6007c04f941529",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5ce589f8959f0a046095666c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 464,
+                                    "_id": "650258f3ac6007c04f94152a",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5ce589fb959f0a046095666f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 812,
+                                    "_id": "650258f3ac6007c04f94152b",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5d7a88f93fd8dd393cfc92ad",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 754,
+                                    "_id": "650258f3ac6007c04f94152c",
+                                    "type": "text"
+                                }
+                            ],
+                            "metadata": {},
+                            "hidden": false,
+                            "width": 816,
+                            "height": 1056,
+                            "cols": 1,
+                            "rowHeight": 1,
+                            "layout": "grid",
+                            "presentation": "normal",
+                            "margin": 0,
+                            "padding": 12,
+                            "borderWidth": 0,
+                            "_id": "650258f3d09d3b8e0c0d5097"
+                        }
+                    ],
+                    "_id": "650258f3ac6007c04f941546"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "type": "image",
+            "_id": "5cd6f85f20d5f31fe3d89293",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": [
+                {
+                    "_id": "650258f3ac6007c04f941516",
+                    "url": "https://s3.amazonaws.com/docspace.production.documents/5cca363a20d5f31fe3d7d6a2/templates/5ce0411e73fb23172e6c0051/5ce0411e73fb23172e6c0051undefined1594395658275-e50c3719-1594395658275.png"
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "multi": false,
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd6f86d20d5f31fe3d89297",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"5b007\",\"text\":\"EMERGENCY EXIT LIGHT INSPECTION REPORT\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":38,\"style\":\"BOLD\"},{\"offset\":0,\"length\":38,\"style\":\"fontsize-24\"}],\"entityRanges\":[],\"data\":{\"text-align\":\"left\"}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd6f8ad20d5f31fe3d8929c",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"dmrg8\",\"text\":\"Thank you for your business!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":28,\"style\":\"color-rgb(33,37,41)\"},{\"offset\":0,\"length\":28,\"style\":\"bgcolor-rgb(255,255,255)\"},{\"offset\":0,\"length\":28,\"style\":\"fontsize-16\"},{\"offset\":0,\"length\":28,\"style\":\"fontfamily-Roboto, \\\"Open Sans\\\", sans-serif\"},{\"offset\":0,\"length\":28,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{\"text-align\":\"center\"}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "date",
+            "_id": "5cd6f8c620d5f31fe3d892ab",
+            "identifier": "",
+            "title": "Inspection Date:",
+            "description": "",
+            "value": 1751410800000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5cd6f95920d5f31fe3d892bf",
+            "identifier": "",
+            "title": "Lead Technician:",
+            "description": "",
+            "value": "Sai",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd6f98220d5f31fe3d892d8",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"5ju0k\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"6i2h2\",\"text\":\"PROPERTY INFORMATION:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":21,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5cd6f9c020d5f31fe3d892de",
+            "identifier": "",
+            "title": "Building:",
+            "description": "",
+            "value": "Anabelle house ",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b7",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "table",
+            "_id": "5cd6fb0320d5f31fe3d8948b",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": [
+                {
+                    "_id": "687a7bbacafaf25384c6191d",
+                    "deleted": false,
+                    "cells": {
+                        "5cd6fb0320d5f31fe3d89489": "1212",
+                        "5cd6fb0320d5f31fe3d8948a": "first flooe",
+                        "5cd6fb0320d5f31fe3d89485": "5cd6fb0320d5f31fe3d89488",
+                        "5cd6fb4b20d5f31fe3d894ab": "5cd6fb4b20d5f31fe3d894ae",
+                        "5cd6fb5820d5f31fe3d894b0": ""
+                    }
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "rowOrder": [
+                "687a7bbacafaf25384c6191d"
+            ],
+            "tableColumns": [
+                {
+                    "_id": "5cd6fb0320d5f31fe3d89489",
+                    "type": "text",
+                    "title": "No.",
+                    "width": 100,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd6fb0320d5f31fe3d8948a",
+                    "type": "text",
+                    "title": "Location",
+                    "width": 200,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd6fb0320d5f31fe3d89485",
+                    "type": "dropdown",
+                    "title": "Light Type",
+                    "width": 150,
+                    "identifier": "",
+                    "options": [
+                        {
+                            "_id": "5cd6fb0320d5f31fe3d89488",
+                            "value": "Combo",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd6fb0320d5f31fe3d89487",
+                            "value": "Exit Sign",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd6fb0320d5f31fe3d89486",
+                            "value": "Emergency Light",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "_id": "5cd6fb4b20d5f31fe3d894ab",
+                    "type": "dropdown",
+                    "title": "Pass/Fail",
+                    "width": 150,
+                    "identifier": "",
+                    "options": [
+                        {
+                            "_id": "5cd6fb4b20d5f31fe3d894ae",
+                            "value": "Pass",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd6fb4b20d5f31fe3d894ad",
+                            "value": "Fail",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd6fb4b20d5f31fe3d894ac",
+                            "value": "N/A",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "_id": "5cd6fb5820d5f31fe3d894b0",
+                    "type": "text",
+                    "title": "Comments",
+                    "width": 150,
+                    "identifier": ""
+                }
+            ],
+            "tableColumnOrder": [
+                "5cd6fb0320d5f31fe3d89489",
+                "5cd6fb0320d5f31fe3d8948a",
+                "5cd6fb0320d5f31fe3d89485",
+                "5cd6fb4b20d5f31fe3d894ab",
+                "5cd6fb5820d5f31fe3d894b0"
+            ],
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd6fb0b20d5f31fe3d89491",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"93a49\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"rtei\",\"text\":\"EMERGENCY LIGHT/SIGN LIST:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":26,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "number",
+            "_id": "5cd6fbd720d5f31fe3d894c9",
+            "identifier": "",
+            "title": "Total number of Emergency Lights on premises?",
+            "description": "",
+            "value": 22,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "textarea",
+            "_id": "5cd6fc4e20d5f31fe3d894e4",
+            "identifier": "",
+            "title": "Comments:",
+            "description": "",
+            "value": "",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5cd6fc6020d5f31fe3d894e7",
+            "identifier": "",
+            "title": "Lead Technician:",
+            "description": "",
+            "value": "Sai",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "date",
+            "_id": "5cd6fcd520d5f31fe3d89504",
+            "identifier": "",
+            "title": "Date:",
+            "description": "",
+            "value": 1751497200000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5cd6fcdd20d5f31fe3d8953d",
+            "identifier": "",
+            "title": "Time:",
+            "description": "",
+            "value": "22:22",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "signature",
+            "_id": "5cd6fceb20d5f31fe3d89578",
+            "identifier": "",
+            "title": "Signature:",
+            "description": "",
+            "value": "data:image/png;base64,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EAERmBYBCXDapXfiIiACEqAyIAIiMC0CEuC0S+/ERUAEJEBlQAREYFoEJMBpl96Ji4AISIDKgAiIwLQISIDTLr0TFwERkACVAREQgWkRkACnXXonLgIiIAEqAyIgAtMiIAFOu/ROXAREQAJUBkRABKZFQAKcdumduAiIgASoDIiACEyLgAQ47dI7cREQAQlQGRABEZgWAQlw2qV34iIgAhKgMiACIjAtAhLgtEvvxEVABCRAZUAERGBaBCTAaZfeiYuACEiAyoAIiMC0CEiA0y69ExcBEZAAlQEREIFpEZAAp116Jy4CIiABKgMiIALTIiABTrv0TlwEREACVAZEQASmRUACnHbpnbgIiIAEqAyIgAhMi4AEOO3SO3EREAEJUBkQARGYFgEJcNqld+IiIAISoDIgAiIwLQIS4LRL78RFQAQkQGVABERgWgQkwGmX3omLgAhIgMqACIjAtAhIgNMuvRMXARGQAJUBERCBaRGQAKddeicuAiIgASoDIiAC0yIgAU679E5cBERAAlQGREAEpkVAApx26Z24CIiABKgMiIAITIuABDjt0jtxERABCVAZEAERmBYBCXDapXfiIiACEqAyIAIiMC0CEuC0S+/ERUAEJEBlQAREYFoEJMBpl96Ji4AISIDKgAiIwLQISIDTLr0TFwERkACVAREQgWkRkACnXXonLgIiIAEqAyIgAtMiIAFOu/ROXAREQAJUBkRABKZFQAKcdumduAiIgASoDIiACEyLgAQ47dI7cREQAQlQGRABEZgWAQlw2qV34iIgAhKgMiACIjAtAhLgtEvvxEVABCRAZUAERGBaBCTAaZfeiYuACEiAyoAIiMC0CEiA0y69ExcBEZAAlQEREIFpEZAAp116Jy4CIiABKgMiIALTIiABTrv0TlwEREACVAZEQASmReC/AXJwSwx+lLwXAAAAAElFTkSuQmCC",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589f0959f0a0460956660",
+            "identifier": "",
+            "title": "Address:",
+            "description": "",
+            "value": "London Ave",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b3",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589f2959f0a0460956663",
+            "identifier": "",
+            "title": "City:",
+            "description": "",
+            "value": "Glasgow",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b2",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589f4959f0a0460956666",
+            "identifier": "",
+            "title": "State:",
+            "description": "",
+            "value": "GL",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b1",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589f6959f0a0460956669",
+            "identifier": "",
+            "title": "Zip:",
+            "description": "",
+            "value": "21",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b0",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589f8959f0a046095666c",
+            "identifier": "",
+            "title": "Contact:",
+            "description": "",
+            "value": "121826712",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b6",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5ce589fb959f0a046095666f",
+            "identifier": "",
+            "title": "Phone:",
+            "description": "",
+            "value": "75764534232323",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b5",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        },
+        {
+            "type": "text",
+            "_id": "5d7a88f93fd8dd393cfc92ad",
+            "identifier": "",
+            "title": "Email:",
+            "description": "",
+            "value": "Sai@inspectors.io",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b4",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f3587bd5684549f5f7"
+        }
+    ],
+    "deleted": false
+}

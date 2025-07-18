@@ -1,0 +1,4280 @@
+{
+    "_id": "687a753efa8c6f88054a462d",
+    "type": "document",
+    "stage": "published",
+    "source": "template_687a74eb861b05d2a77a1ef9",
+    "metadata": {},
+    "identifier": "doc_687a753efa8c6f88054a462d",
+    "name": "Fire Pump Annual Inspection (NFPA 25 Spanish)",
+    "createdOn": 1752855870876,
+    "files": [
+        {
+            "_id": "650258e9e22df3bdf01c158e",
+            "metadata": {},
+            "name": "New File",
+            "version": 1,
+            "styles": {},
+            "pages": [
+                {
+                    "name": "New Page",
+                    "fieldPositions": [
+                        {
+                            "field": "5e1a16e3fe851b0df3314693",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 122,
+                            "x": 3,
+                            "y": 0,
+                            "_id": "650258e9ac6007c04f8f489c",
+                            "type": "image"
+                        },
+                        {
+                            "field": "5e1a16e5fe851b0df331469d",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 121,
+                            "x": 0,
+                            "y": 0,
+                            "_id": "650258e9ac6007c04f8f489d",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a1bbafe851b0df331bf56",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 58,
+                            "x": 0,
+                            "y": 121,
+                            "_id": "650258e9ac6007c04f8f489e",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1bbffe851b0df331bf6c",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 58,
+                            "x": 0,
+                            "y": 179,
+                            "_id": "650258e9ac6007c04f8f489f",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1bc1fe851b0df331bf88",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 0,
+                            "y": 237,
+                            "_id": "650258e9ac6007c04f8f48a0",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1bc3fe851b0df331bfaa",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 1,
+                            "y": 237,
+                            "_id": "650258e9ac6007c04f8f48a1",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1bc5fe851b0df331bfd2",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 2,
+                            "y": 237,
+                            "_id": "650258e9ac6007c04f8f48a2",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1c59fe851b0df331c274",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 122,
+                            "_id": "650258e9ac6007c04f8f48a3",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a1c78fe851b0df331c40b",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 180,
+                            "_id": "650258e9ac6007c04f8f48a4",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5e1a1d82fe851b0df331c517",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 75,
+                            "x": 0,
+                            "y": 296,
+                            "_id": "650258e9ac6007c04f8f48a5",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a1dd0fe851b0df331c61a",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 371,
+                            "_id": "650258e9ac6007c04f8f48a6",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1de0fe851b0df331c6f6",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 371,
+                            "_id": "650258e9ac6007c04f8f48a7",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1dedfe851b0df331c850",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 429,
+                            "_id": "650258e9ac6007c04f8f48a8",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1e02fe851b0df331c968",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 429,
+                            "_id": "650258e9ac6007c04f8f48a9",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1e10fe851b0df331cb16",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 487,
+                            "_id": "650258e9ac6007c04f8f48aa",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1e8afe851b0df331d003",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 35,
+                            "x": 0,
+                            "y": 661,
+                            "_id": "650258e9ac6007c04f8f48ab",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a1e9bfe851b0df331d0d9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 487,
+                            "_id": "650258e9ac6007c04f8f48ac",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1eadfe851b0df331d386",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 545,
+                            "_id": "650258e9ac6007c04f8f48ad",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1ecdfe851b0df331d70b",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 545,
+                            "_id": "650258e9ac6007c04f8f48ae",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1ee8fe851b0df331d976",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 603,
+                            "_id": "650258e9ac6007c04f8f48af",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f09fe851b0df331dd7f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 696,
+                            "_id": "650258e9ac6007c04f8f48b0",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f32fe851b0df331e03e",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 68,
+                            "x": 2,
+                            "y": 696,
+                            "_id": "650258e9ac6007c04f8f48b1",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f48fe851b0df331e3f9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 805,
+                            "_id": "650258e9ac6007c04f8f48b2",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f58fe851b0df331e7ea",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 805,
+                            "_id": "650258e9ac6007c04f8f48b3",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f75fe851b0df331ec0e",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 41,
+                            "x": 0,
+                            "y": 764,
+                            "_id": "650258e9ac6007c04f8f48b4",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a1f86fe851b0df331ed7d",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 863,
+                            "_id": "650258e9ac6007c04f8f48b5",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1f9dfe851b0df331f0f9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 863,
+                            "_id": "650258e9ac6007c04f8f48b6",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1fb6fe851b0df331f6af",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 921,
+                            "_id": "650258e9ac6007c04f8f48b7",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a1fd5fe851b0df331fa7f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 2,
+                            "y": 921,
+                            "_id": "650258e9ac6007c04f8f48b8",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a200dfe851b0df331ff99",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 0,
+                            "y": 979,
+                            "_id": "650258e9ac6007c04f8f48b9",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2052fe851b0df332065b",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 2,
+                            "y": 995,
+                            "_id": "650258e9ac6007c04f8f48ba",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2064fe851b0df33219fd",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1053,
+                            "_id": "650258e9ac6007c04f8f48bb",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2095fe851b0df3321e72",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 48,
+                            "x": 0,
+                            "y": 1169,
+                            "_id": "650258e9ac6007c04f8f48bc",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a20a3fe851b0df3322068",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1069,
+                            "_id": "650258e9ac6007c04f8f48bd",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a20affe851b0df33223c9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1111,
+                            "_id": "650258e9ac6007c04f8f48be",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a20bcfe851b0df33228aa",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1217,
+                            "_id": "650258e9ac6007c04f8f48bf",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a20dafe851b0df33232f6",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1313,
+                            "_id": "650258e9ac6007c04f8f48c0",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2118fe851b0df3324179",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1313,
+                            "_id": "650258e9ac6007c04f8f48c1",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2130fe851b0df3324702",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1371,
+                            "_id": "650258e9ac6007c04f8f48c2",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2194fe851b0df3324b17",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 2,
+                            "y": 1371,
+                            "_id": "650258e9ac6007c04f8f48c3",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a21a3fe851b0df33250f4",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1429,
+                            "_id": "650258e9ac6007c04f8f48c4",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a21bcfe851b0df3325545",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 66,
+                            "x": 2,
+                            "y": 1445,
+                            "_id": "650258e9ac6007c04f8f48c5",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a21c9fe851b0df3325b76",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1487,
+                            "_id": "650258e9ac6007c04f8f48c6",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a21eefe851b0df3326688",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1588,
+                            "_id": "650258e9ac6007c04f8f48c7",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2204fe851b0df3326b51",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1588,
+                            "_id": "650258e9ac6007c04f8f48c8",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2215fe851b0df332722a",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1688,
+                            "_id": "650258e9ac6007c04f8f48c9",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2224fe851b0df332772f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1688,
+                            "_id": "650258e9ac6007c04f8f48ca",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2233fe851b0df3327e5c",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1746,
+                            "_id": "650258e9ac6007c04f8f48cb",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2245fe851b0df332839d",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1746,
+                            "_id": "650258e9ac6007c04f8f48cc",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2253fe851b0df3328b1e",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1804,
+                            "_id": "650258e9ac6007c04f8f48cd",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2266fe851b0df332909b",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1902,
+                            "_id": "650258e9ac6007c04f8f48ce",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2272fe851b0df332986d",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 38,
+                            "x": 0,
+                            "y": 1275,
+                            "_id": "650258e9ac6007c04f8f48cf",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a227efe851b0df3329bd4",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1902,
+                            "_id": "650258e9ac6007c04f8f48d0",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a2288fe851b0df3329f4d",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 43,
+                            "x": 0,
+                            "y": 1545,
+                            "_id": "650258e9ac6007c04f8f48d1",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e1a22cbfe851b0df332aaa1",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 1960,
+                            "_id": "650258e9ac6007c04f8f48d2",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a22ddfe851b0df332c52a",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 0,
+                            "y": 2058,
+                            "_id": "650258e9ac6007c04f8f48d3",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e1a230bfe851b0df332fc5f",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 56,
+                            "x": 0,
+                            "y": 2920,
+                            "_id": "650258e9ac6007c04f8f48d4",
+                            "type": "textarea"
+                        },
+                        {
+                            "field": "5e1a2396fe851b0df3334b81",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 189,
+                            "x": 0,
+                            "y": 2976,
+                            "_id": "650258e9ac6007c04f8f48d5",
+                            "type": "signature"
+                        },
+                        {
+                            "field": "5e1a23b3fe851b0df3336224",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 2976,
+                            "_id": "650258e9ac6007c04f8f48d6",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5e1a2410fe851b0df3338b4f",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 1,
+                            "y": 3165,
+                            "_id": "650258e9ac6007c04f8f48d7",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a2428fe851b0df333942f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 3034,
+                            "_id": "650258e9ac6007c04f8f48d8",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a2449fe851b0df333a23c",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 0,
+                            "y": 3165,
+                            "_id": "650258e9ac6007c04f8f48d9",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5e1a2dfdfe851b0df33bc330",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 105,
+                            "x": 0,
+                            "y": 3223,
+                            "_id": "650258e9ac6007c04f8f48da",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e233328f927f00e4aea2769",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 42,
+                            "x": 0,
+                            "y": 1646,
+                            "_id": "650258e9ac6007c04f8f48db",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e2333b2f927f00e4aea36d9",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 40,
+                            "x": 0,
+                            "y": 1862,
+                            "_id": "650258e9ac6007c04f8f48dc",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e233416f927f00e4aea4e35",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 40,
+                            "x": 0,
+                            "y": 2018,
+                            "_id": "650258e9ac6007c04f8f48dd",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e2334baf927f00e4aea6f13",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 90,
+                            "x": 0,
+                            "y": 2132,
+                            "_id": "650258e9ac6007c04f8f48de",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e2334d5f927f00e4aea8327",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 1960,
+                            "_id": "650258e9ac6007c04f8f48df",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e2334fbf927f00e4aea9fba",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 41,
+                            "x": 0,
+                            "y": 2222,
+                            "_id": "650258e9ac6007c04f8f48e0",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5e233517f927f00e4aeaaab9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 2263,
+                            "_id": "650258e9ac6007c04f8f48e1",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e233534f927f00e4aeab750",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 2263,
+                            "_id": "650258e9ac6007c04f8f48e2",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e233552f927f00e4aeac588",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 0,
+                            "y": 2321,
+                            "_id": "650258e9ac6007c04f8f48e3",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e233571f927f00e4aead56d",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 2,
+                            "y": 2116,
+                            "_id": "650258e9ac6007c04f8f48e4",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e233593f927f00e4aeae594",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 0,
+                            "y": 2395,
+                            "_id": "650258e9ac6007c04f8f48e5",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e2335b1f927f00e4aeaf8f9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 2321,
+                            "_id": "650258e9ac6007c04f8f48e6",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e2335ccf927f00e4aeb0b27",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 2469,
+                            "_id": "650258e9ac6007c04f8f48e7",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5e236075f927f00e4aeb4103",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 2058,
+                            "_id": "650258e9ac6007c04f8f48e8",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5ed97e7ab0e1670e00c50c74",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 238,
+                            "_id": "650258e9ac6007c04f8f48e9",
+                            "type": "text"
+                        },
+                        {
+                            "field": "61a9060f4b8ee50e80769923",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 393,
+                            "x": 0,
+                            "y": 2527,
+                            "_id": "650258e9ac6007c04f8f48ea",
+                            "type": "chart"
+                        }
+                    ],
+                    "metadata": {},
+                    "hidden": false,
+                    "width": 816,
+                    "height": 1056,
+                    "cols": 4,
+                    "rowHeight": 1,
+                    "layout": "grid",
+                    "presentation": "normal",
+                    "margin": 0,
+                    "padding": 12,
+                    "borderWidth": 0,
+                    "_id": "650258e963feeb442624b5ce"
+                }
+            ],
+            "pageOrder": [
+                "650258e963feeb442624b5ce"
+            ],
+            "views": [
+                {
+                    "type": "mobile",
+                    "pageOrder": [
+                        "650258e963feeb442624b5ce"
+                    ],
+                    "pages": [
+                        {
+                            "name": "Page 1",
+                            "fieldPositions": [
+                                {
+                                    "field": "5e1a16e3fe851b0df3314693",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 156,
+                                    "x": 0,
+                                    "y": 0,
+                                    "_id": "650258e9ac6007c04f8f489c",
+                                    "type": "image"
+                                },
+                                {
+                                    "field": "5e1a16e5fe851b0df331469d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 136,
+                                    "x": 0,
+                                    "y": 156,
+                                    "_id": "650258e9ac6007c04f8f489d",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a1bbafe851b0df331bf56",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 292,
+                                    "_id": "650258e9ac6007c04f8f489e",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1bbffe851b0df331bf6c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 350,
+                                    "_id": "650258e9ac6007c04f8f489f",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1bc1fe851b0df331bf88",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 408,
+                                    "_id": "650258e9ac6007c04f8f48a0",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1bc3fe851b0df331bfaa",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 466,
+                                    "_id": "650258e9ac6007c04f8f48a1",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1bc5fe851b0df331bfd2",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 524,
+                                    "_id": "650258e9ac6007c04f8f48a2",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1c59fe851b0df331c274",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 640,
+                                    "_id": "650258e9ac6007c04f8f48a3",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a1c78fe851b0df331c40b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 698,
+                                    "_id": "650258e9ac6007c04f8f48a4",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5e1a1d82fe851b0df331c517",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 78,
+                                    "x": 0,
+                                    "y": 756,
+                                    "_id": "650258e9ac6007c04f8f48a5",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a1dd0fe851b0df331c61a",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 834,
+                                    "_id": "650258e9ac6007c04f8f48a6",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1de0fe851b0df331c6f6",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 892,
+                                    "_id": "650258e9ac6007c04f8f48a7",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1dedfe851b0df331c850",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 950,
+                                    "_id": "650258e9ac6007c04f8f48a8",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1e02fe851b0df331c968",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1008,
+                                    "_id": "650258e9ac6007c04f8f48a9",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1e10fe851b0df331cb16",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1066,
+                                    "_id": "650258e9ac6007c04f8f48aa",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1e8afe851b0df331d003",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 41,
+                                    "x": 0,
+                                    "y": 1356,
+                                    "_id": "650258e9ac6007c04f8f48ab",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a1e9bfe851b0df331d0d9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1124,
+                                    "_id": "650258e9ac6007c04f8f48ac",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1eadfe851b0df331d386",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1182,
+                                    "_id": "650258e9ac6007c04f8f48ad",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1ecdfe851b0df331d70b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1240,
+                                    "_id": "650258e9ac6007c04f8f48ae",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1ee8fe851b0df331d976",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1298,
+                                    "_id": "650258e9ac6007c04f8f48af",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f09fe851b0df331dd7f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1397,
+                                    "_id": "650258e9ac6007c04f8f48b0",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f32fe851b0df331e03e",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 1455,
+                                    "_id": "650258e9ac6007c04f8f48b1",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f48fe851b0df331e3f9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1566,
+                                    "_id": "650258e9ac6007c04f8f48b2",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f58fe851b0df331e7ea",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1624,
+                                    "_id": "650258e9ac6007c04f8f48b3",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f75fe851b0df331ec0e",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 37,
+                                    "x": 0,
+                                    "y": 1529,
+                                    "_id": "650258e9ac6007c04f8f48b4",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a1f86fe851b0df331ed7d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1682,
+                                    "_id": "650258e9ac6007c04f8f48b5",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1f9dfe851b0df331f0f9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1740,
+                                    "_id": "650258e9ac6007c04f8f48b6",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1fb6fe851b0df331f6af",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1798,
+                                    "_id": "650258e9ac6007c04f8f48b7",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a1fd5fe851b0df331fa7f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 1856,
+                                    "_id": "650258e9ac6007c04f8f48b8",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a200dfe851b0df331ff99",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 1930,
+                                    "_id": "650258e9ac6007c04f8f48b9",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2052fe851b0df332065b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 2004,
+                                    "_id": "650258e9ac6007c04f8f48ba",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2064fe851b0df33219fd",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2078,
+                                    "_id": "650258e9ac6007c04f8f48bb",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2095fe851b0df3321e72",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 51,
+                                    "x": 0,
+                                    "y": 2252,
+                                    "_id": "650258e9ac6007c04f8f48bc",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a20a3fe851b0df3322068",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2136,
+                                    "_id": "650258e9ac6007c04f8f48bd",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a20affe851b0df33223c9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2194,
+                                    "_id": "650258e9ac6007c04f8f48be",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a20bcfe851b0df33228aa",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2303,
+                                    "_id": "650258e9ac6007c04f8f48bf",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a20dafe851b0df33232f6",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2403,
+                                    "_id": "650258e9ac6007c04f8f48c0",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2118fe851b0df3324179",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2461,
+                                    "_id": "650258e9ac6007c04f8f48c1",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2130fe851b0df3324702",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2519,
+                                    "_id": "650258e9ac6007c04f8f48c2",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2194fe851b0df3324b17",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 2577,
+                                    "_id": "650258e9ac6007c04f8f48c3",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a21a3fe851b0df33250f4",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2651,
+                                    "_id": "650258e9ac6007c04f8f48c4",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a21bcfe851b0df3325545",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2709,
+                                    "_id": "650258e9ac6007c04f8f48c5",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a21c9fe851b0df3325b76",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2767,
+                                    "_id": "650258e9ac6007c04f8f48c6",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a21eefe851b0df3326688",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2869,
+                                    "_id": "650258e9ac6007c04f8f48c7",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2204fe851b0df3326b51",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 2927,
+                                    "_id": "650258e9ac6007c04f8f48c8",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2215fe851b0df332722a",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3026,
+                                    "_id": "650258e9ac6007c04f8f48c9",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2224fe851b0df332772f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3084,
+                                    "_id": "650258e9ac6007c04f8f48ca",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2233fe851b0df3327e5c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3142,
+                                    "_id": "650258e9ac6007c04f8f48cb",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2245fe851b0df332839d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3200,
+                                    "_id": "650258e9ac6007c04f8f48cc",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2253fe851b0df3328b1e",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3258,
+                                    "_id": "650258e9ac6007c04f8f48cd",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2266fe851b0df332909b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3362,
+                                    "_id": "650258e9ac6007c04f8f48ce",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2272fe851b0df332986d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 42,
+                                    "x": 0,
+                                    "y": 2361,
+                                    "_id": "650258e9ac6007c04f8f48cf",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a227efe851b0df3329bd4",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3420,
+                                    "_id": "650258e9ac6007c04f8f48d0",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a2288fe851b0df3329f4d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 44,
+                                    "x": 0,
+                                    "y": 2825,
+                                    "_id": "650258e9ac6007c04f8f48d1",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e1a22cbfe851b0df332aaa1",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3478,
+                                    "_id": "650258e9ac6007c04f8f48d2",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a22ddfe851b0df332c52a",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 3583,
+                                    "_id": "650258e9ac6007c04f8f48d3",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e1a230bfe851b0df332fc5f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 63,
+                                    "x": 0,
+                                    "y": 4564,
+                                    "_id": "650258e9ac6007c04f8f48d4",
+                                    "type": "textarea"
+                                },
+                                {
+                                    "field": "5e1a2396fe851b0df3334b81",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 194,
+                                    "x": 0,
+                                    "y": 4627,
+                                    "_id": "650258e9ac6007c04f8f48d5",
+                                    "type": "signature"
+                                },
+                                {
+                                    "field": "5e1a23b3fe851b0df3336224",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4821,
+                                    "_id": "650258e9ac6007c04f8f48d6",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5e1a2410fe851b0df3338b4f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4937,
+                                    "_id": "650258e9ac6007c04f8f48d7",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a2428fe851b0df333942f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4995,
+                                    "_id": "650258e9ac6007c04f8f48d8",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a2449fe851b0df333a23c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4879,
+                                    "_id": "650258e9ac6007c04f8f48d9",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5e1a2dfdfe851b0df33bc330",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 150,
+                                    "x": 0,
+                                    "y": 5053,
+                                    "_id": "650258e9ac6007c04f8f48da",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e233328f927f00e4aea2769",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 41,
+                                    "x": 0,
+                                    "y": 2985,
+                                    "_id": "650258e9ac6007c04f8f48db",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e2333b2f927f00e4aea36d9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 46,
+                                    "x": 0,
+                                    "y": 3316,
+                                    "_id": "650258e9ac6007c04f8f48dc",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e233416f927f00e4aea4e35",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 47,
+                                    "x": 0,
+                                    "y": 3536,
+                                    "_id": "650258e9ac6007c04f8f48dd",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e2334baf927f00e4aea6f13",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 90,
+                                    "x": 0,
+                                    "y": 3715,
+                                    "_id": "650258e9ac6007c04f8f48de",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e2334d5f927f00e4aea8327",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3805,
+                                    "_id": "650258e9ac6007c04f8f48df",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e2334fbf927f00e4aea9fba",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 43,
+                                    "x": 0,
+                                    "y": 3863,
+                                    "_id": "650258e9ac6007c04f8f48e0",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5e233517f927f00e4aeaaab9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3906,
+                                    "_id": "650258e9ac6007c04f8f48e1",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e233534f927f00e4aeab750",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3964,
+                                    "_id": "650258e9ac6007c04f8f48e2",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e233552f927f00e4aeac588",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 4022,
+                                    "_id": "650258e9ac6007c04f8f48e3",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e233571f927f00e4aead56d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 4096,
+                                    "_id": "650258e9ac6007c04f8f48e4",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e233593f927f00e4aeae594",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 4170,
+                                    "_id": "650258e9ac6007c04f8f48e5",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e2335b1f927f00e4aeaf8f9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4244,
+                                    "_id": "650258e9ac6007c04f8f48e6",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e2335ccf927f00e4aeb0b27",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 4302,
+                                    "_id": "650258e9ac6007c04f8f48e7",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5e236075f927f00e4aeb4103",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 3657,
+                                    "_id": "650258e9ac6007c04f8f48e8",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5ed97e7ab0e1670e00c50c74",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 582,
+                                    "_id": "650258e9ac6007c04f8f48e9",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "61a9060f4b8ee50e80769923",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 204,
+                                    "x": 0,
+                                    "y": 4360,
+                                    "_id": "650258e9ac6007c04f8f48ea",
+                                    "type": "chart"
+                                }
+                            ],
+                            "metadata": {},
+                            "hidden": false,
+                            "width": 816,
+                            "height": 1056,
+                            "cols": 1,
+                            "rowHeight": 1,
+                            "layout": "grid",
+                            "presentation": "normal",
+                            "margin": 0,
+                            "padding": 12,
+                            "borderWidth": 0,
+                            "_id": "650258e963feeb442624b5ce"
+                        }
+                    ],
+                    "_id": "650258e9ac6007c04f8f493d"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "type": "image",
+            "_id": "5e1a16e3fe851b0df3314693",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": [
+                {
+                    "_id": "650258e9ac6007c04f8f489b",
+                    "url": "https://s3.amazonaws.com/docspace.production.documents/5cca363a20d5f31fe3d7d6a2/templates/63d6e484fcd9c19557766a3a/63c43ac052ae630f0ee77315undefined1674926557901-05e23e0b-1674926557902.png"
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "multi": false,
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a16e5fe851b0df331469d",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"5ju6c\",\"text\":\"INSPECCIÓN, PRUEBA Y MANTENIMIENTO ANUAL DE LA BOMBA CONTRA INCENDIOS Edición 2020\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":69,\"style\":\"BOLD\"},{\"offset\":70,\"length\":12,\"style\":\"BOLD\"},{\"offset\":0,\"length\":69,\"style\":\"fontsize-24\"},{\"offset\":70,\"length\":12,\"style\":\"fontsize-18\"},{\"offset\":70,\"length\":12,\"style\":\"color-rgb(163,143,132)\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1bbafe851b0df331bf56",
+            "identifier": "",
+            "title": "Nombre de la propiedad:",
+            "description": "",
+            "value": "Suncrest tower",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b7",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1bbffe851b0df331bf6c",
+            "identifier": "",
+            "title": "Dirección de Propiedad:",
+            "description": "",
+            "value": "1430 S Grandview Blvd Phoenix, AZ 85004",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b3",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1bc1fe851b0df331bf88",
+            "identifier": "",
+            "title": "Ciudad:",
+            "description": "",
+            "value": "Test",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b2",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1bc3fe851b0df331bfaa",
+            "identifier": "",
+            "title": "Estado:",
+            "description": "",
+            "value": "test",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b1",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1bc5fe851b0df331bfd2",
+            "identifier": "",
+            "title": "Código postal:",
+            "description": "",
+            "value": "1212",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b0",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a1c59fe851b0df331c274",
+            "identifier": "",
+            "title": "Inspector/a:",
+            "description": "",
+            "value": "Sai",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "date",
+            "_id": "5e1a1c78fe851b0df331c40b",
+            "identifier": "",
+            "title": "Fecha:",
+            "description": "",
+            "value": 1751410800000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a1d82fe851b0df331c517",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"5hsmn\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"b15e0\",\"text\":\"Frecuencia: Anual\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":17,\"style\":\"BOLD\"},{\"offset\":0,\"length\":17,\"style\":\"fontsize-18\"},{\"offset\":0,\"length\":17,\"style\":\"color-rgb(163,143,132)\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"hv1k\",\"text\":\"Bomba contra incendios eléctrica\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":32,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"ct9v2\",\"text\":\"Sistema de bomba:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":17,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1dd0fe851b0df331c61a",
+            "identifier": "",
+            "title": "Lubricar rodamientos",
+            "description": "",
+            "value": "5e1a1dd0fe851b0df331c618",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1dd0fe851b0df331c618",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1dd0fe851b0df331c617",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1dd0fe851b0df331c618",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1dd0fe851b0df331c619",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1de0fe851b0df331c6f6",
+            "identifier": "",
+            "title": "Interruptor de transferencia de energía",
+            "description": "",
+            "value": "5e1a1de0fe851b0df331c6f3",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1de0fe851b0df331c6f4",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1de0fe851b0df331c6f3",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1de0fe851b0df331c6f4",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1de0fe851b0df331c6f5",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1dedfe851b0df331c850",
+            "identifier": "",
+            "title": "Comprobar la alineación paralela y angular",
+            "description": "",
+            "value": "5e1a1dedfe851b0df331c84d",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1dedfe851b0df331c84e",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1dedfe851b0df331c84d",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1dedfe851b0df331c84e",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1dedfe851b0df331c84f",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1e02fe851b0df331c968",
+            "identifier": "",
+            "title": "Válvula de alivio principal",
+            "description": "",
+            "value": "5e1a1e02fe851b0df331c966",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1e02fe851b0df331c966",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1e02fe851b0df331c965",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e02fe851b0df331c966",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e02fe851b0df331c967",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1e10fe851b0df331cb16",
+            "identifier": "",
+            "title": "Verifique las mangueras flexibles y las conexiones",
+            "description": "",
+            "value": "5e1a1e10fe851b0df331cb13",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1e10fe851b0df331cb14",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1e10fe851b0df331cb13",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e10fe851b0df331cb14",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e10fe851b0df331cb15",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a1e8afe851b0df331d003",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"2f1qp\",\"text\":\"Transmisión Mecánica:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":21,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1e9bfe851b0df331d0d9",
+            "identifier": "",
+            "title": "Revise las piezas de plomería: paneles internos y externos",
+            "description": "",
+            "value": "5e1a1e9bfe851b0df331d0d6",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1e9bfe851b0df331d0d7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1e9bfe851b0df331d0d6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e9bfe851b0df331d0d7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1e9bfe851b0df331d0d8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1eadfe851b0df331d386",
+            "identifier": "",
+            "title": "Revise el juego longitudinal del eje de la bomba",
+            "description": "",
+            "value": "5e1a1eadfe851b0df331d383",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1eadfe851b0df331d384",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1eadfe851b0df331d383",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1eadfe851b0df331d384",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1eadfe851b0df331d385",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1ecdfe851b0df331d70b",
+            "identifier": "",
+            "title": "Comprobar la precisión de los manómetros y sensores",
+            "description": "",
+            "value": "5e1a1ecdfe851b0df331d708",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1ecdfe851b0df331d709",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1ecdfe851b0df331d708",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1ecdfe851b0df331d709",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1ecdfe851b0df331d70a",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1ee8fe851b0df331d976",
+            "identifier": "",
+            "title": "Alineación del acoplamiento de la bomba",
+            "description": "",
+            "value": "5e1a1ee8fe851b0df331d973",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1ee8fe851b0df331d974",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1ee8fe851b0df331d973",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1ee8fe851b0df331d974",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1ee8fe851b0df331d975",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f09fe851b0df331dd7f",
+            "identifier": "",
+            "title": "Lubrique el acoplamiento (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a1f09fe851b0df331dd7c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f09fe851b0df331dd7d",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f09fe851b0df331dd7c",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f09fe851b0df331dd7d",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f09fe851b0df331dd7e",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f32fe851b0df331e03e",
+            "identifier": "",
+            "title": "Lubrique la transmisión por engranajes de ángulo recto (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a1f32fe851b0df331e03b",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f32fe851b0df331e03c",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f32fe851b0df331e03b",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f32fe851b0df331e03c",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f32fe851b0df331e03d",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f48fe851b0df331e3f9",
+            "identifier": "",
+            "title": "Corrosión en placas de circuito impreso",
+            "description": "",
+            "value": "5e1a1f48fe851b0df331e3f6",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f48fe851b0df331e3f7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f48fe851b0df331e3f6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f48fe851b0df331e3f7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f48fe851b0df331e3f8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f58fe851b0df331e7ea",
+            "identifier": "",
+            "title": "Aislamiento de cable/alambre agrietado (quebrado)",
+            "description": "",
+            "value": "5e1a1f58fe851b0df331e7e7",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f58fe851b0df331e7e8",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f58fe851b0df331e7e7",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f58fe851b0df331e7e8",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f58fe851b0df331e7e9",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a1f75fe851b0df331ec0e",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"8vkg9\",\"text\":\"Sistemas eléctricos:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":20,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f86fe851b0df331ed7d",
+            "identifier": "",
+            "title": "Módulo de control electrónico (MCE)",
+            "description": "",
+            "value": "5e1a1f86fe851b0df331ed7a",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f86fe851b0df331ed7b",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f86fe851b0df331ed7a",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f86fe851b0df331ed7b",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f86fe851b0df331ed7c",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1f9dfe851b0df331f0f9",
+            "identifier": "",
+            "title": "ánodo galvánico (ánodo de sacrificio)",
+            "description": "",
+            "value": "5e1a1f9dfe851b0df331f0f6",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1f9dfe851b0df331f0f7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1f9dfe851b0df331f0f6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f9dfe851b0df331f0f7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1f9dfe851b0df331f0f8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1fb6fe851b0df331f6af",
+            "identifier": "",
+            "title": "cortacircuitos de disparos (Alternative ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a1fb6fe851b0df331f6ac",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1fb6fe851b0df331f6ad",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1fb6fe851b0df331f6ac",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1fb6fe851b0df331f6ad",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1fb6fe851b0df331f6ae",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a1fd5fe851b0df331fa7f",
+            "identifier": "",
+            "title": "Operar los medios de arranque manual de emergencia (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a1fd5fe851b0df331fa7c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a1fd5fe851b0df331fa7d",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a1fd5fe851b0df331fa7c",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1fd5fe851b0df331fa7d",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a1fd5fe851b0df331fa7e",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a200dfe851b0df331ff99",
+            "identifier": "",
+            "title": "Lubrique las piezas móviles mecánicas (excepto arrancadores y relés) (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a200dfe851b0df331ff96",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a200dfe851b0df331ff97",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a200dfe851b0df331ff96",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a200dfe851b0df331ff97",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a200dfe851b0df331ff98",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2052fe851b0df332065b",
+            "identifier": "",
+            "title": "Calibre los ajustes del interruptor de presión (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a2052fe851b0df3320659",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2052fe851b0df3320659",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2052fe851b0df3320658",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2052fe851b0df3320659",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2052fe851b0df332065a",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2064fe851b0df33219fd",
+            "identifier": "",
+            "title": " Lubrique los cojinetes del motor (Alternativa ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a2064fe851b0df33219fc",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2064fe851b0df33219fb",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2064fe851b0df33219fa",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2064fe851b0df33219fb",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2064fe851b0df33219fc",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a2095fe851b0df3321e72",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"655h3\",\"text\":\"Sistemas de motores diésel\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":26,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"8ombh\",\"text\":\"Sistema de bomba:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":17,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a20a3fe851b0df3322068",
+            "identifier": "",
+            "title": "Fugas en partes de plomería (Alternativa ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a20a3fe851b0df3322067",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a20a3fe851b0df3322066",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a20a3fe851b0df3322065",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20a3fe851b0df3322066",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20a3fe851b0df3322067",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a20affe851b0df33223c9",
+            "identifier": "",
+            "title": "Señales de agua en partes eléctricas (Alternative ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a20affe851b0df33223c6",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a20affe851b0df33223c7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a20affe851b0df33223c6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20affe851b0df33223c7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20affe851b0df33223c8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a20bcfe851b0df33228aa",
+            "identifier": "",
+            "title": "Válvula de alivio principal",
+            "description": "",
+            "value": "5e1a20bcfe851b0df33228a7",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a20bcfe851b0df33228a8",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a20bcfe851b0df33228a7",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20bcfe851b0df33228a8",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20bcfe851b0df33228a9",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a20dafe851b0df33232f6",
+            "identifier": "",
+            "title": "Combustible diesel",
+            "description": "",
+            "value": "5e1a20dafe851b0df33232f3",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a20dafe851b0df33232f4",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a20dafe851b0df33232f3",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20dafe851b0df33232f4",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a20dafe851b0df33232f5",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2118fe851b0df3324179",
+            "identifier": "",
+            "title": "Señales de alarma de la bomba de combustible",
+            "description": "",
+            "value": "5e1a2118fe851b0df3324176",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2118fe851b0df3324177",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2118fe851b0df3324176",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2118fe851b0df3324177",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2118fe851b0df3324178",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2130fe851b0df3324702",
+            "identifier": "",
+            "title": "Sistema de mantenimiento de combustible activo",
+            "description": "",
+            "value": "5e1a2130fe851b0df33246ff",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2130fe851b0df3324700",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2130fe851b0df33246ff",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2130fe851b0df3324700",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2130fe851b0df3324701",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2194fe851b0df3324b17",
+            "identifier": "",
+            "title": "Cambie el filtro de combustible cada 50 horas de funcionamiento o anualmente",
+            "description": "",
+            "value": "5e1a2194fe851b0df3324b14",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2194fe851b0df3324b15",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2194fe851b0df3324b14",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2194fe851b0df3324b15",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2194fe851b0df3324b16",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a21a3fe851b0df33250f4",
+            "identifier": "",
+            "title": "Agua/material extraño en el tanque (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a21a3fe851b0df33250f1",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a21a3fe851b0df33250f2",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a21a3fe851b0df33250f1",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21a3fe851b0df33250f2",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21a3fe851b0df33250f3",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a21bcfe851b0df3325545",
+            "identifier": "",
+            "title": "Respiraderos del tanque y tuberías de desbordamiento sin obstrucciones",
+            "description": "",
+            "value": "5e1a21bcfe851b0df3325542",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a21bcfe851b0df3325543",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a21bcfe851b0df3325542",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21bcfe851b0df3325543",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21bcfe851b0df3325544",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a21c9fe851b0df3325b76",
+            "identifier": "",
+            "title": "Tuberías del depósito de combustible (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a21c9fe851b0df3325b73",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a21c9fe851b0df3325b74",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a21c9fe851b0df3325b73",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21c9fe851b0df3325b74",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21c9fe851b0df3325b75",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a21eefe851b0df3326688",
+            "identifier": "",
+            "title": "Cambio de aceite (50 horas máximo)",
+            "description": "",
+            "value": "5e1a21eefe851b0df3326685",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a21eefe851b0df3326686",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a21eefe851b0df3326685",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21eefe851b0df3326686",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a21eefe851b0df3326687",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2204fe851b0df3326b51",
+            "identifier": "",
+            "title": "Filtro(s) de aceite (50 horas máximo)",
+            "description": "",
+            "value": "5e1a2204fe851b0df3326b4e",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2204fe851b0df3326b4f",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2204fe851b0df3326b4e",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2204fe851b0df3326b4f",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2204fe851b0df3326b50",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2215fe851b0df332722a",
+            "identifier": "",
+            "title": "Reemplace el filtro de agua circulante",
+            "description": "",
+            "value": "5e1a2215fe851b0df3327227",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2215fe851b0df3327228",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2215fe851b0df3327227",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2215fe851b0df3327228",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2215fe851b0df3327229",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2224fe851b0df332772f",
+            "identifier": "",
+            "title": "Señal de supervisión para alta temperatura del agua de refrigeración",
+            "description": "",
+            "value": "5e1a2224fe851b0df332772c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2224fe851b0df332772d",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2224fe851b0df332772c",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2224fe851b0df332772d",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2224fe851b0df332772e",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2233fe851b0df3327e5c",
+            "identifier": "",
+            "title": "Anticongelante (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a2233fe851b0df3327e5b",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2233fe851b0df3327e5a",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2233fe851b0df3327e59",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2233fe851b0df3327e5a",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2233fe851b0df3327e5b",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2245fe851b0df332839d",
+            "identifier": "",
+            "title": "Intercambiador de calor (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a2245fe851b0df332839c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2245fe851b0df332839b",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2245fe851b0df332839a",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2245fe851b0df332839b",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2245fe851b0df332839c",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2253fe851b0df3328b1e",
+            "identifier": "",
+            "title": "Conductos/rejillas (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a2253fe851b0df3328b1d",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2253fe851b0df3328b1c",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2253fe851b0df3328b1b",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2253fe851b0df3328b1c",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2253fe851b0df3328b1d",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a2266fe851b0df332909b",
+            "identifier": "",
+            "title": "Verifique el sistema de escape y drene la trampa de condensación",
+            "description": "",
+            "value": "5e1a2266fe851b0df332909a",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a2266fe851b0df3329099",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a2266fe851b0df3329098",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2266fe851b0df3329099",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a2266fe851b0df332909a",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a2272fe851b0df332986d",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"defr\",\"text\":\"Combustible:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":12,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a227efe851b0df3329bd4",
+            "identifier": "",
+            "title": "Compruebe si hay una contrapresión excesiva",
+            "description": "",
+            "value": "5e1a227efe851b0df3329bd3",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a227efe851b0df3329bd2",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a227efe851b0df3329bd1",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a227efe851b0df3329bd2",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a227efe851b0df3329bd3",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a2288fe851b0df3329f4d",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"ef4a0\",\"text\":\"Sistema de lubricación:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":23,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a22cbfe851b0df332aaa1",
+            "identifier": "",
+            "title": "Perchas y soporte en buen estado (Alternativa ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e1a22cbfe851b0df332aaa0",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a22cbfe851b0df332aa9f",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a22cbfe851b0df332aa9e",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a22cbfe851b0df332aa9f",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a22cbfe851b0df332aaa0",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e1a22ddfe851b0df332c52a",
+            "identifier": "",
+            "title": "Verifique la gravedad específica, el estado de carga y las velocidades del cargador",
+            "description": "",
+            "value": "5e1a22ddfe851b0df332c529",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e1a22ddfe851b0df332c528",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e1a22ddfe851b0df332c527",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a22ddfe851b0df332c528",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e1a22ddfe851b0df332c529",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "textarea",
+            "_id": "5e1a230bfe851b0df332fc5f",
+            "identifier": "",
+            "title": "Comentarios:",
+            "description": "",
+            "value": "We got this buddy ",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "signature",
+            "_id": "5e1a2396fe851b0df3334b81",
+            "identifier": "",
+            "title": "Signature:",
+            "description": "",
+            "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADACAYAAAB1V7rGAAAAAXNSR0IArs4c6QAAD1pJREFUeF7tnduxLbUVRcUfnxCBIQP85U/sCHAGkAEmAkwEEIKJxCYCOwMTAhnAWcVWldDph96PnmNXUYd7brekNeba8y6pu9UfOD4QgAAERAl8IBo3YUMAAhBwGCBJAAEIyBLAAGWlJ3AIQAADJAcgAAFZAhigrPQEDgEIYIDkAAQgIEsAA5SVnsAhAAEMkByAAARkCWCAstITOAQggAGSAxCAgCwBDFBWegKHAAQwQHIAAhCQJYABykpP4BCAAAZIDkAAArIEMEBZ6bsF/lfn3LfOOftpn+9eP//ZrUcahkAhAQywEBynvSNgBmfGd/b50Tn3FdwgsBIBDHAlNfYci1V6/04c+t/eKsP/JB7LYRDoTgAD7I74sR3EU904UG90fipsf2+/MxPkA4ElCGCAS8iw1SBSjM/W/cJKzypEb4RUgVvJ/ezBYoDP1rdldHfGZ32dmRsG2FIJ2mpGAANshvLRDd1d4LCK7+oqb7hOyDT40amyV3AY4F56zRhtWL3F/d8ZX3h82A55N0NJ+nxHgEQkKa4InJmfVXHxOt8dyX855758HcQ64B0t/n4IAQxwCOYtOzkyvxLj88EzDd4yDZ49aAzw2fqWRne05pcz3T3rl2lwqSKc14UABtgF69aNhlNVC6Sm6otBhFUg0+Ct0+QZg8cAn6Fjqyjiyq9F1ReP7dfXL3q03YoD7YgQwABFhE4IMza/XhUaBpggBoeMIYABjuG8ei+jzM84+HVA7gdcPSsExocBCoicEKKvyuzQXpWfHwYGmCAIh4whgAGO4bxyL2H1N2Jd7r/Ouc+cc2yPtXJWiIwNAxQR+iLMsPobkQ/ecP/nnPsz+CEwk8CIhJ8ZH31fEwirv1Frcr7PUf2RAxA4JYABaieHn44ahRHTX+sHA9TOuaWixwCXkmPoYOIrv6NyAQMcKjOdXREYlfSosB6B8LG0UdUfFeB6eSA9IgxQU/5Z1R8GqJlvy0aNAS4rTdeBhVd+R1Z/FpSvPEf32xUoje9JAAPcU7eaUc+s/noboG22wFvnarJD7FwMUEzwt3f3zqz+jLbvv/UTJ75d7i/Uy+niiDHAYnRbnjj6qY8YUrgdVsvci7fwam2uW4rNoO8JtEzC+944YjaB2dWfN+DW639hXMYYA5ydaZv0jwFuIlSDYa6wJb2v1Foa4NHu1eR1g4RRaIJEUVD59xhnT397rP/12rpfJyvEI8UAdRIgXCebpbufqrbo/+xdxS2rS53sEI20RSKKotsu7NG7vsSAQsOqzbuwLdtWy79uk/W/7dJy7oBrE3Hu6Ok9lUC4/jerQmp1ASQ2P6ts7eZq//nGOfdDKhiO0yaAAWrov4IBtngC5Oj55TA2U3OWwWtk0sOixAAfJuhJOCsYYM3LkGz837495WE/Y5Mb+T4TjWwRihID1BB7JQPMzbm7Cg8D1MjhLlHmJmOXQdBodwKz7wEsvQCS8p7ilGO6A6aDPQlggHvqVjJqPwWdsRV9yQWQcL3vam3vrkIsYcU5IgQwQBGhg00IZhhgzvpfvN53d2EDA9TJ4eaRYoDNkS7b4P+dc584535+eyXlpwNHmbMBQjydNbO2q7pXW1zFBjjD4AfipKuWBDDAljTXbmvWjdAp7wA5qvpSzM8TD6fLGODaebjU6DDApeToOphZa4B3098Wz/NigF1T57mNY4DP1TaMbNZGCFdXf2urvrP4qAA1crpJlBhgE4zLNzLLAI+qPzM+G8/nEbWaPfzCdcBfnHMfL68IA1yCAAa4hAzdBzHjPSBx9XdU8VngrSq2WWuc3cWjg34EMMB+bFdq+R/Oue+DAbUynbMYw4rMrjrb1ef489OrEmz1EqPQAGuqyZV0YyydCWCAnQEv1HzvJyZ8hWch+2d2j8I3w/Pm1xJPeCEEA2xJ9sFtYYAPFvcgtPjpCjukZveUs2ntmfHd3dNXo0brdU6rmv/+mqJb23weSAADfKCoFyFdGVbOPnqpxpdzL1+tEi2fd279D0VtbJzfiQAG2Ans4s2ebSfvK0L76aseq4TsXbu2HdXV9NbW+uy/oy2rRuCInwgpnQbH7YRjL21zRPz0UUAAAyyA9pBTvMF5YysNK6zySnd9Ke07Pq/FOuCVAVp/fGdaqbVAO4i5gAgLDCF+sXjKkOLp7Qp7DsZXn0ueeb6qjo1L7yvoKew5phEBDLARyIc0c1UV+ttVzi5k+OprtkHU3g4TG6CtjYa3EJnUTIUfkvAY4EOE7BCGVVOp9+iFpjHbHGqfCz66afxolxqLk8/mBDDAzQVcYPitbz+pDan2YsjZUzOpG7TWjp/zBxLAAAfCfmBXq5mfR3z09rhU/LHR+e/I0cWR2dVuakwcd0IAAyQ1Sgmsan4WT00VGK4hxuuZsTnOXu8s1Y7zXgQwQFKhhMDK5ldbBYYGePSUDFPhkoxZ9BwMcFFhFh5WaH4rV0DxWl7KdDW+HejIAI9uk/nx7SbwrxbWjKExBSYHGhDYofILwzxbzztDEVZ/V/sKttjFuoEcNFFLgAqwlqDO+buZn18LtCdd/ON5dxXr3fQ3VPvo5vGajSV0MmmhSDHAhcRYeChmfl875z6q3D1mRoipr80s2TQ2NEwfGyY4Q+XCPjHAQnBCp/nt681Idl3rSlkPLK1wMcGNvwwY4MbiDRp6+F4Pm0KmPh0yaHjJ3VxVeDWbxZ5tnkAlmCzNvAMxwHnsV++55l66VWOLH5OznanN0O33NVPYs/0RMcFVM+E1LgxwcYEmDm+VzQ1aIrjb6sr6Srld5mhMVIItlRrUFgY4CPRm3bTYV2/VkO82g63d/p41wVWVPxgXBriRWIOGmnMryKAhNe/GqjU/bbVdrO3iTsv1TW6Wbi5ZnwYxwD5cd2z1iWt+M3U4MsG7+xBnjleybwxQUvZ3QWN+/fLgaC/BHq8F7RfBg1vGAB8sbmJoKffIJTbFYScEeHRu0dTAABcVZtCwdtnYYBCO7t2wk0x3xHkdYIB5vJ50dM2moU/iMDqWo2qQ7+FoFV79AX4S+IndxlXf2UuOJg5xWtd+0wQ/gPjPn5+MzNb0ws/drTRMiadJ/MeOMcBFhBg0jCeaX2xSRyjPjvnCOWfbXqW0USORf3zQG6X/c/gEirXPkyM1lAvOxQALoG14Svyo1gqbGnjTCc0nrLDCt9L1NqjVJMUIBymCAQ4CPbGbmgf9a4cdmpw3txwzs0op3Mvvajy+urJ+zEDCfsINHI7aTOnjaNxnU+ScGM9ishu0LSZ2mq7NwovzMcCOcCc3HVd9vW/C9V9624DUPkcmEBqR34ggxrTrbjNncseVrhm07av4WWZ+mKnb5259MbNZ7cMxwGfq3/t2iyuzC9e7/P8/zdRaZo1/LM/aTK2SMcNGCmCAjUAu0szRUwctrvKGX1Jf4WF0fUU35qbnX5xzH150ZTr4app/aDI1wQAzgS16+NF0t9T44nU7+3JZZRJOWfmijU2Eqx1swpGYRi3WH8dGN7E3DHAi/AZdx8ZnTZZcQYzbYYrVQJwOTfhK3FfhR13wnc4AD6wMWIsdWrvOd2R6LbeEWgzXI4fjDdF+/omrxvkaY4D5zGafEb6kyFd8OcYVGp+dVzpVns2B/iFQTQADrEY4rIHadT6Mb5hUdLQLAQxwD6XiRfDcJzn8+VR8e+jNKAcRwAAHgS7sxqq28HnRXAMLq77Sl/0UDp3TILA+AQxwTY1aXN0Nqz4zPz4QgEBEAANcLyVqb2b2VWNutbgeCUYEgc4EMMDOgDOar636wnvE/JVdbljOEIBD9QhggPM1PzK+3OqNixzzdWQEGxLAAOeKVrszcHhP4Ddvu4z8MDcceofAXgQwwDl6xVd3bRQ5VV98Tx8XOeboSK+bE8AAxwp4NN21EeTcohJWjTnnjY2U3iCwAQEMcIxIZ8aXs3EBVd8YrehFiAAG2Fdsv6db/Dax3N2Zqfr66kTrogQwwD7Cn1V8Oet8fmTc0NxHI1qFgMMA2ybB2caVtlGl/V3ufXmYX1t9aA0CfyCAAdYnxFm151vOWecLR+P3+ys9vz4yWoDAwwlggGUCe9Ozs8+2IC+Z7vr2fPuYX5k+nAWBJAIY4DEmM6B4unpX6fmWSo3Pn0/ll5S6HASBegIY4HuGqS+gic+sNT5rD/Orz2lagEAyAQzwPar4XRtXMH2VWLutvFWX379els20Nzl9ORACdQQwwOMK0P/26O1brd/DGk6tc3d6rlOfsyEgTgADTEuA8EJH7q0sVz2E020qvzQtOAoCzQhggM1QZjcUboiA+WXj4wQI1BPAAOsZlrbABY9ScpwHgUYEMMBGIDObCae+aJAJj8Mh0IoAX75WJPPa+fV1OFPfPG4cDYGmBDDApjiTGqP6S8LEQRDoTwAD7M847sFXf7lbYo0fKT1C4OEEMMCxAnPby1je9AaBSwIY4NgEYfo7lje9QQADXCgHwsfs+MdnIWEYiiYBvoRjdWf9byxveoMAFeBCOYABLiQGQ4EAFeDYHMAAx/KmNwhQAS6UAzz+tpAYDAUCVIDjc+Bot+nxo6BHCECAt8KRAxCAgC4BKkBd7YkcAvIEMED5FAAABHQJYIC62hM5BOQJYIDyKQAACOgSwAB1tSdyCMgTwADlUwAAENAlgAHqak/kEJAngAHKpwAAIKBLAAPU1Z7IISBPAAOUTwEAQECXAAaoqz2RQ0CeAAYonwIAgIAuAQxQV3sih4A8AQxQPgUAAAFdAhigrvZEDgF5AhigfAoAAAK6BDBAXe2JHALyBDBA+RQAAAR0CWCAutoTOQTkCWCA8ikAAAjoEsAAdbUncgjIE8AA5VMAABDQJYAB6mpP5BCQJ4AByqcAACCgSwAD1NWeyCEgTwADlE8BAEBAlwAGqKs9kUNAngAGKJ8CAICALgEMUFd7IoeAPAEMUD4FAAABXQIYoK72RA4BeQIYoHwKAAACugQwQF3tiRwC8gQwQPkUAAAEdAlggLraEzkE5AlggPIpAAAI6BLAAHW1J3IIyBPAAOVTAAAQ0CWAAepqT+QQkCeAAcqnAAAgoEsAA9TVnsghIE8AA5RPAQBAQJcABqirPZFDQJ4ABiifAgCAgC4BDFBXeyKHgDwBDFA+BQAAAV0CGKCu9kQOAXkCGKB8CgAAAroEMEBd7YkcAvIEMED5FAAABHQJYIC62hM5BOQJYIDyKQAACOgSwAB1tSdyCMgTwADlUwAAENAlgAHqak/kEJAngAHKpwAAIKBLAAPU1Z7IISBP4DdxSITfv5jZcwAAAABJRU5ErkJggg==",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "date",
+            "_id": "5e1a23b3fe851b0df3336224",
+            "identifier": "",
+            "title": "Fecha:",
+            "description": "",
+            "value": 1751497200000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a2410fe851b0df3338b4f",
+            "identifier": "",
+            "title": "Número de licencia/certificación:",
+            "description": "",
+            "value": "ASAS1212",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a2428fe851b0df333942f",
+            "identifier": "",
+            "title": "Dirección del contratista:",
+            "description": "",
+            "value": "We got this buddy ",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5e1a2449fe851b0df333a23c",
+            "identifier": "",
+            "title": "El nombre del contratista:",
+            "description": "",
+            "value": "Q1SAQ",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e1a2dfdfe851b0df33bc330",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"64dr\",\"text\":\"Controlador: El trabajo debe completarse, en la medida en que dicho trabajo pueda completarse sin abrir un controlador de bomba contra incendios impulsado por un motor eléctrico energizado.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":189,\"style\":\"fontsize-14\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"82n02\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"c8uae\",\"text\":\"Inspección realizada de acuerdo con la norma NFPA 25 para la inspección, prueba y mantenimiento de sistemas de protección contra incendios a base de agua, edición 2020.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":168,\"style\":\"color-rgb(209,213,216)\"},{\"offset\":0,\"length\":168,\"style\":\"bgcolor-rgb(255,255,255)\"},{\"offset\":0,\"length\":168,\"style\":\"fontsize-12\"},{\"offset\":0,\"length\":168,\"style\":\"fontfamily-Roboto, \\\"Open Sans\\\", sans-serif\"},{\"offset\":0,\"length\":168,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e233328f927f00e4aea2769",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"3njdk\",\"text\":\"Sistema de refrigeración:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":25,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e2333b2f927f00e4aea36d9",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"81mi9\",\"text\":\"Sistema de escape:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":18,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e233416f927f00e4aea4e35",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"1u749\",\"text\":\"Sistema de batería:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":19,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e2334baf927f00e4aea6f13",
+            "identifier": "",
+            "title": "Verifique que el voltaje de arranque de la batería exceda los 9 voltios para un sistema de 12 voltios y los 18 voltios para un sistema de 24 voltios.",
+            "description": "",
+            "value": "5e2334baf927f00e4aea6f12",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e2334baf927f00e4aea6f11",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e2334baf927f00e4aea6f10",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2334baf927f00e4aea6f11",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2334baf927f00e4aea6f12",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e2334d5f927f00e4aea8327",
+            "identifier": "",
+            "title": "Asegúrese de que solo se use agua destilada",
+            "description": "",
+            "value": "5e2334d5f927f00e4aea8326",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e2334d5f927f00e4aea8325",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e2334d5f927f00e4aea8324",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2334d5f927f00e4aea8325",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2334d5f927f00e4aea8326",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "richText",
+            "_id": "5e2334fbf927f00e4aea9fba",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"42ae2\",\"text\":\"Sistema eléctrico:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":18,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e233517f927f00e4aeaaab9",
+            "identifier": "",
+            "title": "Corrosión en placas de circuito impreso",
+            "description": "",
+            "value": "5e233517f927f00e4aeaaab8",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e233517f927f00e4aeaaab7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e233517f927f00e4aeaaab6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233517f927f00e4aeaaab7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233517f927f00e4aeaaab8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e233534f927f00e4aeab750",
+            "identifier": "",
+            "title": "Módulo de control eléctrico (MCE)",
+            "description": "",
+            "value": "5e233534f927f00e4aeab74f",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e233534f927f00e4aeab74e",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e233534f927f00e4aeab74d",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233534f927f00e4aeab74e",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233534f927f00e4aeab74f",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e233552f927f00e4aeac588",
+            "identifier": "",
+            "title": "Apriete los conectores del cableado de control y alimentación (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e233552f927f00e4aeac587",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e233552f927f00e4aeac586",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e233552f927f00e4aeac585",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233552f927f00e4aeac586",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233552f927f00e4aeac587",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e233571f927f00e4aead56d",
+            "identifier": "",
+            "title": "Voltímetro y amperímetro para precisión (5%) (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e233571f927f00e4aead56c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e233571f927f00e4aead56b",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e233571f927f00e4aead56a",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233571f927f00e4aead56b",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233571f927f00e4aead56c",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e233593f927f00e4aeae594",
+            "identifier": "",
+            "title": "Aislamiento de cables/alambres agrietado (quebrados) (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e233593f927f00e4aeae591",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e233593f927f00e4aeae592",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e233593f927f00e4aeae591",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233593f927f00e4aeae592",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e233593f927f00e4aeae593",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e2335b1f927f00e4aeaf8f9",
+            "identifier": "",
+            "title": "Fugas en partes de plomería (Alternativa ITM A.8.1.1.2)",
+            "description": "",
+            "value": "5e2335b1f927f00e4aeaf8f8",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e2335b1f927f00e4aeaf8f7",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e2335b1f927f00e4aeaf8f6",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2335b1f927f00e4aeaf8f7",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2335b1f927f00e4aeaf8f8",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e2335ccf927f00e4aeb0b27",
+            "identifier": "",
+            "title": "Señales de agua en partes eléctricas (ITM alternativa A.8.1.1.2)",
+            "description": "",
+            "value": "5e2335ccf927f00e4aeb0b24",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e2335ccf927f00e4aeb0b25",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e2335ccf927f00e4aeb0b24",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2335ccf927f00e4aeb0b25",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e2335ccf927f00e4aeb0b26",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5e236075f927f00e4aeb4103",
+            "identifier": "",
+            "title": "Limpiar terminales",
+            "description": "",
+            "value": "5e236075f927f00e4aeb4102",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5e236075f927f00e4aeb4101",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5e236075f927f00e4aeb4100",
+                    "value": "Sí",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e236075f927f00e4aeb4101",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5e236075f927f00e4aeb4102",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "text",
+            "_id": "5ed97e7ab0e1670e00c50c74",
+            "identifier": "",
+            "title": "Teléfono de la propiedad:",
+            "description": "",
+            "value": "232121212",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b5",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258e9e22df3bdf01c158e"
+        },
+        {
+            "type": "chart",
+            "_id": "61a9060f4b8ee50e80769923",
+            "identifier": "",
+            "title": "Gráfico de rendimiento",
+            "description": "",
+            "value": [
+                {
+                    "_id": "687a764b1bb9c4ceb7be106c",
+                    "deleted": false,
+                    "title": "Plot ",
+                    "description": "Growth plotted ",
+                    "points": [
+                        {
+                            "_id": "687a764b146118abc94c7776",
+                            "label": "Alpha ",
+                            "y": 22,
+                            "x": 44
+                        },
+                        {
+                            "_id": "687a764b3283ea2ea8d26c2f",
+                            "label": "Beta",
+                            "y": 46,
+                            "x": 67
+                        },
+                        {
+                            "_id": "687a764bf711a3898bfaed1d",
+                            "label": "Gama ",
+                            "y": 88,
+                            "x": 99
+                        }
+                    ]
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "yTitle": "Vertical",
+            "yMax": 150,
+            "yMin": 0,
+            "xTitle": "Horizontal",
+            "xMax": 2500,
+            "xMin": 0,
+            "file": "650258e9e22df3bdf01c158e"
+        }
+    ],
+    "deleted": false
+}
