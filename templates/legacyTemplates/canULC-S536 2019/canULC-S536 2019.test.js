@@ -1,8 +1,8 @@
 const Ajv = require('ajv');
 const schema = require('../../../joyfill-schema.json');
-const template = require('./aes2.1Template.json');
+const template = require('./canULC-S536 2019.template.json');
 
-describe('aes2.1Template.json AJV validation', () => {
+describe('can ULC-S536 2019 Template AJV validation', () => {
 
   it('should be valid according to joyfill-schema.json', () => {
 

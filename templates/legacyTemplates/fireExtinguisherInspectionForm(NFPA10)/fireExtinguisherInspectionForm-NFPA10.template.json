@@ -1,0 +1,1493 @@
+{
+    "_id": "687a6fb9b4324ce3c93bc194",
+    "type": "document",
+    "stage": "published",
+    "source": "template_687a6f3c41b6fbe63c5231ef",
+    "metadata": {},
+    "identifier": "doc_687a6fb9b4324ce3c93bc194",
+    "name": "Fire Extinguisher Inspection Form (NFPA 10)",
+    "createdOn": 1752854458372,
+    "files": [
+        {
+            "_id": "650258f38666c715f4fc9dd4",
+            "metadata": {},
+            "name": "New File",
+            "version": 1,
+            "styles": {},
+            "pages": [
+                {
+                    "name": "New Page",
+                    "fieldPositions": [
+                        {
+                            "field": "5cd70e6d20d5f31fe3d89d4a",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 123,
+                            "x": 0,
+                            "y": 0,
+                            "_id": "650258f3ac6007c04f941376",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd70e8e20d5f31fe3d89d4d",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 120,
+                            "x": 3,
+                            "y": 0,
+                            "_id": "650258f3ac6007c04f941377",
+                            "type": "image"
+                        },
+                        {
+                            "field": "5cd70e9920d5f31fe3d89d52",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 32,
+                            "x": 0,
+                            "y": 1137,
+                            "_id": "650258f3ac6007c04f941378",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd70ed720d5f31fe3d89d5e",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 180,
+                            "_id": "650258f3ac6007c04f941379",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5cd70f3f20d5f31fe3d89d8d",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 57,
+                            "x": 0,
+                            "y": 123,
+                            "_id": "650258f3ac6007c04f94137a",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd70f7620d5f31fe3d89d93",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 58,
+                            "x": 0,
+                            "y": 180,
+                            "_id": "650258f3ac6007c04f94137b",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f8220d5f31fe3d89d96",
+                            "displayType": "original",
+                            "width": 3,
+                            "height": 58,
+                            "x": 0,
+                            "y": 238,
+                            "_id": "650258f3ac6007c04f94137c",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f8420d5f31fe3d89d99",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 0,
+                            "y": 296,
+                            "_id": "650258f3ac6007c04f94137d",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f8620d5f31fe3d89d9c",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 1,
+                            "y": 296,
+                            "_id": "650258f3ac6007c04f94137e",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f8920d5f31fe3d89d9f",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 2,
+                            "y": 296,
+                            "_id": "650258f3ac6007c04f94137f",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f9c20d5f31fe3d89da2",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 238,
+                            "_id": "650258f3ac6007c04f941380",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd70f9f20d5f31fe3d89da5",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 296,
+                            "_id": "650258f3ac6007c04f941381",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd7108420d5f31fe3d89f25",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 58,
+                            "x": 0,
+                            "y": 354,
+                            "_id": "650258f3ac6007c04f941382",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd7109920d5f31fe3d89f2b",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 412,
+                            "_id": "650258f3ac6007c04f941383",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5cd710a920d5f31fe3d89f34",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 412,
+                            "_id": "650258f3ac6007c04f941384",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5cd710b420d5f31fe3d89f3d",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 470,
+                            "_id": "650258f3ac6007c04f941385",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5cd710da20d5f31fe3d89f46",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 470,
+                            "_id": "650258f3ac6007c04f941386",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5cd710e820d5f31fe3d89f4f",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 74,
+                            "x": 0,
+                            "y": 528,
+                            "_id": "650258f3ac6007c04f941387",
+                            "type": "dropdown"
+                        },
+                        {
+                            "field": "5cd712a220d5f31fe3d89f55",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 60,
+                            "x": 0,
+                            "y": 839,
+                            "_id": "650258f3ac6007c04f941388",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd7139920d5f31fe3d89f78",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 528,
+                            "_id": "650258f3ac6007c04f941389",
+                            "type": "number"
+                        },
+                        {
+                            "field": "5cd713a820d5f31fe3d89f98",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 602,
+                            "_id": "650258f3ac6007c04f94138a",
+                            "type": "number"
+                        },
+                        {
+                            "field": "5cd713ba20d5f31fe3d89fb9",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 2,
+                            "y": 586,
+                            "_id": "650258f3ac6007c04f94138b",
+                            "type": "number"
+                        },
+                        {
+                            "field": "5cd7140020d5f31fe3d89fe7",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 150,
+                            "x": 0,
+                            "y": 660,
+                            "lineHeight": 15,
+                            "_id": "650258f3ac6007c04f94138c",
+                            "type": "textarea"
+                        },
+                        {
+                            "field": "5cd7142020d5f31fe3d8a00c",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 29,
+                            "x": 0,
+                            "y": 810,
+                            "_id": "650258f3ac6007c04f94138d",
+                            "type": "richText"
+                        },
+                        {
+                            "field": "5cd7145e20d5f31fe3d8a059",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 67,
+                            "x": 0,
+                            "y": 899,
+                            "_id": "650258f3ac6007c04f94138e",
+                            "type": "table"
+                        },
+                        {
+                            "field": "5cd7159620d5f31fe3d8a072",
+                            "displayType": "original",
+                            "width": 2,
+                            "height": 58,
+                            "x": 0,
+                            "y": 966,
+                            "_id": "650258f3ac6007c04f94138f",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd715b320d5f31fe3d8a09c",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 2,
+                            "y": 966,
+                            "_id": "650258f3ac6007c04f941390",
+                            "type": "date"
+                        },
+                        {
+                            "field": "5cd715c120d5f31fe3d8a0e9",
+                            "displayType": "original",
+                            "width": 1,
+                            "height": 58,
+                            "x": 3,
+                            "y": 966,
+                            "_id": "650258f3ac6007c04f941391",
+                            "type": "text"
+                        },
+                        {
+                            "field": "5cd715ca20d5f31fe3d8a138",
+                            "displayType": "original",
+                            "width": 4,
+                            "height": 113,
+                            "x": 0,
+                            "y": 1024,
+                            "_id": "650258f3ac6007c04f941392",
+                            "type": "signature"
+                        }
+                    ],
+                    "metadata": {},
+                    "hidden": false,
+                    "width": 816,
+                    "height": 1056,
+                    "cols": 4,
+                    "rowHeight": 1,
+                    "layout": "grid",
+                    "presentation": "normal",
+                    "margin": 0,
+                    "padding": 12,
+                    "borderWidth": 0,
+                    "_id": "650258f35e1835b9e882c5b3"
+                }
+            ],
+            "pageOrder": [
+                "650258f35e1835b9e882c5b3"
+            ],
+            "views": [
+                {
+                    "type": "mobile",
+                    "pageOrder": [
+                        "650258f35e1835b9e882c5b3"
+                    ],
+                    "pages": [
+                        {
+                            "name": "Page 1",
+                            "fieldPositions": [
+                                {
+                                    "field": "5cd70e6d20d5f31fe3d89d4a",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 93,
+                                    "x": 0,
+                                    "y": 154,
+                                    "_id": "650258f3ac6007c04f941376",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd70e8e20d5f31fe3d89d4d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 154,
+                                    "x": 0,
+                                    "y": 0,
+                                    "_id": "650258f3ac6007c04f941377",
+                                    "type": "image"
+                                },
+                                {
+                                    "field": "5cd70e9920d5f31fe3d89d52",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 35,
+                                    "x": 0,
+                                    "y": 2079,
+                                    "_id": "650258f3ac6007c04f941378",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd70ed720d5f31fe3d89d5e",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 247,
+                                    "_id": "650258f3ac6007c04f941379",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5cd70f3f20d5f31fe3d89d8d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 52,
+                                    "x": 0,
+                                    "y": 305,
+                                    "_id": "650258f3ac6007c04f94137a",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd70f7620d5f31fe3d89d93",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 357,
+                                    "_id": "650258f3ac6007c04f94137b",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f8220d5f31fe3d89d96",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 415,
+                                    "_id": "650258f3ac6007c04f94137c",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f8420d5f31fe3d89d99",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 473,
+                                    "_id": "650258f3ac6007c04f94137d",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f8620d5f31fe3d89d9c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 531,
+                                    "_id": "650258f3ac6007c04f94137e",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f8920d5f31fe3d89d9f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 589,
+                                    "_id": "650258f3ac6007c04f94137f",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f9c20d5f31fe3d89da2",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 647,
+                                    "_id": "650258f3ac6007c04f941380",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd70f9f20d5f31fe3d89da5",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 705,
+                                    "_id": "650258f3ac6007c04f941381",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd7108420d5f31fe3d89f25",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 59,
+                                    "x": 0,
+                                    "y": 763,
+                                    "_id": "650258f3ac6007c04f941382",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd7109920d5f31fe3d89f2b",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 822,
+                                    "_id": "650258f3ac6007c04f941383",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5cd710a920d5f31fe3d89f34",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 880,
+                                    "_id": "650258f3ac6007c04f941384",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5cd710b420d5f31fe3d89f3d",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 938,
+                                    "_id": "650258f3ac6007c04f941385",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5cd710da20d5f31fe3d89f46",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 996,
+                                    "_id": "650258f3ac6007c04f941386",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5cd710e820d5f31fe3d89f4f",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 74,
+                                    "x": 0,
+                                    "y": 1054,
+                                    "_id": "650258f3ac6007c04f941387",
+                                    "type": "dropdown"
+                                },
+                                {
+                                    "field": "5cd712a220d5f31fe3d89f55",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 60,
+                                    "x": 0,
+                                    "y": 1504,
+                                    "_id": "650258f3ac6007c04f941388",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd7139920d5f31fe3d89f78",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1128,
+                                    "_id": "650258f3ac6007c04f941389",
+                                    "type": "number"
+                                },
+                                {
+                                    "field": "5cd713a820d5f31fe3d89f98",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1186,
+                                    "_id": "650258f3ac6007c04f94138a",
+                                    "type": "number"
+                                },
+                                {
+                                    "field": "5cd713ba20d5f31fe3d89fb9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1244,
+                                    "_id": "650258f3ac6007c04f94138b",
+                                    "type": "number"
+                                },
+                                {
+                                    "field": "5cd7140020d5f31fe3d89fe7",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 166,
+                                    "x": 0,
+                                    "y": 1302,
+                                    "_id": "650258f3ac6007c04f94138c",
+                                    "type": "textarea"
+                                },
+                                {
+                                    "field": "5cd7142020d5f31fe3d8a00c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 36,
+                                    "x": 0,
+                                    "y": 1468,
+                                    "_id": "650258f3ac6007c04f94138d",
+                                    "type": "richText"
+                                },
+                                {
+                                    "field": "5cd7145e20d5f31fe3d8a059",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 179,
+                                    "x": 0,
+                                    "y": 1564,
+                                    "_id": "650258f3ac6007c04f94138e",
+                                    "type": "table"
+                                },
+                                {
+                                    "field": "5cd7159620d5f31fe3d8a072",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1743,
+                                    "_id": "650258f3ac6007c04f94138f",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd715b320d5f31fe3d8a09c",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1801,
+                                    "_id": "650258f3ac6007c04f941390",
+                                    "type": "date"
+                                },
+                                {
+                                    "field": "5cd715c120d5f31fe3d8a0e9",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 58,
+                                    "x": 0,
+                                    "y": 1859,
+                                    "_id": "650258f3ac6007c04f941391",
+                                    "type": "text"
+                                },
+                                {
+                                    "field": "5cd715ca20d5f31fe3d8a138",
+                                    "displayType": "original",
+                                    "width": 1,
+                                    "height": 162,
+                                    "x": 0,
+                                    "y": 1917,
+                                    "_id": "650258f3ac6007c04f941392",
+                                    "type": "signature"
+                                }
+                            ],
+                            "metadata": {},
+                            "hidden": false,
+                            "width": 816,
+                            "height": 1056,
+                            "cols": 1,
+                            "rowHeight": 1,
+                            "layout": "grid",
+                            "presentation": "normal",
+                            "margin": 0,
+                            "padding": 12,
+                            "borderWidth": 0,
+                            "_id": "650258f35e1835b9e882c5b3"
+                        }
+                    ],
+                    "_id": "650258f3ac6007c04f9413b3"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "type": "richText",
+            "_id": "5cd70e6d20d5f31fe3d89d4a",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"enrr\",\"text\":\"FIRE EXTINGUISHER INSPECTION REPORT\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":35,\"style\":\"BOLD\"},{\"offset\":0,\"length\":35,\"style\":\"fontsize-24\"}],\"entityRanges\":[],\"data\":{\"text-align\":\"left\"}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "image",
+            "_id": "5cd70e8e20d5f31fe3d89d4d",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": [
+                {
+                    "_id": "650258f3ac6007c04f941375",
+                    "url": "https://s3.amazonaws.com/docspace.production.documents/5cca363a20d5f31fe3d7d6a2/templates/5ce041d865688f175c2d5535/5ce041d865688f175c2d5535undefined1594395619385-a26fc6fa-1594395619385.png"
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "multi": false,
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd70e9920d5f31fe3d89d52",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"b8asu\",\"text\":\"Thank you for your business!\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":28,\"style\":\"color-rgb(33,37,41)\"},{\"offset\":0,\"length\":28,\"style\":\"bgcolor-rgb(255,255,255)\"},{\"offset\":0,\"length\":28,\"style\":\"fontsize-16\"},{\"offset\":0,\"length\":28,\"style\":\"fontfamily-Roboto, \\\"Open Sans\\\", sans-serif\"},{\"offset\":0,\"length\":28,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{\"text-align\":\"center\"}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "date",
+            "_id": "5cd70ed720d5f31fe3d89d5e",
+            "identifier": "",
+            "title": "Date:",
+            "description": "",
+            "value": 1752102000000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd70f3f20d5f31fe3d89d8d",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"2bn4o\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"cj8gt\",\"text\":\"PROPERTY INFORMATION:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":21,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f7620d5f31fe3d89d93",
+            "identifier": "",
+            "title": "Property Name:",
+            "description": "",
+            "value": "Bay Adelaide Center ",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b7",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f8220d5f31fe3d89d96",
+            "identifier": "",
+            "title": "Address:",
+            "description": "",
+            "value": "Pearson Specter litt, Bay Adelaide Center",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b3",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f8420d5f31fe3d89d99",
+            "identifier": "",
+            "title": "City:",
+            "description": "",
+            "value": "Adelaide",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b2",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f8620d5f31fe3d89d9c",
+            "identifier": "",
+            "title": "State:",
+            "description": "",
+            "value": "FL",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b1",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f8920d5f31fe3d89d9f",
+            "identifier": "",
+            "title": "Zip:",
+            "description": "",
+            "value": "32808",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b0",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f9c20d5f31fe3d89da2",
+            "identifier": "",
+            "title": "Contact:",
+            "description": "",
+            "value": "Harvey Specter",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b6",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd70f9f20d5f31fe3d89da5",
+            "identifier": "",
+            "title": "Phone:",
+            "description": "",
+            "value": "1299023423",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "list": "5cca363a20d5f31fe3d7d6af",
+                "listColumn": "5cca363a20d5f31fe3d7d6b5",
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd7108420d5f31fe3d89f25",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"54r1b\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"bljn5\",\"text\":\"BUILDING SURVEY:\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":16,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5cd7109920d5f31fe3d89f2b",
+            "identifier": "",
+            "title": "Were all areas accessible?\t",
+            "description": "",
+            "value": "5cd7109920d5f31fe3d89f28",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5cd7109920d5f31fe3d89f29",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5cd7109920d5f31fe3d89f28",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd7109920d5f31fe3d89f29",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd7109920d5f31fe3d89f2a",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5cd710a920d5f31fe3d89f34",
+            "identifier": "",
+            "title": "All recalled fire extinguishers have been removed from service?",
+            "description": "",
+            "value": "5cd710a920d5f31fe3d89f31",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5cd710a920d5f31fe3d89f32",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5cd710a920d5f31fe3d89f31",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710a920d5f31fe3d89f32",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710a920d5f31fe3d89f33",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5cd710b420d5f31fe3d89f3d",
+            "identifier": "",
+            "title": "All fire extinguishers manufactured after 1984?",
+            "description": "",
+            "value": "5cd710b420d5f31fe3d89f3a",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5cd710b420d5f31fe3d89f3b",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5cd710b420d5f31fe3d89f3a",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710b420d5f31fe3d89f3b",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710b420d5f31fe3d89f3c",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5cd710da20d5f31fe3d89f46",
+            "identifier": "",
+            "title": "Is the maximum travel distance of 75 feet maintained throughout?",
+            "description": "",
+            "value": "5cd710da20d5f31fe3d89f43",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5cd710da20d5f31fe3d89f44",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5cd710da20d5f31fe3d89f43",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710da20d5f31fe3d89f44",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710da20d5f31fe3d89f45",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "dropdown",
+            "_id": "5cd710e820d5f31fe3d89f4f",
+            "identifier": "",
+            "title": "Are the fire extinguishers of the correct classification for all areas of the building?",
+            "description": "",
+            "value": "5cd710e820d5f31fe3d89f4c",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": true,
+                "deficienciesFailure": "5cd710e820d5f31fe3d89f4d",
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "options": [
+                {
+                    "_id": "5cd710e820d5f31fe3d89f4c",
+                    "value": "Yes",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710e820d5f31fe3d89f4d",
+                    "value": "No",
+                    "deleted": false
+                },
+                {
+                    "_id": "5cd710e820d5f31fe3d89f4e",
+                    "value": "N/A",
+                    "deleted": false
+                }
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd712a220d5f31fe3d89f55",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"5nkgu\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"fkr1\",\"text\":\"FIRE EXTINGUISHER INSPECTION LIST:\\t\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":34,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "number",
+            "_id": "5cd7139920d5f31fe3d89f78",
+            "identifier": "",
+            "title": "Total number of fire extinguishers on premises?",
+            "description": "",
+            "value": 22,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "number",
+            "_id": "5cd713a820d5f31fe3d89f98",
+            "identifier": "",
+            "title": "Total number of fire extinguishers inspected?",
+            "description": "",
+            "value": 22,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "number",
+            "_id": "5cd713ba20d5f31fe3d89fb9",
+            "identifier": "",
+            "title": "Total number of Non-compliant fire extinguishers?",
+            "description": "",
+            "value": 22,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "textarea",
+            "_id": "5cd7140020d5f31fe3d89fe7",
+            "identifier": "",
+            "title": "Comments:",
+            "description": "",
+            "value": "All devices pass the check",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "richText",
+            "_id": "5cd7142020d5f31fe3d8a00c",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": "{\"blocks\":[{\"key\":\"f32id\",\"text\":\"Additional deficiencies have been listed at the bottom of this report.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":70,\"style\":\"fontsize-12\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "table",
+            "_id": "5cd7145e20d5f31fe3d8a059",
+            "identifier": "",
+            "title": "",
+            "description": "",
+            "value": [
+                {
+                    "_id": "Aulst3DY",
+                    "deleted": false,
+                    "cells": {
+                        "5cd7147520d5f31fe3d8a05f": "22",
+                        "5cd7145e20d5f31fe3d8a057": "12",
+                        "5cd7145e20d5f31fe3d8a058": "Adelaide",
+                        "5cd7145e20d5f31fe3d8a053": "5cd7145e20d5f31fe3d8a056",
+                        "5cd7154c20d5f31fe3d8a06a": "12/4/2024",
+                        "5cd7155820d5f31fe3d8a06c": "22",
+                        "5cd7156920d5f31fe3d8a06e": "22",
+                        "5cd7157520d5f31fe3d8a070": "12/12/2025"
+                    }
+                }
+            ],
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "rowOrder": [
+                "Aulst3DY"
+            ],
+            "tableColumns": [
+                {
+                    "_id": "5cd7145e20d5f31fe3d8a057",
+                    "type": "text",
+                    "title": "No.",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7145e20d5f31fe3d8a058",
+                    "type": "text",
+                    "title": "Location",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7147520d5f31fe3d8a05f",
+                    "type": "text",
+                    "title": "Type/Size",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7145e20d5f31fe3d8a053",
+                    "type": "dropdown",
+                    "title": "Manufacturer",
+                    "width": 0,
+                    "identifier": "",
+                    "options": [
+                        {
+                            "_id": "5cd7145e20d5f31fe3d8a056",
+                            "value": "Amerex",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd7145e20d5f31fe3d8a055",
+                            "value": "Buckeye",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd7145e20d5f31fe3d8a054",
+                            "value": "Ansul",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd7149b20d5f31fe3d8a061",
+                            "value": "Badger",
+                            "deleted": false
+                        },
+                        {
+                            "_id": "5cd714ba20d5f31fe3d8a063",
+                            "value": "Kidde",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "_id": "5cd7154c20d5f31fe3d8a06a",
+                    "type": "text",
+                    "title": "Date",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7155820d5f31fe3d8a06c",
+                    "type": "text",
+                    "title": "Last 6 Year",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7156920d5f31fe3d8a06e",
+                    "type": "text",
+                    "title": "Last Hydro",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5cd7157520d5f31fe3d8a070",
+                    "type": "text",
+                    "title": "Service Due",
+                    "width": 0,
+                    "identifier": ""
+                },
+                {
+                    "_id": "5e6a49acabbbcc0df4ac7f3c",
+                    "type": "text",
+                    "title": "Notes",
+                    "width": 0,
+                    "identifier": ""
+                }
+            ],
+            "tableColumnOrder": [
+                "5cd7145e20d5f31fe3d8a057",
+                "5cd7145e20d5f31fe3d8a058",
+                "5cd7147520d5f31fe3d8a05f",
+                "5cd7145e20d5f31fe3d8a053",
+                "5cd7154c20d5f31fe3d8a06a",
+                "5cd7155820d5f31fe3d8a06c",
+                "5cd7156920d5f31fe3d8a06e",
+                "5cd7157520d5f31fe3d8a070",
+                "5e6a49acabbbcc0df4ac7f3c"
+            ],
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd7159620d5f31fe3d8a072",
+            "identifier": "",
+            "title": "Lead Technician:",
+            "description": "",
+            "value": "Jim davis",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "date",
+            "_id": "5cd715b320d5f31fe3d8a09c",
+            "identifier": "",
+            "title": "Date:",
+            "description": "",
+            "value": 1751238000000,
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "text",
+            "_id": "5cd715c120d5f31fe3d8a0e9",
+            "identifier": "",
+            "title": "Time:",
+            "description": "",
+            "value": "12:!2AM",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        },
+        {
+            "type": "signature",
+            "_id": "5cd715ca20d5f31fe3d8a138",
+            "identifier": "",
+            "title": "Signature:",
+            "description": "",
+            "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADACAYAAAB1V7rGAAAAAXNSR0IArs4c6QAADodJREFUeF7tnYG15TYRhpUO6IDQQaggpJLdDjipINBB6CCpJEkFoQMogQ7IDtw5DFr5WpJlaeT53jl79u0+25r5ft3/jWRZ/iLxBQEIQCAogS+C5k3aEIAABBIGSCeAAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAb43D7wl5TSd6/0fkkp/em5qZIZBPoIYIB93LyfZc1PY/3mkwn+7D1w4oPATAIY4Eza89r6qVDx/fVT82KMfEEAAi8CGODzuoKt/sT0dBiMAT5PazK6SAADvAjQ4en/NjGJvloNYoAOxSKktQQwwLX8R7duh75qeBjgaMpc7zEEMMDHSPmf+T0d7kpWqi0G+ByNyWQwAQxwMNBFl5MlLmJ0+mWHuxjgIlFo1j8BDNC/RjUR2nk/W/3J9/oz5gBrSHJMKAIY4P5y50tevk0pfW/SUgNkHeD+WpPBYAIY4GCgky+Xz/uVqjwMcLIoNLcPAQxwH63ySHPzk6c8pMqzX3ZuEK331ZrIbyLAh+ImsDdftvSoW6n6wwBvFoLL700AA9xTv/ymx9ENDjXKUnW4Z+ZEDYGBBDDAgTAnXapm3k9DwQAniUIzexLAAPfSrWbez2b0a0rpq0+LolkCs5fORDuJAAY4CfSAZlrNT5rUofKPKaWPA2LgEhB4FAEMcB8583m/mnV9LILeR18iXUAAA1wAvaPJvPqrMT9bAdYe3xEap0BgXwIY4B7a2eqvZT5Pz0PnPXQmyskE+GBMBt7R3A8ppQ+v81rMjzWAHbA5JRYBDNC33vkuLy16sQTGt7ZE54BAywfKQbjhQihtcFoLQQ2wpWqsvTbHQeARBDBAvzLm7/ZofaERd4D9aktkTghggE6EKIRxxQCZ//OrK5E5IoABOhIjCyV/uVFLpAx/W2hxbFgCGKBP6a9Uf5IRw1+fuhKVMwIYoDNBXuHoM7zyz9abGNz99akpUTkkgAE6FMVUcBJdq0a6brDVOH2SICoI3Eig9cN1Yyhc+kVg1PCXx9/oUhA4IYAB+usivY+9SSYMf/3pSUSOCWCAvsQ5erl5bZTc/KglxXEQ6JhfAtq9BK4Mf+25/GK7Vyeu/hACfFB8CWmHv61zeKz986Ul0WxAAAP0I5Kt4FpfYkT150dHItmIAAboR6wRw1+WvvjRk0g2IIAB+hGp99E3qj8/GhLJZgQwQB+CXan+dMssqj8fWhLFRgQwQB9i9e77R/XnQz+i2JQABuhDuN7hL+v+fOhHFJsSwADXC9c7/OWpj/XaEcHmBDDA9QJaA2xZ+0f1t147IticAAa4XkA7/1erB4ue1+tGBA8gUPuBe0CqblNoreS48eFWSgLbjQAGuFYx++6O2mUsLfv9yRMlX6eUfkwpfVybKq1DwB8BDHCtJq3VnB7/95TSH09Cz3eWaZlfXEuF1iEwiQAGOAn0QTNazdVWaC3DZTu3KM1jgGu1pnWHBDDAtaK0PMXRuuzFri3EANfqTOtOCWCAa4VRk6qpzlqqv3z4iwGu1ZnWnRLAANcKo6Z2pkPrshcMcK2utL4JgbMP3iZpbBlmyw2QlkpRYGCAW3YJgp5NAAOcTfx/7dXO6bVWf9JCPv8n/1e7zGYdEVqGwGQCGOBk4Ka5WmOrHSbbTPQcubv84fWDmnnGdTRoGQILCGCAC6C/mqy5A1xrkjYLO/z95bUQWn6OAa7TmpadEsAA1wlzZoC1Q+Q8A7v+T0xP/s0QeJ3OtOyYAAa4TpyzZS2tNz40Ez1PHoOTeT8McJ3GtOycAAa4TqB3BndWHR5Fne8tKMd99zq49U1z68jQMgQmEcAAJ4EuNHNkgD3zfnr5fPgr/68VoHyP3uv0pmWHBPhArBOlZIAtawPzyO3OMlrt2f+T47kRsk5vWnZIAANcJ0pugGJWMlyVv3vW7B1trW/XBGKA6/SmZYcEMMB1ouTzfC37/OVR509+WF3tsJh5wHV607JDAhjgOlHsZqW/f1V+tdti5VFbk/s2pfS9OQADXKcxLTsngAGuE0iN6Z8ppS9fYfQMUd9Vf3LZfB4QzddpTsvOCPBhWCfIqB2b7Rxfae6QGyHrNKZl5wQwwHUC6RBYIui56SHn1ZqoNUnmAddpTsvOCGCAawSxxiVD4D90hnFW/ellmQfsBMxpzyaAAc7XNx+SSgQ9OuTv/HhXRTIMnq8zLW5AoOeDt0FabkMsmV+PAbaYH1Wg2+5AYKsJYIDzFMjNz+7V16JDbn61BkoVOE9rWtqEQMsHb5OU3IaZz9fJzQh9Trdm+ctR9VhzbqkKrHm3sFuYBAaBEQQwwBEUz69xdBfWbl0lRnb0NcL89Nr/uLju8DxbjoDAJgQwwPuFyt/PcfSY2tFTIKUXHF1ZymKvd+U695OjBQjcTAADvA+w3dxAWykNV0tDYzGm0vlynRGmZecRe9cg3keOK0NgEgEM8D7Q+c2Ko7m6o+FtHpnu8Cx/X/3ihshVgpz/CAIY4HgZS4Z2dqPiqNrTik+qtBHGZ7NlcfR47bniZgQwwPGC9azR0yjECOWPGp/9e3SkuVEzFB5NmOu5J4ABjpWodtg7ttX+q9U+S6ymLC3J91+/adIem1et8jNZfvMvY/Tvorfnyys+9RfC6Gq4nyBnbk0AAxwnX363d4eKSgzpo3l5uq04f9dgVOMotl1JnqOWu+f6ZY0Rk2xjGfJoDHCM7N7Mz1ZhmqG+HU6ruNbM1VC0ErOmkw/b7bXlZ9aM8n/nxx7FZeNviV1+EcmXVLt8QeD/CGCA1zvE7GHvu+FoyfjOMhRzkmpP/ujGrL07U5+1NernOlcq8epu2jXXxgxrKAU6BgO8JvavKaWvzCXO7vbWtqZGZufbes1N2rTzZ7Zyy+Op3V6rNo+Zx9kbSDJHecZrhymKmfxCtoUB9snes9Qlb+mKyR3dHJA2rsx95ctxnmASMvR9Z4hPyLGvF3NW1z500bGVHk07q/y0OtG7p++qk7vMrUW3pz4pUtJOuMhd6b8xT9jSRZ5xLBVgm46lrahsBaHGphP2JaPLDU7/faVya8ui7ugnb5pwZIRUg3V94zFHYYB1Uh49qaHLMOwQKzcynXi/Ojyti3TsUU+tBJWSGOGfXzeA7Nzou515xhLmaksJYIDn+I+qBTE/+SNfT16ku/ONkXN1/3tE7YLw2utx3CYEMMDPhdL1YlLVyTILXRpijxyxI8smXeSz9wo/dZh49n7lXfQizgYCUQ0wn6uzyLSaE+P7UGAZyfw0/dJdb92gwdvcZUP3/+xQO+Q/u7F1pR3OdUIgigHau7D5kwhiePlTAqWbHSLZU6ufmu6oDPMnMsQASwxrruntGDaL9abIzfE80QBtdZc/oqU3JN5VLT8cVH6Rzc92w3fr6nZnZCvdiJX+zXbj7/JPMUC9SyuEbYXXuo9eaagXvfI76rVHFaHykr93fP7W3vR5yufDn/M4iWhngbW60zer6Y7JgrZ3XupsnZ8T2dyFcXSnfMdfHtJ3dMH6zp8Pd53EY0C7CZxXHSO3ic8/xDqv1WumHvW+O6YnGKEdBez2+bhb38ddfweB80XII01PBc0/uLvPZa3uqDr0LW1h5X1HFgxwde+Z2L5nA7S7e+iw9q5qjOUP93W6s6rQ21yhxssvwfv6hJsrezPA0m4kYnp3GZ+tAO82WTeiLwrkXVVob5zM0LuEIO97rANc1FFmNuvBAO+c15vJkrbqCZxtUaW/jGQe9q7NIkrLpbTd1tUD9ZlzpCsCKw3Q/sa9Y17PFWiCOSSQL1J/h0oXXesxLe8AebdTj153VfVJ91hEYLYBUu0tEnqzZu38b83uziVDfLfnoq309PvNEBHuCAKzDDCv9p7y6NQIDbhGG4H85pic/e6FSaX9F++eU27LiKOXEbjbABnmLpOWhiEAgTMCdxqgXf7AHbUzJfg5BCAwncAdBmgXkrKWarqkNAgBCNQSGGmA+XCXbcVrVeA4CEBgCYERBmjv7LKcZYmMNAoBCPQQuGqAdkErw90eBTgHAhBYRqDXAO1wF+NbJh8NQwACVwi0GqAd7j7xnRBXWHIuBCCwGYFWA5Tdcpnn20xkwoUABMoEWg3QbjcPUwhAAAJbE2g1wK2TJXgIQAAClgAGSH+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhLAAMNKT+IQgAAGSB+AAATCEsAAw0pP4hCAAAZIH4AABMISwADDSk/iEIAABkgfgAAEwhL4DUozTt/S0aoaAAAAAElFTkSuQmCC",
+            "required": false,
+            "tipTitle": "",
+            "tipDescription": "",
+            "tipVisible": false,
+            "metadata": {
+                "deficiencies": false,
+                "blockImport": false,
+                "blockAutoPopulate": false,
+                "requireDeficiencyTitle": false,
+                "requireDeficiencyDescription": false,
+                "requireDeficiencyPhoto": false
+            },
+            "file": "650258f38666c715f4fc9dd4"
+        }
+    ],
+    "deleted": false
+}
