@@ -1,17 +1,17 @@
-//Version: 1.0.1 (July 11th 2025)
+//Version: 1.0.2 (July 14th 2025)
 
 // Top-level Template interface
 export interface Template {
-  _id: string;
-  type: 'template' | 'document';
+  _id?: string;
+  type?: 'template' | 'document';
   stage?: string;
   metadata?: Record<string, any>;
   identifier?: string;
-  name: string;
-  createdOn: number;
+  name?: string;
+  createdOn?: number;
   files: TemplateFile[];
   fields: Field[];
-  deleted: boolean;
+  deleted?: boolean;
   categories?: string[];
 }
 
@@ -26,7 +26,7 @@ export interface TemplateFile {
   styles: CoreStyles;
   pages: Page[];
   pageOrder: string[];
-  views: View[];
+  views?: View[];
 }
 
 export interface View {
@@ -58,12 +58,12 @@ export interface Page {
 export interface FieldPosition extends CoreStyles {
   _id: string;
   field: string;
-  displayType: FieldPositionDisplayType;
+  displayType: FieldPositionDisplayType; 
   width: number;
   height: number;
   x: number;
   y: number;
-  type: FieldType;
+  type: FieldType; 
 
   // Optional properties – present only for some types:
   schema?: {
@@ -73,7 +73,7 @@ export interface FieldPosition extends CoreStyles {
           format?: string;
           hidden?: boolean;
         };
-      }
+      }  
     }
   }
   tableColumns?: {
@@ -267,7 +267,7 @@ export interface LegacyRichTextField extends BaseField {
 
 export interface TextField extends BaseField {
   type: 'text';
-  value?: string;
+  value?: string; 
 }
 
 export interface NumberField extends BaseField {
@@ -315,13 +315,28 @@ export interface TableField extends BaseField {
 
 export interface ChartField extends BaseField {
   type: 'chart';
-  value?: ChartSeries[]; //@TODO: the original file from JF required this property!
+  value?: ChartSeries[];
   yTitle: string;
   yMax: number;
   yMin: number;
   xTitle: string;
   xMax: number;
   xMin: number;
+}
+
+export interface ChartSeries {
+  _id: string;
+  deleted?: boolean;
+  title?: string;
+  description?: string;
+  points: ChartPoint[];
+}
+
+export interface ChartPoint {
+  _id: string;
+  label?: string;
+  y: number;
+  x: number;
 }
 
 export interface CollectionField extends BaseField {
@@ -380,20 +395,13 @@ export interface CollectionItem {
   children?: Record<string, { value?: CollectionItem[] }>;
 }
 
-// Represents a child item inside a nested collection.
-export interface CollectionItemChild {
-  _id: string;
-  cells?: Record<string, any>;
-  children?: Record<string, { value: CollectionItemChild[] }>;
-}
-
 export interface Option {
   _id: string;
   value: string;
   deleted?: boolean;
   width?: number;
   styles?: {
-    backgroundColor?: string | null
+    backgroundColor?: string | null;
   };
   metadata?: Record<string, any>; // @TODO this property is not present in the original file from JF!
 }
@@ -487,18 +495,3 @@ export type TableColumn =
   | BlockColumn
   | BarcodeColumn
   | SignatureColumn;
-
-export interface ChartSeries {
-  _id: string;
-  deleted?: boolean;
-  title?: string;
-  description?: string;
-  points: ChartPoint[];
-}
-
-export interface ChartPoint {
-  _id: string;
-  label?: string;
-  y: number;
-  x: number;
-}
