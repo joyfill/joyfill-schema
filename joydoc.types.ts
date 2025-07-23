@@ -13,6 +13,15 @@ export interface Template {
   fields: Field[];
   deleted?: boolean;
   categories?: string[];
+  formulas?: Formula[];
+}
+
+export interface Formula {
+	_id: string,
+	desc: string,
+	type: 'calc', //Future will have logic, validation, etc.
+	scope: 'global' | 'private',
+	expression: string, 
 }
 
 // -----------------------------
@@ -189,6 +198,12 @@ export interface Condition {
   value?: any;
 }
 
+interface AppliedFormula {
+	_id: string,
+	key: 'value',
+	formula: string
+}
+
 // -----------------------------
 // Field Definitions
 // -----------------------------
@@ -209,6 +224,7 @@ export interface BaseField {
   logic?: Logic;
   hidden?: boolean;
   disabled?: boolean;
+  formulas?: AppliedFormula[];
 }
 
 
