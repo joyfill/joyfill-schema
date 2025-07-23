@@ -50,13 +50,8 @@
     }
   },
   "required": [
-    "_id",
-    "type",
-    "name",
-    "createdOn",
     "files",
-    "fields",
-    "deleted"
+    "fields"
   ],
   "definitions": {
     "TemplateFile": {
@@ -98,8 +93,7 @@
         "name",
         "styles",
         "pages",
-        "pageOrder",
-        "views"
+        "pageOrder"
       ]
     },
     "CoreStyles": {
