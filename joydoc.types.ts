@@ -211,9 +211,9 @@ export interface Condition {
 }
 
 interface AppliedFormula {
-	_id: string,
-	key: 'value',
-	formula: string
+  _id: string,
+  key: 'value',
+  formula: string
   [key: string]: any;
 }
 
