@@ -18,11 +18,11 @@ export interface Template {
 }
 
 export interface Formula {
-	_id: string,
-	desc: string,
-	type: 'calc', //Future will have logic, validation, etc.
-	scope: 'global' | 'private',
-	expression: string, 
+  _id: string,
+  desc: string,
+  type: 'calc', //Future will have logic, validation, etc.
+  scope: 'global' | 'private',
+  expression: string,
   [key: string]: any;
 }
 
