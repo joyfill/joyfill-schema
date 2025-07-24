@@ -132,7 +132,7 @@ export type FieldPositionDisplayType =
   | 'inputGroup';
 
 
-export type FieldType =
+  type KnownFieldType =
   | 'image'
   | 'richText'
   | 'file'
@@ -148,6 +148,8 @@ export type FieldType =
   | 'collection'
   | 'block'
   | 'rte';
+
+export type FieldType = KnownFieldType | string;
 
 // -----------------------------
 // Core Styles
@@ -255,8 +257,15 @@ export type Field =
   | DropdownField
   | TableField
   | ChartField
-  | CollectionField;
+  | CollectionField
+  | CustomField
 
+
+  export interface CustomField extends BaseField {
+    type: string; // Allow any unknown type
+    [key: string]: any; // Accept any additional props
+  }
+  
 export interface ImageField extends BaseField {
   type: 'image';
   value?: ImageValue[];
@@ -448,7 +457,8 @@ export interface TableRow {
   [key: string]: any;
 }
 
-export type TableColumnType =
+
+  type KnownTableColumnType =
   | 'text'
   | 'dropdown'
   | 'image'
@@ -458,6 +468,10 @@ export type TableColumnType =
   | 'signature'
   | 'multiSelect'
   | 'barcode';
+
+export type TableColumnType = KnownTableColumnType | string;
+
+  
 
 // Base structure for any column
 export interface BaseTableColumn {
@@ -521,6 +535,13 @@ export interface SignatureColumn extends BaseTableColumn {
   maxImageHeight?: number;
 }
 
+
+export interface CustomColumn extends BaseTableColumn {
+  type: string; // Unknown type allowed
+  [key: string]: any;
+}
+
+
 // Discriminated union for all supported column types
 export type TableColumn =
   | TextColumn
@@ -531,4 +552,5 @@ export type TableColumn =
   | DateColumn
   | BlockColumn
   | BarcodeColumn
-  | SignatureColumn;
+  | SignatureColumn
+  | CustomColumn;
