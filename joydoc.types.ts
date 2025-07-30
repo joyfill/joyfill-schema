@@ -13,6 +13,17 @@ export interface Template {
   fields: Field[];
   deleted?: boolean;
   categories?: string[];
+  formulas?: Formula[];
+  [key: string]: any;
+}
+
+export interface Formula {
+  _id: string,
+  desc: string,
+  type: 'calc', //Future will have logic, validation, etc.
+  scope: 'global' | 'private',
+  expression: string,
+  [key: string]: any;
 }
 
 // -----------------------------
@@ -27,12 +38,14 @@ export interface TemplateFile {
   pages: Page[];
   pageOrder: string[];
   views?: View[];
+  [key: string]: any;
 }
 
 export interface View {
   type?: 'mobile';
   pageOrder: string[];
   pages: Page[];
+  [key: string]: any;
 }
 
 export interface Page {
@@ -53,6 +66,7 @@ export interface Page {
   backgroundImage?: string;
   backgroundSize?: '' | '100% 100%';
   logic?: Logic;
+  [key: string]: any;
 }
 
 export interface FieldPosition extends CoreStyles {
@@ -68,10 +82,12 @@ export interface FieldPosition extends CoreStyles {
   // Optional properties – present only for some types:
   schema?: {
     [schemaId: string]: {
+      [key: string]: any;
       tableColumns?: {
         [columnId: string]: {
           format?: string;
           hidden?: boolean;
+          [key: string]: any;
         };
       }  
     }
@@ -80,6 +96,7 @@ export interface FieldPosition extends CoreStyles {
     [columnId: string]: {
       format?: string;
       hidden?: boolean;
+      [key: string]: any;
     };
   };
   primaryMaxWidth?: number;
@@ -115,7 +132,7 @@ export type FieldPositionDisplayType =
   | 'inputGroup';
 
 
-export type FieldType =
+  type KnownFieldType =
   | 'image'
   | 'richText'
   | 'file'
@@ -131,6 +148,8 @@ export type FieldType =
   | 'collection'
   | 'block'
   | 'rte';
+
+export type FieldType = KnownFieldType | string;
 
 // -----------------------------
 // Core Styles
@@ -169,6 +188,7 @@ export interface Logic {
   action: 'show' | 'hide';
   eval: 'and' | 'or';
   conditions: Condition[];
+  [key: string]: any;
 }
 
 export interface Condition {
@@ -187,6 +207,14 @@ export interface Condition {
   //< Less Than
   condition: '*=' | 'null=' | '=' | '!=' | '?=' | '>' | '<';
   value?: any;
+  [key: string]: any;
+}
+
+interface AppliedFormula {
+  _id: string,
+  key: 'value',
+  formula: string
+  [key: string]: any;
 }
 
 // -----------------------------
@@ -209,6 +237,8 @@ export interface BaseField {
   logic?: Logic;
   hidden?: boolean;
   disabled?: boolean;
+  formulas?: AppliedFormula[];
+  [key: string]: any;
 }
 
 
@@ -227,8 +257,15 @@ export type Field =
   | DropdownField
   | TableField
   | ChartField
-  | CollectionField;
+  | CollectionField
+  | CustomField
 
+
+  export interface CustomField extends BaseField {
+    type: string; // Allow any unknown type
+    [key: string]: any; // Accept any additional props
+  }
+  
 export interface ImageField extends BaseField {
   type: 'image';
   value?: ImageValue[];
@@ -330,6 +367,7 @@ export interface ChartSeries {
   title?: string;
   description?: string;
   points: ChartPoint[];
+  [key: string]: any;
 }
 
 export interface ChartPoint {
@@ -337,6 +375,7 @@ export interface ChartPoint {
   label?: string;
   y: number;
   x: number;
+  [key: string]: any;
 }
 
 export interface CollectionField extends BaseField {
@@ -359,6 +398,7 @@ export interface SchemaDefinition {
   tableColumns: TableColumn[];
   logic?: SchemaLogic;
   children?: string[];
+  [key: string]: any;
 }
 
 export interface SchemaLogic {
@@ -366,6 +406,7 @@ export interface SchemaLogic {
   action: 'show' | 'hide';
   eval: 'and' | 'or';
   conditions: SchemaLogicCondition[];
+  [key: string]: any;
 }
 
 export interface SchemaLogicCondition {
@@ -383,6 +424,7 @@ export interface SchemaLogicCondition {
   //< Less Than
   condition: '*=' | 'null=' | '=' | '!=' | '?=' | '>' | '<';
   value?: any;
+  [key: string]: any;
 }
 
 // Represents an item in the top-level `value` array.
@@ -393,6 +435,7 @@ export interface CollectionItem {
   // Children is an object where each key is a schema ID and the value
   // is an object with a "value" property that is an array of child items.
   children?: Record<string, { value?: CollectionItem[] }>;
+  [key: string]: any;
 }
 
 export interface Option {
@@ -404,15 +447,18 @@ export interface Option {
     backgroundColor?: string | null;
   };
   metadata?: Record<string, any>; // @TODO this property is not present in the original file from JF!
+  [key: string]: any;
 }
 
 export interface TableRow {
   _id: string;
   deleted?: boolean;
   cells?: Record<string, any>;
+  [key: string]: any;
 }
 
-export type TableColumnType =
+
+  type KnownTableColumnType =
   | 'text'
   | 'dropdown'
   | 'image'
@@ -423,6 +469,10 @@ export type TableColumnType =
   | 'multiSelect'
   | 'barcode';
 
+export type TableColumnType = KnownTableColumnType | string;
+
+  
+
 // Base structure for any column
 export interface BaseTableColumn {
   _id: string;
@@ -432,6 +482,7 @@ export interface BaseTableColumn {
   deleted?: boolean;
   identifier?: string;
   value?: any;
+  [key: string]: any;
 }
 
 // Extended interfaces by column type
@@ -484,6 +535,13 @@ export interface SignatureColumn extends BaseTableColumn {
   maxImageHeight?: number;
 }
 
+
+export interface CustomColumn extends BaseTableColumn {
+  type: string; // Unknown type allowed
+  [key: string]: any;
+}
+
+
 // Discriminated union for all supported column types
 export type TableColumn =
   | TextColumn
@@ -494,4 +552,5 @@ export type TableColumn =
   | DateColumn
   | BlockColumn
   | BarcodeColumn
-  | SignatureColumn;
+  | SignatureColumn
+  | CustomColumn;
