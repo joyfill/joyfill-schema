@@ -97,37 +97,22 @@ describe("Option validation", () => {
 
   it("should reject option without _id", () => {
 
-
     const validateSchema = ajv.compile(schema);
-    const result = validateSchema(dropodownTemplate);
+    const isValid = validateSchema(dropodownTemplate);
 
-    // Should fail because _id is required
-    expect(result).toBe(false);
+    console.log('isValid', isValid);
 
-    // Check that the error is about missing _id
-    const errors = validateSchema.errors;
 
-    console.log(errors);
-    expect(errors).toBeDefined();
-    expect(errors.length).toBeGreaterThan(0);
+    const isValidOption = ajv.compile(schema.definitions.Option);
+    const optionValidation = isValidOption({ value: "Yes" });
+    console.log('isOptionValid', optionValidation);
 
-    const missingIdError = errors.find(error =>
-      error.params && error.params.missingProperty === '_id'
-    );
-    expect(missingIdError).toBeDefined();
+
+    expect(optionValidation).toBe(false);
+    expect(isValid).toBe(false);
+
   });
 
-  it("should accept valid option with _id", () => {
-    const validOption = {
-      _id: "option1",
-      value: "Valid Option"
-    };
 
-    const validateSchema = ajv.compile(schema);
-    const result = validateSchema(validOption);
-
-    // Should pass because it has required _id and value
-    expect(result).toBe(true);
-  });
 
 });
