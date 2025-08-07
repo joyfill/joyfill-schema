@@ -11,7 +11,7 @@ const ajv = new Ajv({
 });
 
 
-const dropodownTemplate = {
+const dropdownTemplate = {
   "_id": "688a502a04deca5f1d0cd9dc",
   "type": "document",
   "stage": "draft",
@@ -95,12 +95,14 @@ const dropodownTemplate = {
 
 describe("Option validation", () => {
 
-  it("should pass validation when all options have _id", async() => {
+  it("should pass validation when all options have _id", async () => {
 
     const validateSchema = ajv.compile(schema);
 
 
-    const isValid = validateSchema(dropodownTemplate);
+    const isValid = validateSchema(dropdownTemplate);
+
+    console.log('isValid', isValid);
 
     const relevantErrors = validateSchema.errors.filter(
       e => !(e.keyword === 'if' && e.params?.failingKeyword === 'then')
@@ -112,7 +114,52 @@ describe("Option validation", () => {
     expect(isValid).toBe(false);
   });
 
+});
 
+describe.only('File validation', () => {
+
+  let nextTemplate;
+
+  beforeEach(() => {
+    nextTemplate = { ...dropdownTemplate };
+    nextTemplate.fields[0].options[0]._id = '689324c7c21489b0ba635b62';
+  });
+
+  it('should fail when files is missing', () => {
+    const invalidTemplate = { ...nextTemplate };
+    delete invalidTemplate.files;
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
+
+  it('should fail when files is not an array', () => {
+    const invalidTemplate = { ...nextTemplate };
+    invalidTemplate.files = {};
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
+
+  it('should fail when files is an empty array', () => {
+    const invalidTemplate = { ...nextTemplate };
+    invalidTemplate.files = [];
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
 
 
 });
