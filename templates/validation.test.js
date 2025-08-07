@@ -1,7 +1,6 @@
 const Ajv = require('ajv');
 const fs = require('fs');
 const path = require('path');
-
 // Load the schema
 const schemaPath = path.join(__dirname, '..', 'joyfill-schema.json');
 const schema = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
@@ -96,44 +95,23 @@ const dropodownTemplate = {
 
 describe("Option validation", () => {
 
-  it("should pass validation when all options have _id", () => {
+  it("should pass validation when all options have _id", async() => {
+
     const validateSchema = ajv.compile(schema);
+
+
     const isValid = validateSchema(dropodownTemplate);
 
-    console.log('isValid', isValid, validateSchema.errors);
+    const relevantErrors = validateSchema.errors.filter(
+      e => !(e.keyword === 'if' && e.params?.failingKeyword === 'then')
+    );
+
+    console.log('relevantErrors', relevantErrors);
+
 
     expect(isValid).toBe(false);
   });
 
-  // it("should reject option without _id", () => {
-  //   // Create a template with an option missing _id
-  //   const invalidTemplate = {
-  //     ...dropodownTemplate,
-  //     fields: [
-  //       {
-  //         ...dropodownTemplate.fields[0],
-  //         options: [
-  //           {
-  //             "value": "Yes",
-  //             "deleted": false
-  //           },
-  //           {
-  //             "_id": "689324c7c21489b0ba635b62",
-  //             "value": "No",
-  //             "deleted": false
-  //           }
-  //         ]
-  //       }
-  //     ]
-  //   };
-
-  //   const validateSchema = ajv.compile(schema);
-  //   const isValid = validateSchema(invalidTemplate);
-
-  //   console.log('isValid with missing _id:', isValid, validateSchema.errors);
-
-  //   expect(isValid).toBe(false);
-  // });
 
 
 
