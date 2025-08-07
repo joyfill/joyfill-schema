@@ -102,13 +102,12 @@ describe("Option validation", () => {
 
     const isValid = validateSchema(dropdownTemplate);
 
-    console.log('isValid', isValid);
-
+    // This removes 'if/then' errors from AJV,
+    // because they just repeat the real validation error.
+    // We only want to show the actual useful errors.
     const relevantErrors = validateSchema.errors.filter(
       e => !(e.keyword === 'if' && e.params?.failingKeyword === 'then')
     );
-
-    console.log('relevantErrors', relevantErrors);
 
 
     expect(isValid).toBe(false);
@@ -116,7 +115,7 @@ describe("Option validation", () => {
 
 });
 
-describe.only('File validation', () => {
+describe('File validation', () => {
 
   let nextTemplate;
 
@@ -161,6 +160,53 @@ describe.only('File validation', () => {
     expect(validateSchema.errors.length).toBeGreaterThan(0);
   });
 
+
+});
+
+describe('Pages validation', () => {
+
+  let nextTemplate;
+
+  beforeEach(() => {
+    nextTemplate = { ...dropdownTemplate };
+    nextTemplate.fields[0].options[0]._id = '689324c7c21489b0ba635b62';
+  });
+
+  it('should fail when pages is missing from a file', () => {
+    const invalidTemplate = { ...nextTemplate };
+    delete invalidTemplate.files[0].pages;
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
+
+  it('should fail when pages is not an array', () => {
+    const invalidTemplate = { ...nextTemplate };
+    invalidTemplate.files[0].pages = {};
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
+
+  it('should fail when pages is an empty array', () => {
+    const invalidTemplate = { ...nextTemplate };
+    invalidTemplate.files[0].pages = [];
+
+    const validateSchema = ajv.compile(schema);
+    const isValid = validateSchema(invalidTemplate);
+
+    expect(isValid).toBe(false);
+    expect(validateSchema.errors).toBeDefined();
+    expect(validateSchema.errors.length).toBeGreaterThan(0);
+  });
 
 });
 
