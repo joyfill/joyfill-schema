@@ -641,214 +641,56 @@
       ]
     },
     "Field": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "image",
-            "file",
-            "block",
-            "richText",
-            "text",
-            "number",
-            "date",
-            "textarea",
-            "signature",
-            "multiSelect",
-            "dropdown",
-            "table",
-            "chart",
-            "collection",
-            "custom"
-          ]
+      "oneOf": [
+        {
+          "$ref": "#/definitions/ImageField"
+        },
+        {
+          "$ref": "#/definitions/FileField"
+        },
+        {
+          "$ref": "#/definitions/BlockField"
+        },
+        {
+          "$ref": "#/definitions/LegacyRichTextField"
+        },
+        {
+          "$ref": "#/definitions/TextField"
+        },
+        {
+          "$ref": "#/definitions/NumberField"
+        },
+        {
+          "$ref": "#/definitions/DateField"
+        },
+        {
+          "$ref": "#/definitions/TextareaField"
+        },
+        {
+          "$ref": "#/definitions/SignatureField"
+        },
+        {
+          "$ref": "#/definitions/MultiSelectField"
+        },
+        {
+          "$ref": "#/definitions/DropdownField"
+        },
+        {
+          "$ref": "#/definitions/TableField"
+        },
+        {
+          "$ref": "#/definitions/ChartField"
+        },
+        {
+          "$ref": "#/definitions/CollectionField"
+        },
+        {
+          "$ref": "#/definitions/CustomField"
         }
-      },
-      "required": [
-        "type"
       ],
-      "allOf": [
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "image"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/ImageField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "file"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/FileField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "block"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/BlockField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "richText"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/LegacyRichTextField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "text"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/TextField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "number"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/NumberField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "date"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/DateField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "textarea"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/TextareaField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "signature"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/SignatureField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "multiSelect"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/MultiSelectField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "dropdown"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/DropdownField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "table"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/TableField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "chart"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/ChartField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "collection"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/CollectionField"
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "custom"
-              }
-            }
-          },
-          "then": {
-            "$ref": "#/definitions/CustomField"
-          }
-        }
-      ]
+      "discriminator": {
+        "propertyName": "type"
+      }
     },
     "ImageField": {
       "type": "object",
