@@ -3,7 +3,8 @@
   "type": "object",
   "properties": {
     "_id": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "type": {
       "type": "string",
@@ -65,7 +66,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "metadata": {
           "type": "object"
@@ -211,7 +213,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "name": {
           "type": "string"
@@ -383,7 +386,8 @@
           "type": "string"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "field": {
           "type": "string"
@@ -552,7 +556,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "action": {
           "type": "string",
@@ -585,7 +590,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "file": {
           "type": "string"
@@ -861,7 +867,8 @@
           "const": "image"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -905,7 +912,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -942,7 +950,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "url": {
           "type": "string"
@@ -967,7 +976,8 @@
           "const": "file"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1011,7 +1021,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1048,7 +1059,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "url": {
           "type": "string"
@@ -1073,7 +1085,8 @@
           "const": "block"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1117,7 +1130,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1152,7 +1166,8 @@
           "const": "richText"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1196,7 +1211,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1231,7 +1247,8 @@
           "const": "text"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1275,7 +1292,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1310,7 +1328,8 @@
           "const": "number"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1354,7 +1373,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1397,7 +1417,8 @@
           "const": "date"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1441,7 +1462,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1487,7 +1509,8 @@
           "const": "textarea"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1531,7 +1554,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1566,7 +1590,8 @@
           "const": "signature"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1610,7 +1635,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1646,7 +1672,8 @@
           "const": "multiSelect"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1690,7 +1717,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1734,7 +1762,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "value": {
           "type": "string"
@@ -1773,7 +1802,8 @@
           "const": "dropdown"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1817,7 +1847,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1859,7 +1890,8 @@
           "const": "table"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1903,7 +1935,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -1959,7 +1992,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "deleted": {
           "type": "boolean"
@@ -2010,7 +2044,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2041,7 +2076,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2078,7 +2114,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2118,7 +2155,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2153,7 +2191,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2184,7 +2223,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2215,7 +2255,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2246,7 +2287,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2277,7 +2319,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2312,7 +2355,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string"
@@ -2344,7 +2388,8 @@
           "const": "chart"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2388,7 +2433,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -2446,7 +2492,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "deleted": {
           "type": "boolean"
@@ -2473,7 +2520,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "label": {
           "type": "string"
@@ -2499,7 +2547,8 @@
           "const": "collection"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2543,7 +2592,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -2620,7 +2670,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "action": {
           "type": "string",
@@ -2653,7 +2704,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "schema": {
           "type": "string"
@@ -2685,7 +2737,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "cells": {
           "type": "object"
@@ -2717,7 +2770,8 @@
           "const": "custom"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2761,7 +2815,8 @@
             "type": "object",
             "properties": {
               "_id": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "key": {
                 "type": "string",
@@ -2789,7 +2844,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "desc": {
           "type": "string"
