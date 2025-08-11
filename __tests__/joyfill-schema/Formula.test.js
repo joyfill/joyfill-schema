@@ -16,13 +16,11 @@ function makeValidFormula(overrides = {}) {
 }
 
 function makeValidJoyDocWithFormulas(formulas) {
-  // Minimal valid JoyDoc with required fields and files
+  // Minimal valid JoyDoc with required fields and one valid file
   return {
     files: [
       {
         _id: 'file_1',
-        name: 'Main',
-        styles: {},
         pages: [],
         pageOrder: []
       }
@@ -38,37 +36,35 @@ function runValidation(doc) {
 }
 
 describe('Formula JSON Schema Validation', () => {
-  // formulas property
-  describe('formulas property', () => {
-    it('Should pass validation when formulas property does not exist.', () => {
-      const doc = makeValidJoyDocWithFormulas(undefined);
-      delete doc.formulas;
-      const { isValid, errors } = runValidation(doc);
-      if (!isValid) console.error(errors);
-      expect(isValid).toBe(true);
-    });
-
-    it('Should pass validation when formulas is an empty array.', () => {
+  // general
+  describe('general', () => {
+    it('Should pass when formulas is an empty array.', () => {
       const doc = makeValidJoyDocWithFormulas([]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
     });
 
-    it('Should pass validation when formulas contains a valid formula object.', () => {
-      const formulas = [makeValidFormula()];
-      const doc = makeValidJoyDocWithFormulas(formulas);
+    it('Should pass when formulas contains a single valid formula.', () => {
+      const doc = makeValidJoyDocWithFormulas([makeValidFormula()]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
     });
 
-    it('Should pass validation when formulas contains multiple valid formula objects.', () => {
-      const formulas = [
+    it('Should pass when formulas contains multiple valid formulas.', () => {
+      const doc = makeValidJoyDocWithFormulas([
         makeValidFormula(),
         makeValidFormula({ _id: 'formula_2', desc: 'Product', expression: 'A*B' })
-      ];
-      const doc = makeValidJoyDocWithFormulas(formulas);
+      ]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass validation when formulas property does not exist.', () => {
+      const doc = makeValidJoyDocWithFormulas(undefined);
+      delete doc.formulas;
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
@@ -87,9 +83,9 @@ describe('Formula JSON Schema Validation', () => {
     });
   });
 
-  // Required properties in Formula
-  describe('Formula required properties', () => {
-    it('Should fail validation when _id is missing.', () => {
+  // _id property
+  describe('_id property', () => {
+    it('Should fail when _id is missing.', () => {
       const formula = makeValidFormula();
       delete formula._id;
       const doc = makeValidJoyDocWithFormulas([formula]);
@@ -97,90 +93,22 @@ describe('Formula JSON Schema Validation', () => {
       expect(isValid).toBe(false);
     });
 
-    it('Should fail validation when desc is missing.', () => {
-      const formula = makeValidFormula();
-      delete formula.desc;
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
-    it('Should fail validation when type is missing.', () => {
-      const formula = makeValidFormula();
-      delete formula.type;
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
-    it('Should fail validation when scope is missing.', () => {
-      const formula = makeValidFormula();
-      delete formula.scope;
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
-    it('Should fail validation when expression is missing.', () => {
-      const formula = makeValidFormula();
-      delete formula.expression;
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-  });
-
-  // Type checks for required properties
-  describe('Formula property types', () => {
-    it('Should fail validation when _id is not a string.', () => {
+    it('Should fail when _id is not a string.', () => {
       const formula = makeValidFormula({ _id: 123 });
       const doc = makeValidJoyDocWithFormulas([formula]);
       const { isValid } = runValidation(doc);
       expect(isValid).toBe(false);
     });
 
-    it('Should fail validation when desc is not a string.', () => {
-      const formula = makeValidFormula({ desc: 456 });
+    it('Should fail when _id is an empty string.', () => {
+      const formula = makeValidFormula({ _id: '' });
       const doc = makeValidJoyDocWithFormulas([formula]);
       const { isValid } = runValidation(doc);
       expect(isValid).toBe(false);
     });
 
-    it('Should fail validation when type is not a string.', () => {
-      const formula = makeValidFormula({ type: {} });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
-    it('Should fail validation when scope is not a string.', () => {
-      const formula = makeValidFormula({ scope: [] });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
-    it('Should fail validation when expression is not a string.', () => {
-      const formula = makeValidFormula({ expression: 789 });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-  });
-
-  // Optional properties
-  describe('Formula optional properties', () => {
-    it('Should pass validation when optional properties are not present.', () => {
-      const formula = makeValidFormula();
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(true);
-    });
-  });
-
-  describe('Forward compatibility', () => {
-    it('Should pass validation when unknown properties are present.', () => {
-      const formula = makeValidFormula({ foo: 'bar', extra: 123 });
+    it('Should pass when _id is a valid string.', () => {
+      const formula = makeValidFormula({ _id: 'ok' });
       const doc = makeValidJoyDocWithFormulas([formula]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);
@@ -188,4 +116,139 @@ describe('Formula JSON Schema Validation', () => {
     });
   });
 
+  // desc property
+  describe('desc property', () => {
+    it('Should fail when desc is missing.', () => {
+      const formula = makeValidFormula();
+      delete formula.desc;
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail when desc is not a string.', () => {
+      const formula = makeValidFormula({ desc: 456 });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should pass when desc is a valid string.', () => {
+      const formula = makeValidFormula({ desc: 'Any description' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+  });
+
+  // type property
+  describe('type property', () => {
+    it('Should fail when type is missing.', () => {
+      const formula = makeValidFormula();
+      delete formula.type;
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail when type is not a string.', () => {
+      const formula = makeValidFormula({ type: {} });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail when type is a string but not a valid value.', () => {
+      const formula = makeValidFormula({ type: 'invalid-type' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should pass when type is a valid string.', () => {
+      const formula = makeValidFormula({ type: 'calc' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+  });
+
+  // scope property
+  describe('scope property', () => {
+    it('Should fail when scope is missing.', () => {
+      const formula = makeValidFormula();
+      delete formula.scope;
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail when scope is not a string.', () => {
+      const formula = makeValidFormula({ scope: [] });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+    it('Should fail when scope is a string but not a valid value.', () => {
+      const formula = makeValidFormula({ scope: 'invalid-scope' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should pass when scope is a valid string.', () => {
+      // Test for 'global'
+      const formulaGlobal = makeValidFormula({ scope: 'global' });
+      const docGlobal = makeValidJoyDocWithFormulas([formulaGlobal]);
+      const { isValid: isValidGlobal, errors: errorsGlobal } = runValidation(docGlobal);
+      if (!isValidGlobal) console.error(errorsGlobal);
+      expect(isValidGlobal).toBe(true);
+
+      // Test for 'private'
+      const formulaPrivate = makeValidFormula({ scope: 'private' });
+      const docPrivate = makeValidJoyDocWithFormulas([formulaPrivate]);
+      const { isValid: isValidPrivate, errors: errorsPrivate } = runValidation(docPrivate);
+      if (!isValidPrivate) console.error(errorsPrivate);
+      expect(isValidPrivate).toBe(true);
+    });
+  });
+
+  // expression property
+  describe('expression property', () => {
+    it('Should fail when expression is missing.', () => {
+      const formula = makeValidFormula();
+      delete formula.expression;
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail when expression is not a string.', () => {
+      const formula = makeValidFormula({ expression: 789 });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should pass when expression is a valid string.', () => {
+      const formula = makeValidFormula({ expression: 'A-B' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+  });
+
+  // Forward compatibility
+  describe('Forward compatibility', () => {
+    it('Should pass when unknown properties are present.', () => {
+      const formula = makeValidFormula({ foo: 'bar', extra: 123 });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+  });
 });
