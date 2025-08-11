@@ -25,7 +25,7 @@ function runValidation(doc) {
   return { isValid, errors: validate.errors };
 }
 
-describe('JoyDoc JSON Schema Validation', () => {
+describe('JoyDoc (Root) JSON Schema Validation', () => {
    // general
   describe('general', () => {
     it('Should pass validation with only required properties defined on JoyDoc object.', () => {

@@ -62,7 +62,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "metadata": {
           "type": "object"
