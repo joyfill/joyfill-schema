@@ -205,6 +205,33 @@ describe('File JSON Schema Validation', () => {
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
     });
+
+    it('Should pass validation when pages contains a valid page object.', () => {
+      const validPage = {
+        _id: 'page_1',
+        name: 'Page 1',
+        fieldPositions: [],
+        width: 100,
+        height: 100,
+        cols: 4,
+        rowHeight: 1,
+        layout: 'grid',
+        presentation: 'normal'
+      };
+      const file = makeValidFile({ pages: [validPage] });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should fail validation when pages contains a non-object value.', () => {
+      const file = makeValidFile({ pages: ['not-an-object'] });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
   });
 
   // pageOrder property
@@ -219,6 +246,13 @@ describe('File JSON Schema Validation', () => {
 
     it('Should fail validation when pageOrder is not an array.', () => {
       const file = makeValidFile({ pageOrder: 'not-an-array' });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail validation when pageOrder is an array of non-strings.', () => {
+      const file = makeValidFile({ pageOrder: [123] });
       const doc = makeValidJoyDocWithFiles([file]);
       const { isValid } = runValidation(doc);
       expect(isValid).toBe(false);
@@ -243,12 +277,59 @@ describe('File JSON Schema Validation', () => {
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
     });
+
+    it('Should pass validation if views is an empty array', () => {
+      const file = makeValidFile({ views: [] });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass validation if views is not defined', () => {
+      const file = makeValidFile();
+      // Ensure views is not present at all
+      delete file.views;
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should fail validation if views is not an array', () => {
+      const file = makeValidFile({ views: 'not-an-array' });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail validation if views array contains invalid view objects', () => {
+      // Missing required properties in the view object
+      const invalidView = { foo: 'bar' };
+      const file = makeValidFile({ views: [invalidView] });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      expect(isValid).toBe(false);
+
+      // View with wrong type for pageOrder
+      const invalidView2 = { type: 'mobile', pageOrder: 'not-an-array', pages: [] };
+      const file2 = makeValidFile({ views: [invalidView2] });
+      const doc2 = makeValidJoyDocWithFiles([file2]);
+      const { isValid: isValid2, errors: errors2 } = runValidation(doc2);
+      expect(isValid2).toBe(false);
+
+      // View with non-object in array
+      const file3 = makeValidFile({ views: ['not-an-object'] });
+      const doc3 = makeValidJoyDocWithFiles([file3]);
+      const { isValid: isValid3, errors: errors3 } = runValidation(doc3);
+      expect(isValid3).toBe(false);
+    });
   });
 
   // metadata property
   describe('metadata property', () => {
     it('Should pass validation when metadata is present.', () => {
-      const file = makeValidFile({ metadata: { foo: 'bar' } });
+      const file = makeValidFile({ metadata: { foo: 'bar', bar: 123, baz: true, qux: [1, 2, 3] } });
       const doc = makeValidJoyDocWithFiles([file]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);
@@ -261,6 +342,104 @@ describe('File JSON Schema Validation', () => {
       const { isValid } = runValidation(doc);
       expect(isValid).toBe(false);
     });
+  });
+
+  describe('header property', () => {
+
+    it('Should pass validation when header is a valid HeaderFooter object.', () => {
+      const header = {
+        fieldPositions: [],
+        height: 50,
+        cols: 1,
+        rowHeight: 1,
+        layout: 'row',
+        presentation: 'normal'
+      };
+
+      const file = makeValidFile({ header });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass validation when header is null', () => {
+      const header = null;
+
+      const file = makeValidFile({ header });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+
+    });
+
+    it('Should fail validation when header is not an object.', () => {
+      const file = makeValidFile({ header: 'not-an-object' });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail validation when header is missing required properties.', () => {
+      const header = {
+        height: 40,
+      };
+      const file = makeValidFile({ header });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+  });
+
+  describe('footer property', () => {
+
+    it('Should pass validation when footer is a valid HeaderFooter object.', () => {
+      const footer = {
+        fieldPositions: [],
+        height: 50,
+        cols: 1,
+        rowHeight: 1,
+        layout: 'row',
+        presentation: 'normal'
+      };
+
+      const file = makeValidFile({ footer });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass validation when footer is null', () => {
+      const footer = null;
+
+      const file = makeValidFile({ footer });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+
+    });
+
+    it('Should fail validation when footer is not an object.', () => {
+      const file = makeValidFile({ footer: 'not-an-object' });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
+    it('Should fail validation when footer is missing required properties.', () => {
+      const footer = {
+        height: 40,
+      };
+      const file = makeValidFile({ footer });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid } = runValidation(doc);
+      expect(isValid).toBe(false);
+    });
+
   });
 
   // Forward compatibility

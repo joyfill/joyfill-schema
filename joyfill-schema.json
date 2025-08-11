@@ -91,6 +91,18 @@
           "items": {
             "$ref": "#/definitions/View"
           }
+        },
+        "header": {
+          "oneOf": [
+            { "$ref": "#/definitions/HeaderFooter" },
+            { "type": "null" }
+          ]
+        },
+        "footer": {
+          "oneOf": [
+            { "$ref": "#/definitions/HeaderFooter" },
+            { "type": "null" }
+          ]
         }
       },
       "required": [
@@ -635,6 +647,30 @@
       "required": [
         "pageOrder",
         "pages"
+      ]
+    },
+    "HeaderFooter": {
+      "type": "object",
+      "properties": {
+        "fieldPositions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FieldPosition"
+          }
+        },
+        "height": { "type": "number" },
+        "cols": { "type": "number" },
+        "rowHeight": { "type": "number" },
+        "layout": { "type": "string" },
+        "presentation": { "type": ["string", "null"] },
+        "padding": { "type": ["number", "null"] }
+      },
+      "required": [
+        "fieldPositions",
+        "height",
+        "cols",
+        "rowHeight",
+        "layout"
       ]
     },
     "Field": {
