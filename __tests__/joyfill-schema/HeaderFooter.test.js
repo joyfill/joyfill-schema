@@ -56,7 +56,7 @@ describe('Header and Footer JSON Schema Validation', () => {
     });
   });
 
-  describe('footer property on File', () => {
+  describe('generalfooter property on File', () => {
     it('Should pass when footer is a valid HeaderFooter object.', () => {
       const doc = makeDocWithFile({ footer: makeHeaderFooter() });
       const { isValid, errors } = runValidation(doc);

@@ -75,7 +75,7 @@ export interface Page {
   height: number;
   cols: number;
   rowHeight: number;
-  layout: string;
+  layout: 'grid' | 'float';
   presentation: string;
   margin?: number;
   padding?: number;
