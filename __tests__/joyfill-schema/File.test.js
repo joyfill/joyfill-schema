@@ -259,7 +259,7 @@ describe('File JSON Schema Validation', () => {
     });
 
     it('Should pass validation when pageOrder is an array of strings.', () => {
-      const file = makeValidFile({ pageOrder: [] });
+      const file = makeValidFile({ pageOrder: ['page_1'] });
       const doc = makeValidJoyDocWithFiles([file]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);

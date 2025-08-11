@@ -331,7 +331,7 @@ export interface NumberField extends BaseField {
 
 export interface DateField extends BaseField {
   type: 'date';
-  value?: number | null;
+  value?: number | null | '';
   format?: 'MM/DD/YYYY' | 'MM/DD/YYYY hh:mma' | 'hh:mma';
 }
 
