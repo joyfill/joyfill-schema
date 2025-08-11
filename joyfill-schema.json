@@ -6,11 +6,7 @@
       "type": "string"
     },
     "type": {
-      "type": "string",
-      "enum": [
-        "template",
-        "document"
-      ]
+      "type": "string"
     },
     "stage": {
       "type": "string"
@@ -31,7 +27,9 @@
       "type": "array",
       "items": {
         "$ref": "#/definitions/TemplateFile"
-      }
+      },
+      "minItems": 1,
+      "maxItems": 1
     },
     "fields": {
       "type": "array",
@@ -96,8 +94,6 @@
       },
       "required": [
         "_id",
-        "name",
-        "styles",
         "pages",
         "pageOrder"
       ]

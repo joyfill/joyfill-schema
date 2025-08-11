@@ -1,20 +1,25 @@
 //Version: 1.0.2 (July 14th 2025)
 
-// Top-level Template interface
-export interface Template {
+// Top-level JoyDoc interface
+export interface JoyDoc {
+
+  //Optional
   _id?: string;
-  type?: 'template' | 'document';
-  stage?: string;
-  metadata?: Record<string, any>;
+  type?: string;
   identifier?: string;
   name?: string;
   createdOn?: number;
-  files: TemplateFile[];
-  fields: Field[];
   deleted?: boolean;
-  categories?: string[];
   formulas?: Formula[];
+  metadata?: Record<string, any>;
+
+  //Required
+  files: File[];
+  fields: Field[];
+  
+  //Forward compatibility properties
   [key: string]: any;
+
 }
 
 export interface Formula {
@@ -29,12 +34,13 @@ export interface Formula {
 // -----------------------------
 // File, Page, and View Definitions
 // -----------------------------
-
-export interface TemplateFile {
+export interface File {
   _id: string;
   metadata?: Record<string, any>;
-  name: string;
-  styles: CoreStyles;
+  name?: string;
+  styles?: CoreStyles;
+  header?: HeaderFooter | null;
+  footer?: HeaderFooter | null;
   pages: Page[];
   pageOrder: string[];
   views?: View[];
@@ -45,6 +51,17 @@ export interface View {
   type?: 'mobile';
   pageOrder: string[];
   pages: Page[];
+  [key: string]: any;
+}
+
+export interface HeaderFooter  {
+  fieldPositions: FieldPosition[];
+  height: number;
+  cols: number;
+  rowHeight: number;
+  layout: string;
+  presentation?: string;
+  padding?: number;
   [key: string]: any;
 }
 
