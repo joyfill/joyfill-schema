@@ -2080,18 +2080,13 @@
           "not": {
             "enum": [
               "image",
-              "richText",
-              "file",
               "text",
-              "textarea",
               "number",
               "dropdown",
               "multiSelect",
               "date",
               "signature",
-              "table",
-              "chart",
-              "collection",
+              "barcode",
               "block"
             ]
           }
