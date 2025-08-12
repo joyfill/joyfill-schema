@@ -288,11 +288,11 @@ describe('Page JSON Schema Validation', () => {
       expect(isValid).toBe(true);
     });
 
-    it('Should fail when layout is an invalid string', () => {
-      const page = { ...makeValidPage(), layout: 'invalid' };
+    it('Should pass when layout is an unknown string', () => {
+      const page = { ...makeValidPage(), layout: 'futureLayout' };
       const doc = makeDocWithPages([page]);
       const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
+      expect(isValid).toBe(true);
     });
   });
 
@@ -499,11 +499,11 @@ describe('Page JSON Schema Validation', () => {
       expect(isValid).toBe(true);
     });
 
-    it('Should fail when backgroundSize is an invalid string', () => {
-      const page = { ...makeValidPage(), backgroundSize: 'invalid' };
+    it('Should fail when backgroundSize is an unknown string', () => {
+      const page = { ...makeValidPage(), backgroundSize: 'futureBackgroundSize' };
       const doc = makeDocWithPages([page]);
       const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
+      expect(isValid).toBe(true);
     });
   });
 

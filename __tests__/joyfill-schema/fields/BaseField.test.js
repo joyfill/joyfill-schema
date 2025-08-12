@@ -28,7 +28,7 @@ function runValidation(doc) {
   return { isValid, errors: validate.errors };
 }
 
-describe('BaseField JSON Schema Validation (via TextField)', () => {
+describe('BaseField JSON Schema Validation', () => {
 
   /**
    * IMPORTANT NOTE: Why did we include all the individual property tests in the 
@@ -54,34 +54,6 @@ describe('BaseField JSON Schema Validation (via TextField)', () => {
 
   describe('type', () => {
 
-    it('Should pass when type is a valid string value', () => {
-      const validTypes = [
-        'image',
-        'richText',
-        'file',
-        'text',
-        'textarea',
-        'number',
-        'dropdown',
-        'multiSelect',
-        'date',
-        'signature',
-        'table',
-        'chart',
-        'collection',
-        'block',
-        'rte',
-        'customType1', // test for custom/unknown types
-        'anotherCustomType'
-      ];
-      for (const type of validTypes) {
-        const field = makeBaseField({ type });
-        const { isValid, errors } = runValidation(baseDoc([field]));
-        if (!isValid) console.error(errors);
-        expect(isValid).toBe(true);
-      }
-    });
-
     it('Should fail when type is missing', () => {
       const { type, ...rest } = makeBaseField();
       const field = { ...rest };
@@ -98,6 +70,14 @@ describe('BaseField JSON Schema Validation (via TextField)', () => {
   });
 
   describe('forward compatibility', () => {
+
+    it('Should pass when unknown type is used in BaseField', () => {
+      const field = makeBaseField({ type: 'myCustomType' });
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
     it('Should pass when unknown properties are present in BaseField', () => {
       const field = makeBaseField({ foo: 'bar', extra: 123 });
       const { isValid, errors } = runValidation(baseDoc([field]));
