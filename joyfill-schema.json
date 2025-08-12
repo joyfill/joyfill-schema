@@ -454,18 +454,10 @@
           "type": "string"
         },
         "action": {
-          "type": "string",
-          "enum": [
-            "show",
-            "hide"
-          ]
+          "type": "string"
         },
         "eval": {
-          "type": "string",
-          "enum": [
-            "and",
-            "or"
-          ]
+          "type": "string"
         },
         "conditions": {
           "type": "array",
@@ -496,16 +488,7 @@
           "type": "string"
         },
         "condition": {
-          "type": "string",
-          "enum": [
-            "*=",
-            "null=",
-            "=",
-            "!=",
-            "?=",
-            ">",
-            "<"
-          ]
+          "type": "string"
         },
         "value": {}
       },
