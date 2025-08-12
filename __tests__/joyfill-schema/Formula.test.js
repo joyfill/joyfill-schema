@@ -83,6 +83,34 @@ describe('Formula JSON Schema Validation', () => {
     });
   });
 
+  // Forward compatibility
+  describe('Forward compatibility', () => {
+    it('Should pass when unknown properties are present.', () => {
+      const formula = makeValidFormula({ foo: 'bar', extra: 123 });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass when new type is added.', () => {
+      const formula = makeValidFormula({ type: 'futureCustomType' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass when new scope is added.', () => {
+      const formula = makeValidFormula({ scope: 'futureCustomScope' });
+      const doc = makeValidJoyDocWithFormulas([formula]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+  });
+
   // _id property
   describe('_id property', () => {
     it('Should fail when _id is missing.', () => {
@@ -159,13 +187,6 @@ describe('Formula JSON Schema Validation', () => {
       expect(isValid).toBe(false);
     });
 
-    it('Should fail when type is a string but not a valid value.', () => {
-      const formula = makeValidFormula({ type: 'invalid-type' });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-
     it('Should pass when type is a valid string.', () => {
       const formula = makeValidFormula({ type: 'calc' });
       const doc = makeValidJoyDocWithFormulas([formula]);
@@ -187,12 +208,6 @@ describe('Formula JSON Schema Validation', () => {
 
     it('Should fail when scope is not a string.', () => {
       const formula = makeValidFormula({ scope: [] });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid } = runValidation(doc);
-      expect(isValid).toBe(false);
-    });
-    it('Should fail when scope is a string but not a valid value.', () => {
-      const formula = makeValidFormula({ scope: 'invalid-scope' });
       const doc = makeValidJoyDocWithFormulas([formula]);
       const { isValid } = runValidation(doc);
       expect(isValid).toBe(false);
@@ -241,14 +256,5 @@ describe('Formula JSON Schema Validation', () => {
     });
   });
 
-  // Forward compatibility
-  describe('Forward compatibility', () => {
-    it('Should pass when unknown properties are present.', () => {
-      const formula = makeValidFormula({ foo: 'bar', extra: 123 });
-      const doc = makeValidJoyDocWithFormulas([formula]);
-      const { isValid, errors } = runValidation(doc);
-      if (!isValid) console.error(errors);
-      expect(isValid).toBe(true);
-    });
-  });
+
 });

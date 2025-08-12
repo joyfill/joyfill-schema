@@ -167,17 +167,39 @@ describe('File JSON Schema Validation', () => {
       expect(isValid).toBe(true);
     });
 
-    it('Should pass validation when styles is a populated object.', () => {
-      const stylesObj = {
-        color: 'red',
-        fontSize: 14,
-        nested: { margin: 10 }
-      };
-      const file = makeValidFile({ styles: stylesObj });
-      const doc = makeValidJoyDocWithFiles([file]);
-      const { isValid, errors } = runValidation(doc);
-      if (!isValid) console.error(errors);
-      expect(isValid).toBe(true);
+    describe('Extends CoreStyles', () => {
+      it('Should pass when any CoreStyles are deffined', () => {
+        // Test that all CoreStyles properties used on FieldPosition are accepted
+        const coreStylesProps = {
+          titleFontSize: 16,
+          titleFontColor: '#123456',
+          titleFontStyle: 'italic',
+          titleFontWeight: 'bold',
+          titleTextAlign: 'center',
+          titleTextTransform: 'uppercase',
+          titleTextDecoration: 'underline',
+          fontSize: 16,
+          fontColor: '#123456',
+          fontStyle: 'italic',
+          fontWeight: 'bold',
+          textAlign: 'center',
+          textTransform: 'uppercase',
+          textDecoration: 'underline',
+          textOverflow: 'ellipsis',
+          padding: 8,
+          margin: 10,
+          borderColor: '#000000',
+          borderWidth: 2, 
+          borderRadius: 4,
+          backgroundColor: '#abcdef',
+        };
+
+        const file = makeValidFile({ styles: coreStylesProps });
+        const doc = makeValidJoyDocWithFiles([file]);
+        const { isValid, errors } = runValidation(doc);
+        if (!isValid) console.error(errors);
+        expect(isValid).toBe(true);
+      });
     });
   });
 
@@ -330,6 +352,14 @@ describe('File JSON Schema Validation', () => {
   describe('metadata property', () => {
     it('Should pass validation when metadata is present.', () => {
       const file = makeValidFile({ metadata: { foo: 'bar', bar: 123, baz: true, qux: [1, 2, 3] } });
+      const doc = makeValidJoyDocWithFiles([file]);
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass validation when metadata is empty.', () => {
+      const file = makeValidFile({ metadata: {} });
       const doc = makeValidJoyDocWithFiles([file]);
       const { isValid, errors } = runValidation(doc);
       if (!isValid) console.error(errors);

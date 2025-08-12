@@ -669,8 +669,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -775,8 +774,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -881,8 +879,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -960,8 +957,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1039,8 +1035,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1118,8 +1113,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1205,8 +1199,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1295,8 +1288,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1374,8 +1366,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1454,8 +1445,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1581,8 +1571,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1667,8 +1656,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2152,8 +2140,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2307,8 +2294,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2524,8 +2510,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2556,15 +2541,10 @@
           "type": "string"
         },
         "type": {
-          "type": "string",
-          "const": "calc"
+          "type": "string"
         },
         "scope": {
-          "type": "string",
-          "enum": [
-            "global",
-            "private"
-          ]
+          "type": "string"
         },
         "expression": {
           "type": "string"

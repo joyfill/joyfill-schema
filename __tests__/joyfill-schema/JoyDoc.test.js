@@ -271,6 +271,13 @@ describe('JoyDoc (Root) JSON Schema Validation', () => {
       expect(isValid).toBe(true);
     });
 
+    it('Should pass validation when metadata is empty.', () => {
+      const doc = makeValidJoyDoc({ metadata: {} });
+      const { isValid, errors } = runValidation(doc);
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
     it('Should fail validation when non object data structure is used.', () => {
       const doc = makeValidJoyDoc({ metadata: 'string' });
       const { isValid } = runValidation(doc);
