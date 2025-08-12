@@ -6,11 +6,7 @@
       "type": "string"
     },
     "type": {
-      "type": "string",
-      "enum": [
-        "template",
-        "document"
-      ]
+      "type": "string"
     },
     "stage": {
       "type": "string"
@@ -30,8 +26,10 @@
     "files": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/TemplateFile"
-      }
+        "$ref": "#/definitions/File"
+      },
+      "minItems": 1,
+      "maxItems": 1
     },
     "fields": {
       "type": "array",
@@ -60,11 +58,12 @@
     "fields"
   ],
   "definitions": {
-    "TemplateFile": {
+    "File": {
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "metadata": {
           "type": "object"
@@ -92,12 +91,22 @@
           "items": {
             "$ref": "#/definitions/View"
           }
+        },
+        "header": {
+          "oneOf": [
+            { "$ref": "#/definitions/HeaderFooter" },
+            { "type": "null" }
+          ]
+        },
+        "footer": {
+          "oneOf": [
+            { "$ref": "#/definitions/HeaderFooter" },
+            { "type": "null" }
+          ]
         }
       },
       "required": [
         "_id",
-        "name",
-        "styles",
         "pages",
         "pageOrder"
       ]
@@ -112,78 +121,40 @@
           "type": "string"
         },
         "titleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "titleFontWeight": {
           "type": "string"
         },
         "titleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "titleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "titleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "fontSize": {
           "type": "number"
         },
         "fontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "fontWeight": {
           "type": "string"
         },
         "textAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "textTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "textDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "textOverflow": {
-          "type": "string",
-          "enum": [
-            "",
-            "ellipsis"
-          ]
+          "type": "string"
         },
         "padding": {
           "type": "number"
@@ -209,7 +180,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "name": {
           "type": "string"
@@ -257,11 +229,7 @@
           "type": "string"
         },
         "backgroundSize": {
-          "type": "string",
-          "enum": [
-            "",
-            "100% 100%"
-          ]
+          "type": "string"
         },
         "logic": {
           "$ref": "#/definitions/Logic"
@@ -289,78 +257,40 @@
           "type": "string"
         },
         "titleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "titleFontWeight": {
           "type": "string"
         },
         "titleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "titleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "titleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "fontSize": {
           "type": "number"
         },
         "fontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "fontWeight": {
           "type": "string"
         },
         "textAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "textTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "textDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "textOverflow": {
-          "type": "string",
-          "enum": [
-            "",
-            "ellipsis"
-          ]
+          "type": "string"
         },
         "padding": {
           "type": "number"
@@ -381,10 +311,12 @@
           "type": "string"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "field": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "displayType": {
           "$ref": "#/definitions/FieldPositionDisplayType"
@@ -465,36 +397,19 @@
           "type": "string"
         },
         "columnTitleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "columnTitleFontWeight": {
           "type": "string"
         },
         "columnTitleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "columnTitleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "columnTitleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "columnTitleBackgroundColor": {
           "type": "string"
@@ -503,11 +418,7 @@
           "type": "number"
         },
         "titleDisplay": {
-          "type": "string",
-          "enum": [
-            "none",
-            "inline"
-          ]
+          "type": "string"
         },
         "rowIndex": {
           "type": "number"
@@ -531,17 +442,7 @@
       ]
     },
     "FieldPositionDisplayType": {
-      "type": "string",
-      "enum": [
-        "original",
-        "horizontal",
-        "text",
-        "circle",
-        "square",
-        "check",
-        "radio",
-        "inputGroup"
-      ]
+      "type": "string"
     },
     "FieldType": {
       "type": "string"
@@ -553,18 +454,10 @@
           "type": "string"
         },
         "action": {
-          "type": "string",
-          "enum": [
-            "show",
-            "hide"
-          ]
+          "type": "string"
         },
         "eval": {
-          "type": "string",
-          "enum": [
-            "and",
-            "or"
-          ]
+          "type": "string"
         },
         "conditions": {
           "type": "array",
@@ -595,16 +488,7 @@
           "type": "string"
         },
         "condition": {
-          "type": "string",
-          "enum": [
-            "*=",
-            "null=",
-            "=",
-            "!=",
-            "?=",
-            ">",
-            "<"
-          ]
+          "type": "string"
         },
         "value": {}
       },
@@ -638,6 +522,30 @@
       "required": [
         "pageOrder",
         "pages"
+      ]
+    },
+    "HeaderFooter": {
+      "type": "object",
+      "properties": {
+        "fieldPositions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FieldPosition"
+          }
+        },
+        "height": { "type": "number" },
+        "cols": { "type": "number" },
+        "rowHeight": { "type": "number" },
+        "layout": { "type": "string" },
+        "presentation": { "type": ["string", "null"] },
+        "padding": { "type": ["number", "null"] }
+      },
+      "required": [
+        "fieldPositions",
+        "height",
+        "cols",
+        "rowHeight",
+        "layout"
       ]
     },
     "Field": {
@@ -697,7 +605,8 @@
           "const": "image"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -744,8 +653,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -793,7 +701,8 @@
       "required": [
         "_id",
         "url"
-      ]
+      ],
+      "additionalProperties": true
     },
     "FileField": {
       "type": "object",
@@ -803,7 +712,8 @@
           "const": "file"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -850,8 +760,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -909,7 +818,8 @@
           "const": "block"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -956,8 +866,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -988,7 +897,8 @@
           "const": "richText"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1035,8 +945,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1067,7 +976,8 @@
           "const": "text"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1114,8 +1024,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1146,7 +1055,8 @@
           "const": "number"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1193,8 +1103,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1233,7 +1142,8 @@
           "const": "date"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1280,8 +1190,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1295,18 +1204,21 @@
           }
         },
         "value": {
-          "type": [
-            "number",
-            "null"
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "const": ""
+            }
           ]
         },
         "format": {
-          "type": "string",
-          "enum": [
-            "MM/DD/YYYY",
-            "MM/DD/YYYY hh:mma",
-            "hh:mma"
-          ]
+          "type": "string"
         }
       },
       "required": [
@@ -1323,7 +1235,8 @@
           "const": "textarea"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1370,8 +1283,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1402,7 +1314,8 @@
           "const": "signature"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1449,8 +1362,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1463,7 +1375,9 @@
             ]
           }
         },
-        "value": {},
+        "value": {
+          "type": "string"
+        },
         "signer": {
           "type": "string"
         }
@@ -1482,7 +1396,8 @@
           "const": "multiSelect"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1529,8 +1444,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1609,7 +1523,8 @@
           "const": "dropdown"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1656,8 +1571,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1695,7 +1609,8 @@
           "const": "table"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -1742,8 +1657,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -1795,7 +1709,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "deleted": {
           "type": "boolean"
@@ -1846,7 +1761,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -1877,7 +1793,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -1914,7 +1831,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -1954,7 +1872,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -1989,7 +1908,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2020,7 +1940,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2051,7 +1972,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2082,7 +2004,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2113,7 +2036,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
           "type": "string",
@@ -2148,10 +2072,24 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "type": {
-          "type": "string"
+          "type": "string",
+          "not": {
+            "enum": [
+              "image",
+              "text",
+              "number",
+              "dropdown",
+              "multiSelect",
+              "date",
+              "signature",
+              "barcode",
+              "block"
+            ]
+          }
         },
         "title": {
           "type": "string"
@@ -2180,7 +2118,8 @@
           "const": "chart"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2227,8 +2166,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2282,7 +2220,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "deleted": {
           "type": "boolean"
@@ -2309,7 +2248,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "label": {
           "type": "string"
@@ -2335,7 +2275,8 @@
           "const": "collection"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2382,8 +2323,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2459,18 +2399,10 @@
           "type": "string"
         },
         "action": {
-          "type": "string",
-          "enum": [
-            "show",
-            "hide"
-          ]
+          "type": "string"
         },
         "eval": {
-          "type": "string",
-          "enum": [
-            "and",
-            "or"
-          ]
+          "type": "string"
         },
         "conditions": {
           "type": "array",
@@ -2498,16 +2430,7 @@
           "type": "string"
         },
         "condition": {
-          "type": "string",
-          "enum": [
-            "*=",
-            "null=",
-            "=",
-            "!=",
-            "?=",
-            ">",
-            "<"
-          ]
+          "type": "string"
         },
         "value": {}
       },
@@ -2521,7 +2444,8 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "cells": {
           "type": "object"
@@ -2549,10 +2473,29 @@
       "type": "object",
       "properties": {
         "type": {
-          "type": "string"
+          "type": "string",
+          "not": {
+            "enum": [
+              "image",
+              "richText",
+              "file",
+              "text",
+              "textarea",
+              "number",
+              "dropdown",
+              "multiSelect",
+              "date",
+              "signature",
+              "table",
+              "chart",
+              "collection",
+              "block"
+            ]
+          }
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "identifier": {
           "type": "string"
@@ -2599,8 +2542,7 @@
                 "type": "string"
               },
               "key": {
-                "type": "string",
-                "const": "value"
+                "type": "string"
               },
               "formula": {
                 "type": "string"
@@ -2624,21 +2566,17 @@
       "type": "object",
       "properties": {
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "desc": {
           "type": "string"
         },
         "type": {
-          "type": "string",
-          "const": "calc"
+          "type": "string"
         },
         "scope": {
-          "type": "string",
-          "enum": [
-            "global",
-            "private"
-          ]
+          "type": "string"
         },
         "expression": {
           "type": "string"

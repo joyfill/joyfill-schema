@@ -1,20 +1,25 @@
 //Version: 1.0.2 (July 14th 2025)
 
-// Top-level Template interface
-export interface Template {
+// Top-level JoyDoc interface
+export interface JoyDoc {
+
+  //Optional
   _id?: string;
-  type?: 'template' | 'document';
-  stage?: string;
-  metadata?: Record<string, any>;
+  type?: string;
   identifier?: string;
   name?: string;
   createdOn?: number;
-  files: TemplateFile[];
-  fields: Field[];
   deleted?: boolean;
-  categories?: string[];
   formulas?: Formula[];
+  metadata?: Record<string, any>;
+
+  //Required
+  files: File[];
+  fields: Field[];
+  
+  //Forward compatibility properties
   [key: string]: any;
+
 }
 
 export interface Formula {
@@ -29,12 +34,13 @@ export interface Formula {
 // -----------------------------
 // File, Page, and View Definitions
 // -----------------------------
-
-export interface TemplateFile {
+export interface File {
   _id: string;
   metadata?: Record<string, any>;
-  name: string;
-  styles: CoreStyles;
+  name?: string;
+  styles?: CoreStyles;
+  header?: HeaderFooter | null;
+  footer?: HeaderFooter | null;
   pages: Page[];
   pageOrder: string[];
   views?: View[];
@@ -48,6 +54,17 @@ export interface View {
   [key: string]: any;
 }
 
+export interface HeaderFooter  {
+  fieldPositions: FieldPosition[];
+  height: number;
+  cols: number;
+  rowHeight: number;
+  layout: string;
+  presentation?: string;
+  padding?: number;
+  [key: string]: any;
+}
+
 export interface Page {
   _id: string;
   name: string;
@@ -58,7 +75,7 @@ export interface Page {
   height: number;
   cols: number;
   rowHeight: number;
-  layout: string;
+  layout: 'grid' | 'float';
   presentation: string;
   margin?: number;
   padding?: number;
@@ -108,7 +125,7 @@ export interface FieldPosition extends CoreStyles {
   columnTitleFontSize?: number;
   columnTitleFontColor?: string;
   columnTitleFontStyle?: 'normal' | 'italic';
-  columnTitleFontWeight?: string;
+  columnTitleFontWeight?: 'normal' | 'bold';
   columnTitleTextAlign?: 'left' | 'center' | 'right';
   columnTitleTextTransform?: 'none' | 'uppercase';
   columnTitleTextDecoration?: 'none' | 'underline';
@@ -129,7 +146,8 @@ export type FieldPositionDisplayType =
   | 'square'
   | 'check'
   | 'radio'
-  | 'inputGroup';
+  | 'inputGroup'
+  | string; //string is used for future field types and fowards compatibility support
 
 
   type KnownFieldType =
@@ -149,7 +167,9 @@ export type FieldPositionDisplayType =
   | 'block'
   | 'rte';
 
-export type FieldType = KnownFieldType | string;
+export type FieldType = 
+  KnownFieldType 
+  | string; //string is used for future field types and fowards compatibility support
 
 // -----------------------------
 // Core Styles
@@ -159,13 +179,13 @@ export interface CoreStyles {
   titleFontSize?: number;
   titleFontColor?: string;
   titleFontStyle?: 'normal' | 'italic';
-  titleFontWeight?: string;
+  titleFontWeight?: 'normal' | 'bold';
   titleTextAlign?: 'left' | 'center' | 'right';
   titleTextTransform?: 'none' | 'uppercase';
   titleTextDecoration?: 'none' | 'underline';
   fontSize?: number;
   fontStyle?: 'normal' | 'italic';
-  fontWeight?: string;
+  fontWeight?: 'normal' | 'bold';
   textAlign?: 'left' | 'center' | 'right';
   textTransform?: 'none' | 'uppercase';
   textDecoration?: 'none' | 'underline';
@@ -225,6 +245,7 @@ interface AppliedFormula {
 export interface BaseField {
   type: FieldType;
   _id: string;
+  file: string;
   identifier?: string;
   title?: string;
   description?: string;
@@ -233,7 +254,6 @@ export interface BaseField {
   tipDescription?: string;
   tipVisible?: boolean;
   metadata?: Record<string, any>;
-  file: string;
   logic?: Logic;
   hidden?: boolean;
   disabled?: boolean;
@@ -277,6 +297,7 @@ export interface ImageValue {
   url: string;
   fileName?: string;
   filePath?: string;
+  [key: string]: any; // Accept any additional props
 }
 
 export interface FileField extends BaseField {
@@ -290,6 +311,7 @@ export interface FileValue {
   url: string;
   fileName?: string;
   filePath?: string;
+  [key: string]: any; // Accept any additional props
 }
 
 export interface BlockField extends BaseField {
@@ -314,7 +336,7 @@ export interface NumberField extends BaseField {
 
 export interface DateField extends BaseField {
   type: 'date';
-  value?: number | null;
+  value?: number | null | '';
   format?: 'MM/DD/YYYY' | 'MM/DD/YYYY hh:mma' | 'hh:mma';
 }
 
@@ -325,7 +347,7 @@ export interface TextareaField extends BaseField {
 
 export interface SignatureField extends BaseField {
   type: 'signature';
-  value?: any;
+  value?: string;
   signer?: string;
 }
 
@@ -348,6 +370,13 @@ export interface TableField extends BaseField {
   rowOrder: string[];
   tableColumns: TableColumn[];
   tableColumnOrder: string[];
+}
+
+export interface TableRow {
+  _id: string;
+  deleted?: boolean;
+  cells?: Record<string, any>;
+  [key: string]: any;
 }
 
 export interface ChartField extends BaseField {
@@ -446,19 +475,11 @@ export interface Option {
   styles?: {
     backgroundColor?: string | null;
   };
-  metadata?: Record<string, any>; // @TODO this property is not present in the original file from JF!
+  metadata?: Record<string, any>;
   [key: string]: any;
 }
 
-export interface TableRow {
-  _id: string;
-  deleted?: boolean;
-  cells?: Record<string, any>;
-  [key: string]: any;
-}
-
-
-  type KnownTableColumnType =
+type KnownTableColumnType =
   | 'text'
   | 'dropdown'
   | 'image'
@@ -470,8 +491,6 @@ export interface TableRow {
   | 'barcode';
 
 export type TableColumnType = KnownTableColumnType | string;
-
-  
 
 // Base structure for any column
 export interface BaseTableColumn {
