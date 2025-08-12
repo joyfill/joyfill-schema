@@ -245,6 +245,7 @@ interface AppliedFormula {
 export interface BaseField {
   type: FieldType;
   _id: string;
+  file: string;
   identifier?: string;
   title?: string;
   description?: string;
@@ -253,7 +254,6 @@ export interface BaseField {
   tipDescription?: string;
   tipVisible?: boolean;
   metadata?: Record<string, any>;
-  file: string;
   logic?: Logic;
   hidden?: boolean;
   disabled?: boolean;

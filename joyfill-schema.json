@@ -1203,18 +1203,21 @@
           }
         },
         "value": {
-          "type": [
-            "number",
-            "null"
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "const": ""
+            }
           ]
         },
         "format": {
-          "type": "string",
-          "enum": [
-            "MM/DD/YYYY",
-            "MM/DD/YYYY hh:mma",
-            "hh:mma"
-          ]
+          "type": "string"
         }
       },
       "required": [
@@ -2070,7 +2073,25 @@
           "minLength": 1
         },
         "type": {
-          "type": "string"
+          "type": "string",
+          "not": {
+            "enum": [
+              "image",
+              "richText",
+              "file",
+              "text",
+              "textarea",
+              "number",
+              "dropdown",
+              "multiSelect",
+              "date",
+              "signature",
+              "table",
+              "chart",
+              "collection",
+              "block"
+            ]
+          }
         },
         "title": {
           "type": "string"
@@ -2470,7 +2491,25 @@
       "type": "object",
       "properties": {
         "type": {
-          "type": "string"
+          "type": "string",
+          "not": {
+            "enum": [
+              "image",
+              "richText",
+              "file",
+              "text",
+              "textarea",
+              "number",
+              "dropdown",
+              "multiSelect",
+              "date",
+              "signature",
+              "table",
+              "chart",
+              "collection",
+              "block"
+            ]
+          }
         },
         "_id": {
           "type": "string",
