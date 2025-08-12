@@ -372,6 +372,13 @@ export interface TableField extends BaseField {
   tableColumnOrder: string[];
 }
 
+export interface TableRow {
+  _id: string;
+  deleted?: boolean;
+  cells?: Record<string, any>;
+  [key: string]: any;
+}
+
 export interface ChartField extends BaseField {
   type: 'chart';
   value?: ChartSeries[];
@@ -472,15 +479,7 @@ export interface Option {
   [key: string]: any;
 }
 
-export interface TableRow {
-  _id: string;
-  deleted?: boolean;
-  cells?: Record<string, any>;
-  [key: string]: any;
-}
-
-
-  type KnownTableColumnType =
+type KnownTableColumnType =
   | 'text'
   | 'dropdown'
   | 'image'
@@ -492,8 +491,6 @@ export interface TableRow {
   | 'barcode';
 
 export type TableColumnType = KnownTableColumnType | string;
-
-  
 
 // Base structure for any column
 export interface BaseTableColumn {
