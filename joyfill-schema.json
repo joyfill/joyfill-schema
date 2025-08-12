@@ -121,78 +121,40 @@
           "type": "string"
         },
         "titleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "titleFontWeight": {
           "type": "string"
         },
         "titleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "titleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "titleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "fontSize": {
           "type": "number"
         },
         "fontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "fontWeight": {
           "type": "string"
         },
         "textAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "textTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "textDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "textOverflow": {
-          "type": "string",
-          "enum": [
-            "",
-            "ellipsis"
-          ]
+          "type": "string"
         },
         "padding": {
           "type": "number"
@@ -249,11 +211,7 @@
           "type": "number"
         },
         "layout": {
-          "type": "string",
-          "enum": [
-            "grid",
-            "float"
-          ]
+          "type": "string"
         },
         "presentation": {
           "type": "string"
@@ -271,11 +229,7 @@
           "type": "string"
         },
         "backgroundSize": {
-          "type": "string",
-          "enum": [
-            "",
-            "100% 100%"
-          ]
+          "type": "string"
         },
         "logic": {
           "$ref": "#/definitions/Logic"
@@ -303,78 +257,40 @@
           "type": "string"
         },
         "titleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "titleFontWeight": {
           "type": "string"
         },
         "titleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "titleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "titleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "fontSize": {
           "type": "number"
         },
         "fontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "fontWeight": {
           "type": "string"
         },
         "textAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "textTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "textDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "textOverflow": {
-          "type": "string",
-          "enum": [
-            "",
-            "ellipsis"
-          ]
+          "type": "string"
         },
         "padding": {
           "type": "number"
@@ -395,10 +311,12 @@
           "type": "string"
         },
         "_id": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "field": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "displayType": {
           "$ref": "#/definitions/FieldPositionDisplayType"
@@ -479,36 +397,19 @@
           "type": "string"
         },
         "columnTitleFontStyle": {
-          "type": "string",
-          "enum": [
-            "normal",
-            "italic"
-          ]
+          "type": "string"
         },
         "columnTitleFontWeight": {
           "type": "string"
         },
         "columnTitleTextAlign": {
-          "type": "string",
-          "enum": [
-            "left",
-            "center",
-            "right"
-          ]
+          "type": "string"
         },
         "columnTitleTextTransform": {
-          "type": "string",
-          "enum": [
-            "none",
-            "uppercase"
-          ]
+          "type": "string"
         },
         "columnTitleTextDecoration": {
-          "type": "string",
-          "enum": [
-            "none",
-            "underline"
-          ]
+          "type": "string"
         },
         "columnTitleBackgroundColor": {
           "type": "string"
@@ -517,11 +418,7 @@
           "type": "number"
         },
         "titleDisplay": {
-          "type": "string",
-          "enum": [
-            "none",
-            "inline"
-          ]
+          "type": "string"
         },
         "rowIndex": {
           "type": "number"
@@ -545,17 +442,7 @@
       ]
     },
     "FieldPositionDisplayType": {
-      "type": "string",
-      "enum": [
-        "original",
-        "horizontal",
-        "text",
-        "circle",
-        "square",
-        "check",
-        "radio",
-        "inputGroup"
-      ]
+      "type": "string"
     },
     "FieldType": {
       "type": "string"

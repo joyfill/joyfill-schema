@@ -125,7 +125,7 @@ export interface FieldPosition extends CoreStyles {
   columnTitleFontSize?: number;
   columnTitleFontColor?: string;
   columnTitleFontStyle?: 'normal' | 'italic';
-  columnTitleFontWeight?: string;
+  columnTitleFontWeight?: 'normal' | 'bold';
   columnTitleTextAlign?: 'left' | 'center' | 'right';
   columnTitleTextTransform?: 'none' | 'uppercase';
   columnTitleTextDecoration?: 'none' | 'underline';
@@ -146,7 +146,8 @@ export type FieldPositionDisplayType =
   | 'square'
   | 'check'
   | 'radio'
-  | 'inputGroup';
+  | 'inputGroup'
+  | string; //string is used for future field types and fowards compatibility support
 
 
   type KnownFieldType =
@@ -166,7 +167,9 @@ export type FieldPositionDisplayType =
   | 'block'
   | 'rte';
 
-export type FieldType = KnownFieldType | string;
+export type FieldType = 
+  KnownFieldType 
+  | string; //string is used for future field types and fowards compatibility support
 
 // -----------------------------
 // Core Styles
@@ -176,13 +179,13 @@ export interface CoreStyles {
   titleFontSize?: number;
   titleFontColor?: string;
   titleFontStyle?: 'normal' | 'italic';
-  titleFontWeight?: string;
+  titleFontWeight?: 'normal' | 'bold';
   titleTextAlign?: 'left' | 'center' | 'right';
   titleTextTransform?: 'none' | 'uppercase';
   titleTextDecoration?: 'none' | 'underline';
   fontSize?: number;
   fontStyle?: 'normal' | 'italic';
-  fontWeight?: string;
+  fontWeight?: 'normal' | 'bold';
   textAlign?: 'left' | 'center' | 'right';
   textTransform?: 'none' | 'uppercase';
   textDecoration?: 'none' | 'underline';
