@@ -297,6 +297,7 @@ export interface ImageValue {
   url: string;
   fileName?: string;
   filePath?: string;
+  [key: string]: any; // Accept any additional props
 }
 
 export interface FileField extends BaseField {
@@ -310,6 +311,7 @@ export interface FileValue {
   url: string;
   fileName?: string;
   filePath?: string;
+  [key: string]: any; // Accept any additional props
 }
 
 export interface BlockField extends BaseField {
@@ -345,7 +347,7 @@ export interface TextareaField extends BaseField {
 
 export interface SignatureField extends BaseField {
   type: 'signature';
-  value?: any;
+  value?: string;
   signer?: string;
 }
 
@@ -466,7 +468,7 @@ export interface Option {
   styles?: {
     backgroundColor?: string | null;
   };
-  metadata?: Record<string, any>; // @TODO this property is not present in the original file from JF!
+  metadata?: Record<string, any>;
   [key: string]: any;
 }
 

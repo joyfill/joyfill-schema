@@ -701,7 +701,8 @@
       "required": [
         "_id",
         "url"
-      ]
+      ],
+      "additionalProperties": true
     },
     "FileField": {
       "type": "object",
@@ -1374,7 +1375,9 @@
             ]
           }
         },
-        "value": {},
+        "value": {
+          "type": "string"
+        },
         "signer": {
           "type": "string"
         }

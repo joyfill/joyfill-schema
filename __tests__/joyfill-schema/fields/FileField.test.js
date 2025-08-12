@@ -1,3 +1,4 @@
+
 const Ajv = require('ajv');
 const schema = require('../../../joyfill-schema.json');
 
@@ -9,7 +10,8 @@ function makeBaseField(overrides = {}) {
   return {
     _id: 'bf1',
     file: 'file_1',
-    type: 'signature',
+    type: 'file',
+    value: [{ _id: 'i1', url: 'http://example.com/file.pdf' }],
     ...overrides
   };
 }
@@ -23,11 +25,11 @@ function runValidation(doc) {
   return { isValid, errors: validate.errors };
 }
 
-describe('SignatureField JSON Schema Validation (via SignatureField)', () => {
+describe('FileField JSON Schema Validation (via FileField)', () => {
 
   describe('general', () => {
-    it('Should pass with minimal valid field (required base props only).', () => {
-      const fields = [{ _id: 'bf1', file: 'file_1', type: 'signature' }];
+    it('Should pass with options array and string value.', () => {
+      const fields = [{ _id: 'f3', file: 'file_1', type: 'file', value: [{ _id: 'i1', url: 'http://example.com/file.pdf' }] }];
       const { isValid, errors } = runValidation(baseDoc(fields));
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
@@ -35,8 +37,18 @@ describe('SignatureField JSON Schema Validation (via SignatureField)', () => {
   });
 
   describe('forward compatibility', () => {
-    it('Should pass when unknown properties are present in BaseField', () => {
+    it('Should pass when unknown properties are present', () => {
       const field = makeBaseField({ foo: 'bar', extra: 123 });
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+    it('Should pass when value has unknown properties present', () => {
+      const field = makeBaseField({
+        value: [
+          { _id: 'i1', url: 'http://example.com/file.pdf', foo: 'bar', extra: 123 }
+        ]
+      });
       const { isValid, errors } = runValidation(baseDoc([field]));
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
@@ -44,8 +56,8 @@ describe('SignatureField JSON Schema Validation (via SignatureField)', () => {
   });
 
   describe('type', () => {
-    it('Should pass when type is signature', () => {
-      const field = makeBaseField({ type: 'signature' });
+    it('Should pass when type is file', () => {
+      const field = makeBaseField({ type: 'file' });
       const { isValid, errors } = runValidation(baseDoc([field]));
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
@@ -53,9 +65,8 @@ describe('SignatureField JSON Schema Validation (via SignatureField)', () => {
   });
 
   describe('value', () => {
-
-    it('Should pass when value is a string', () => {
-      const field = makeBaseField({ value: 'http://example.com/signature.png' });
+    it('Should pass when value is an array of objects with required properties', () => {
+      const field = makeBaseField({ value: [{ _id: 'i1', url: 'http://example.com/file.pdf' }, { _id: 'i2', url: 'http://example.com/file2.pdf' }] });
       const { isValid, errors } = runValidation(baseDoc([field]));
       if (!isValid) console.error(errors);
       expect(isValid).toBe(true);
@@ -69,11 +80,61 @@ describe('SignatureField JSON Schema Validation (via SignatureField)', () => {
       expect(isValid).toBe(true);
     });
 
-    it('Should fail when value is not a string', () => {
-      const field = makeBaseField({ value: 123 });
+    it('Should pass when value is an empty array', () => {
+      const field = makeBaseField({ value: [] });
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should fail when value is not an array', () => {
+      const field = makeBaseField({ value: 'not-an-array' });
       const { isValid } = runValidation(baseDoc([field]));
       expect(isValid).toBe(false);
     });
+
+    it('Should fail when value is not an array of objects with required properties', () => {
+      const field1 = makeBaseField({ value: [{ url: 'http://example.com/file.pdf' }] });
+      const result1 = runValidation(baseDoc([field1]));
+      expect(result1.isValid).toBe(false);
+
+      const field2 = makeBaseField({ value: [{ _id: 'i1' }] });
+      const result2 = runValidation(baseDoc([field2]));
+      expect(result2.isValid).toBe(false);
+
+    });
+
+  });
+
+  describe('multi', () => {
+    it('Should pass when multi is missing (optional)', () => {
+      const { multi, ...rest } = makeBaseField();
+      const field = { ...rest };
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass when multi is true', () => {
+      const field = makeBaseField({ multi: true });
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should pass when multi is false', () => {
+      const field = makeBaseField({ multi: false });
+      const { isValid, errors } = runValidation(baseDoc([field]));
+      if (!isValid) console.error(errors);
+      expect(isValid).toBe(true);
+    });
+
+    it('Should fail when multi is not a boolean', () => {
+      const field = makeBaseField({ multi: 'yes' });
+      const { isValid } = runValidation(baseDoc([field]));
+      expect(isValid).toBe(false);
+    });
+    
   });
 
   describe('_id', () => {

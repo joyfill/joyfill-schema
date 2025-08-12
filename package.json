@@ -19,9 +19,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "generateSchema": "ts-node generateSchema.ts",
     "test": "jest",
-    "build": "tsc",
     "testFile": "jest"
   }
 }
