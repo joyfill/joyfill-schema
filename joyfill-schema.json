@@ -1875,6 +1875,9 @@
           "type": "string",
           "minLength": 1
         },
+        "multi": {
+          "type": "boolean"
+        },
         "type": {
           "type": "string",
           "const": "image"

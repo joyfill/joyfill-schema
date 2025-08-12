@@ -526,6 +526,7 @@ export interface ImageColumn extends BaseTableColumn {
   type: "image";
   maxImageWidth?: number;
   maxImageHeight?: number;
+  multi?: boolean;
 }
 
 export interface NumberColumn extends BaseTableColumn {
