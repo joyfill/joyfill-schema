@@ -674,6 +674,12 @@
         },
         "multi": {
           "type": "boolean"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -781,6 +787,12 @@
         },
         "multi": {
           "type": "boolean"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -881,6 +893,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -960,6 +978,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1039,6 +1063,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1126,6 +1156,12 @@
               "const": ""
             }
           ]
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1219,6 +1255,12 @@
         },
         "format": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1298,6 +1340,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1380,6 +1428,12 @@
         },
         "signer": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1471,6 +1525,12 @@
         },
         "multi": {
           "type": "boolean"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1592,6 +1652,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1693,6 +1759,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
+        },
+        "rowDecorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1782,6 +1860,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1819,6 +1903,12 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/Option"
+          }
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
           }
         }
       },
@@ -1861,6 +1951,12 @@
           "items": {
             "$ref": "#/definitions/Option"
           }
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1900,6 +1996,12 @@
         },
         "maxImageHeight": {
           "type": "number"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1932,6 +2034,12 @@
         },
         "value": {
           "type": "number"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1964,6 +2072,12 @@
         },
         "value": {
           "type": "number"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -1996,6 +2110,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -2028,6 +2148,12 @@
         },
         "value": {
           "type": "string"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -2064,6 +2190,12 @@
         },
         "maxImageHeight": {
           "type": "number"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -2106,7 +2238,13 @@
         "identifier": {
           "type": "string"
         },
-        "value": {}
+        "value": {},
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
+        }
       },
       "required": [
         "_id",
@@ -2205,6 +2343,12 @@
         },
         "xMin": {
           "type": "number"
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -2258,16 +2402,14 @@
           "type": "string"
         },
         "y": {
-          "type": "number"
+          "type": ["number", "null"]
         },
         "x": {
-          "type": "number"
+          "type": ["number", "null"]
         }
       },
       "required": [
-        "_id",
-        "y",
-        "x"
+        "_id"
       ]
     },
     "CollectionField": {
@@ -2347,6 +2489,18 @@
           "items": {
             "$ref": "#/definitions/CollectionItem"
           }
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
+        },
+        "rowDecorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
@@ -2388,6 +2542,12 @@
           "type": "array",
           "items": {
             "type": "string"
+          }
+        },
+        "rowDecorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
           }
         }
       },
@@ -2557,12 +2717,48 @@
               "formula"
             ]
           }
+        },
+        "decorators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
         }
       },
       "required": [
         "_id",
         "file",
         "type"
+      ]
+    },
+    "Decorator": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string",
+          "minLength": 24
+        },
+        "action": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "action",
+        "color"
+      ],
+      "anyOf": [
+        { "required": ["icon"] },
+        { "required": ["label"] }
       ]
     },
     "Formula": {
@@ -2594,5 +2790,5 @@
       ]
     }
   },
-  "$joyfillSchemaVersion": "1.0.0"
+  "$joyfillSchemaVersion": "1.0.2"
 }
