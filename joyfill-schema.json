@@ -417,6 +417,9 @@
         "columnTitlePadding": {
           "type": "number"
         },
+        "columnTitleTextOverflow": {
+          "type": "string"
+        },
         "titleDisplay": {
           "type": "string"
         },
@@ -2752,7 +2755,6 @@
         }
       },
       "required": [
-        "_id",
         "action",
         "color"
       ],
@@ -2790,5 +2792,5 @@
       ]
     }
   },
-  "$joyfillSchemaVersion": "1.0.2"
+  "$joyfillSchemaVersion": "1.0.3"
 }
