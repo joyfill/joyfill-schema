@@ -1774,6 +1774,9 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "decorate": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -1798,6 +1801,9 @@
         },
         "cells": {
           "type": "object"
+        },
+        "decorators": {
+          "$ref": "#/definitions/RowDecorators"
         }
       },
       "required": [
@@ -2552,6 +2558,9 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "decorate": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2629,6 +2638,9 @@
               }
             }
           }
+        },
+        "decorators": {
+          "$ref": "#/definitions/RowDecorators"
         }
       },
       "required": [
@@ -2762,6 +2774,26 @@
         { "required": ["label"] }
       ]
     },
+    "RowDecorators": {
+      "type": "object",
+      "properties": {
+        "cells": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/Decorator"
+            }
+          }
+        },
+        "all": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Decorator"
+          }
+        }
+      }
+    },
     "Formula": {
       "type": "object",
       "properties": {
@@ -2791,5 +2823,5 @@
       ]
     }
   },
-  "$joyfillSchemaVersion": "1.0.3"
+  "$joyfillSchemaVersion": "1.0.2"
 }
