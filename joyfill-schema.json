@@ -476,30 +476,81 @@
       ]
     },
     "Condition": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "string"
+            },
+            "file": {
+              "type": "string"
+            },
+            "page": {
+              "type": "string"
+            },
+            "field": {
+              "type": "string"
+            },
+            "condition": {
+              "type": "string"
+            },
+            "value": {}
+          },
+          "required": [
+            "file",
+            "page",
+            "field",
+            "condition"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "string"
+            },
+            "schema": {
+              "type": "string"
+            },
+            "column": {
+              "type": "string"
+            },
+            "condition": {
+              "type": "string"
+            },
+            "value": {}
+          },
+          "required": [
+            "column",
+            "condition"
+          ]
+        }
+      ]
+    },
+    "RequiredLogic": {
       "type": "object",
       "properties": {
         "_id": {
           "type": "string"
         },
-        "file": {
+        "action": {
           "type": "string"
         },
-        "page": {
+        "eval": {
           "type": "string"
         },
-        "field": {
-          "type": "string"
-        },
-        "condition": {
-          "type": "string"
-        },
-        "value": {}
+        "conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Condition"
+          }
+        }
       },
       "required": [
-        "file",
-        "page",
-        "field",
-        "condition"
+        "action",
+        "eval",
+        "conditions"
       ]
     },
     "View": {
@@ -641,6 +692,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -754,6 +808,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -866,6 +923,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -950,6 +1010,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1036,6 +1099,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -1120,6 +1186,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1213,6 +1282,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1313,6 +1385,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -1397,6 +1472,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1485,6 +1563,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1619,6 +1700,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -1710,6 +1794,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -1875,6 +1962,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -1919,6 +2021,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -1932,6 +2049,9 @@
         "_id": {
           "type": "string",
           "minLength": 1
+        },
+        "multi": {
+          "type": "boolean"
         },
         "type": {
           "type": "string",
@@ -1966,6 +2086,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2011,6 +2146,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2049,6 +2199,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2087,6 +2252,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2125,6 +2305,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2163,6 +2358,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2205,6 +2415,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2253,6 +2478,21 @@
           "items": {
             "$ref": "#/definitions/Decorator"
           }
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellRequiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
+        "cellVisibilityLogic": {
+          "$ref": "#/definitions/Logic"
+        },
+        "cellsHidden": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -2300,6 +2540,9 @@
         },
         "logic": {
           "$ref": "#/definitions/Logic"
+        },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
         },
         "hidden": {
           "type": "boolean"
@@ -2462,6 +2705,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -2538,6 +2784,9 @@
         "identifier": {
           "type": "string"
         },
+        "required": {
+          "type": "boolean"
+        },
         "tableColumns": {
           "type": "array",
           "items": {
@@ -2545,6 +2794,9 @@
           }
         },
         "logic": {
+          "$ref": "#/definitions/SchemaLogic"
+        },
+        "requiredLogic": {
           "$ref": "#/definitions/SchemaLogic"
         },
         "children": {
@@ -2735,6 +2987,9 @@
         "logic": {
           "$ref": "#/definitions/Logic"
         },
+        "requiredLogic": {
+          "$ref": "#/definitions/RequiredLogic"
+        },
         "hidden": {
           "type": "boolean"
         },
@@ -2853,5 +3108,5 @@
       ]
     }
   },
-  "$joyfillSchemaVersion": "1.0.5"
+  "$joyfillSchemaVersion": "1.0.6"
 }
