@@ -114,6 +114,15 @@
     "CoreStyles": {
       "type": "object",
       "properties": {
+        "autoShrink": {
+          "type": "boolean"
+        },
+        "maxLines": {
+          "type": "number"
+        },
+        "maxLength": {
+          "type": "number"
+        },
         "titleFontSize": {
           "type": "number"
         },
@@ -250,6 +259,24 @@
     "FieldPosition": {
       "type": "object",
       "properties": {
+        "autoShrink": {
+          "type": "boolean"
+        },
+        "autoHeight": {
+          "type": "boolean"
+        },
+        "baseHeight": {
+          "type": "number"
+        },
+        "baseLineHeight": {
+          "type": "number"
+        },
+        "maxLines": {
+          "type": "number"
+        },
+        "maxLength": {
+          "type": "number"
+        },
         "titleFontSize": {
           "type": "number"
         },
@@ -3108,5 +3135,5 @@
       ]
     }
   },
-  "$joyfillSchemaVersion": "1.0.6"
+  "$joyfillSchemaVersion": "1.0.5"
 }
