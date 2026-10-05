@@ -1891,6 +1891,12 @@
         },
         "decorate": {
           "type": "boolean"
+        },
+        "editability": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [
@@ -2840,6 +2846,12 @@
         },
         "decorate": {
           "type": "boolean"
+        },
+        "editability": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [
